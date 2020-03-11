@@ -14,6 +14,11 @@ body {
     .links {
         font-size: 18px;
     }
+    
+    main {
+    height: 2400px;
+}
+
 }
 
 /*----------------- HEADER ----------------------*/
@@ -137,9 +142,6 @@ a {
 
 
 /*--------------------- MAIN -----------------------*/
-main {
-    height: 2400px;
-}
 
 /*===============================================*/
 /*-----------  HIERBAS AROMATICAS  --------------*/
@@ -194,6 +196,7 @@ main {
     text-align: center;
     font-family: Poppins, sans-serif;
     font-weight: 600;
+    color: rgb(0, 0, 0);
 }
 .Data-H {
     height: 100px;
@@ -203,6 +206,7 @@ main {
     text-align: justify;
     margin-left: 25px;
     margin-right: 25px;
+    color: rgb(0, 0, 0);
 } 
 #D-H2 {
     text-align: left;
@@ -341,6 +345,7 @@ main {
     text-align: center;
     font-family: Poppins, sans-serif;
     font-weight: 600;
+    color: rgb(0, 0, 0);
 }
 .Data-N {
     height: 100px;
@@ -350,6 +355,7 @@ main {
     text-align: justify;
     margin-left: 25px;
     margin-right: 25px;
+    color: rgb(0, 0, 0);
 } 
 #D-N2 {
     text-align: left;
@@ -557,6 +563,9 @@ footer {
 
 /*/// Screen size 1630px "Philips*/
 @media only screen and (max-width: 1630px){
+    body {
+        background-color: white;
+    }
     header {
         height: 620px;
     }
@@ -571,6 +580,264 @@ footer {
         width: 99px;
         height: 57px;
     }
+    main {
+        height: 2000px;
+    }
+    /*=============================================*/
+    /*=========== HIERBAS NOTICIAS ================*/
+    /*=============================================*/
+    #Notice-HA {
+        height: 400px;
+        margin-top: 10px;
+    }
+    .IMG-Size {
+        height: 300px;
+        width: 794px;
+    }
+    .CONTENT-HA {
+        margin-left: 9px;
+    }
+    #H1, #H2, #H3, #H4 {
+        height: 300px;
+    }
+    .btn-moveHA {
+        width: 70px;
+        height: 100px;
+        margin-top: 90px;
+    }
+    #H2 {
+        margin-top: 1.5%;
+        width: 794px;
+        height: 300px;
+        position: relative;
+        top: 30px;
+        left: 10px;
+    }
+    #H3 {
+        height: 300px;
+        width: 350px;
+        position: relative;
+        left: 10px;
+    }
+    #H4 {
+        position: relative;
+        left: 10px;
+    }
+    #Title-HA {
+        margin-top: 3%;
+        font-size: 20px;
+    }
+    .Data-H {
+        font-size: 20px;
+    }  
+    #D-H2 {
+        position: relative;
+        top: 15px;
+    }
+    /*=============================================*/
+    /*=========== HIERBAS AROMATICAS ==============*/
+    /*=============================================*/
+    #Title-Hierbas {
+        height: 40px;
+        position: relative;
+        top: 15px;
+    }
+    #Title-H {
+        font-size: 25px;
+        position: relative;
+        top: 5px;
+    }
+    #DATA-HERBAL {
+        height: 500px;
+    }
+    #F-H1 {
+        margin-top: 50px;
+    }
+    #F-H2 {
+        width: 1140px;
+        height: 405px;
+        margin-top: 50px;
+    }    
+    #F-H3 {
+        margin-top: 50px;
+    }
+    #BOXES-H {
+        margin-top: 0px;
+        margin-left: 0px;
+        height: 355px;
+        width: 1140px;
+    }
+    .BOX-H {
+        margin-top: 30px;
+        margin-left: 65px;
+        height: 300px;
+        width: 200px;
+    }
+    .IMG-PRD-Size {
+        height: 300px;
+        width: 200px;
+    }  
+    .MBox-H {
+        margin-left: 65px;
+        height: 55px;
+        width: 200px;
+    }
+    /*=============================================*/
+    /*=========== CONDIMENTOS NOTICIAS ============*/
+    /*=============================================*/
+    #Notice-MS {
+        height: 400px;
+        margin-top: 10px;
+    }
+    .IMG-Size-C {
+        height: 300px;
+        width: 794px;
+    }
+    .Content-N {
+        margin-left: 9px;
+    }
+    #N1, #N2, #N3, #N4 {
+        height: 300px;
+    }
+    .btn-moveC {
+        width: 70px;
+        height: 100px;
+        margin-top: 90px;
+    }
+    #N2 {
+        margin-top: 1.5%;
+        width: 794px;
+        height: 300px;
+        position: relative;
+        top: 30px;
+        left: 10px;
+    }
+    #N3 {
+        height: 300px;
+        width: 350px;
+        position: relative;
+        left: 10px;
+    }
+    #N4 {
+        position: relative;
+        left: 10px;
+    }
+    #Title-N {
+        margin-top: 3%;
+        font-size: 20px;
+    }
+    .Data-N {
+        font-size: 20px;
+    }  
+    #D-N2 {
+        position: relative;
+        top: 15px;
+    }
+    /*=============================================*/
+    /*================ CONDIMENTOS ================*/
+    /*=============================================*/
+    #Title-Condimentos {
+        height: 40px;
+        position: relative;
+        top: 15px;
+    }
+    #Title-C {
+        font-size: 25px;
+        position: relative;
+        top: 5px;
+    }
+    #DATA-CONDIMENTS {
+        height: 500px;
+    }
+    #S-C1 {
+        margin-top: 50px;
+    }
+    #S-C2 {
+        width: 1140px;
+        height: 405px;
+        margin-top: 50px;
+    }    
+    #S-C3 {
+        margin-top: 50px;
+    }
+    #BOXES-C {
+        margin-top: 0px;
+        margin-left: 0px;
+        height: 355px;
+        width: 1140px;
+    }
+    .BOX-C {
+        margin-top: 30px;
+        margin-left: 65px;
+        height: 300px;
+        width: 200px;
+    }
+    .IMG-PRD-Size {
+        height: 300px;
+        width: 200px;
+    }  
+    .MBox-C {
+        margin-left: 65px;
+        height: 55px;
+        width: 200px;
+    }
+    .btn-moveCondiments {
+        margin-top: 150px;
+    }
+    /*=============================================*/
+    /*================ ACERCA DE ==================*/
+    /*=============================================*/
+    footer {
+        height: 700px;
+    }
+    #boxAD {
+        background-color: rgba(209, 209, 209);
+        height: 360px;
+        top: 25px;
+    }
+    #boxLogo {
+        height: 250px;
+        width: 350px;
+        left: 50px;
+    }
+    #IMG-About-Size {
+        height: 300px;
+        width: 450px;
+    }
+    #logoMSinfo {
+        height: 300px;
+        width: 700px;
+        position: relative;
+        top: 25px;
+        left: 200px;
+    }
+    #boxTitleInfo {
+        height: 50px;
+    }
+    #TitleOf {
+        position: relative;
+        top: 10px;
+        font-size: 25px;
+    }
+    #dataMSlogo {
+        height: 200px;
+    }
+    #dataLogo {
+        font-size: 17px;
+        height: 100px;
+    }
+    #readUs {
+        left: 450px;
+        top: 25px;
+        font-size: 13px;
+    }
+    #linkUs {
+        color: rgb(3, 102, 141);
+    }
+    #socEnd {
+        margin-top: 100px;
+    }
+
 }
 
 
