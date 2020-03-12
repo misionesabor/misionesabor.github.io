@@ -1,6 +1,9 @@
 /*==================================================*/
 /*=============== ENCABEZADO SUPERIOR ==============*/
 /*==================================================*/
+html {
+    scroll-behavior: smooth;
+}
 .container-p1 {
     width: 100%;
     position: absolute;
@@ -9,6 +12,9 @@
     z-index: 100;
 }
 
+.flot {
+    float: left;
+}
 /*==================================================*/
 /*============== PRODUCTOS PRINCIPALES =============*/
 /*==================================================*/
@@ -78,11 +84,18 @@
 }
 
 
-@media only screen and (max-width: 1920px){
 
-/*==================================================*/
-/*=============== ENCABEZADO SUPERIOR ==============*/
-/*==================================================*/
+
+
+
+
+
+/*==============================================*/
+/*==============================================*/
+/*==============================================*/
+/*==============================================*/
+
+@media only screen and (max-width: 1920px){
 #mainp {
     height: 500px;
 }
@@ -97,13 +110,18 @@
     font-size: 20px;
 }
 #prd-ourp {
-    /*  height: 70px;        */
-        height: 150px;
-        position: relative;
-        top: 30px;
-    }
+    height: 150px;
+    position: relative;
+    top: 30px;
+}
 #cnt-ourp {
     height: 350px;
+}
+#t-ourp {
+    text-align: center;
+    position: relative;
+    top: 35px;
+    font-size: 30px;
 }
 .IMG-Size-OP:hover {
     border-color: rgb(156, 156, 156, 0.4);
@@ -124,16 +142,135 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
-
+#HerbalSection {
+    height: 1200px;
+    width: 100%;
+}
+#CondimentSection {
+    height: 1200px;
+    width: 100%;
+}
+#YerbalSection {
+    height: 750px;
+    width: 100%;
+}
+#cont-title {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(129, 129, 129);
+}
+#title-prodct {
+    position: relative;
+    height: 50px;
+    width: 650px;
+    top: 45px;
+    margin-left: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    font-family: "Popins", sans-serif;
+}
+#cont-boxsearch {
+    position: relative;
+    height: 40px;
+    width: 850px;
+    top: 35px;
+    margin-left: 50px;
+}
+#box-search {
+    height: 40px;
+    width: 850px;
+    color: black;
+    padding-left: 15px;
+    border-color: rgb(194, 194, 194);
+    border-width: 3px;
+    border-style: solid;
+    font-size: 15px;
+    background-color: white;
+}
+#btn-search {
+    height: 40px;
+    width: 45px;
+    position: relative;
+    top: 35px;
+    left: 5px;
+}
+#btn-find {
+    height: 40px;
+    width: 45px;
+    border-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    background-color: transparent;
+}
+#btn-find:hover {
+    border-color: rgb(0, 33, 124, 0.4);
+}
+#cont-allprd {
+    height: 950px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#cont-yerbal {
+    height: 500px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.cont-list {
+    height: 450px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.prd {
+    height: 300px;
+    width: 220px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.prd-name {
+    height: 50px;
+    width: 220px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.text-name {
+    height: 30px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+.link-prd {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
 }
 
 
 
+
+}
+/*==============================================*/
+/*==============================================*/
+/*==============================================*/
+/*==============================================*/
+
+
+
+
+
+/*==============================================*/
+/*==============================================*/
+/*==============================================*/
+/*==============================================*/
+
 @media only screen and (max-width: 1630px){
-    #mainp {
-        height: 850px;
-    }
+#mainp {
+    height: 515px;
+}
 #headerp {
         height: 84px;
 }
@@ -147,6 +284,7 @@
 #t-ourp {
     font-size: 25px;
     top: 15px;
+    text-align: center;
 }
 #infcont-prd {
     margin-top: 0%;
@@ -164,10 +302,9 @@
     bottom: 5%;
 }  
 #prd-ourp {
-    /*  height: 70px;        */
-        height: 120px;
-        position: relative;
-        top: -30px;
+    height: 60px;
+    position: relative;
+    top: -5px;
     }
 .our-p {
     width: 420px;
@@ -193,34 +330,120 @@
     padding: 0%;
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#HerbalSection {
+    height: 1100px;
+    width: 100%;
+}
+#CondimentSection {
+    height: 1100px;
+    width: 100%;
+}
+#YerbalSection {
+    height: 650px;
+    width: 100%;
+}
+#cont-title {
+    height: 150px;
+    width: 100%;
+    background-color: rgb(129, 129, 129);
+}
+#title-prodct {
+    position: relative;
+    height: 40px;
+    width: 500px;
+    top: 30px;
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    font-family: "Popins", sans-serif;
+}
+#cont-boxsearch {
+    position: relative;
+    height: 40px;
+    width: 600px;
+    top: 20px;
+    margin-left: 50px;
+}
+#box-search {
+    height: 40px;
+    width: 600px;
+    color: black;
+    padding-left: 10px;
+    border-color: rgb(194, 194, 194);
+    border-width: 2px;
+    border-style: solid;
+    font-size: 11px;
+    background-color: white;
+}
+#btn-search {
+    height: 40px;
+    width: 45px;
+    position: relative;
+    top: 20px;
+    left: 5px;
+}
+#btn-find {
+    height: 40px;
+    width: 45px;
+    border-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    background-color: transparent;
+}
+#btn-find:hover {
+    border-color: rgb(0, 33, 124, 0.4);
+}
+#cont-allprd {
+    height: 900px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#cont-yerbal {
+    height: 450px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.cont-list {
+    height: 430px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.prd {
+    height: 300px;
+    width: 190px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.prd-name {
+    height: 50px;
+    width: 190px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.text-name {
+    height: 30px;
+    width: 180px;
+    margin-top: 10px;
+    margin-left: 5px;
+    text-align: center;
+}
+.link-prd {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+}
 
 
 }
+/*==============================================*/
+/*==============================================*/
+/*==============================================*/
+/*==============================================*/
+
+
+
+/*//////////////////////////////////////////////////////////*/
