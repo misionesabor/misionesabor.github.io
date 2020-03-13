@@ -4,23 +4,6 @@ body {
     margin-right: 0%;
 }
 
-
-@media only screen and (max-width: 1920px){
-    header {height: 960px;}
-    .container1 {
-        height: 83px;
-        width: 100%;
-    }
-    .links {
-        font-size: 18px;
-    }
-    
-    main {
-    height: 2400px;
-}
-
-}
-
 /*----------------- HEADER ----------------------*/
 
 #container0  {
@@ -139,7 +122,6 @@ a {
     z-index: 4;
 }
 /*-------------------------------------------------*/
-
 
 /*--------------------- MAIN -----------------------*/
 
@@ -261,9 +243,10 @@ a {
 .BOX-H {
     float: left;
     margin-top: 50px;
-    margin-left: 95px;
+    margin-left: 75px;
     height: 400px;
-    width: 300px;
+    width: 316px;
+    background-color: teal;
 }  
 #F-H3 {
     width: 70px;
@@ -274,13 +257,13 @@ a {
     height: 470px;
 }
 #BOX-PRH {
-    height: 50px;
+    height: 55px;
 }
 .MBox-H {
     float: left;
-    margin-left: 95px;
+    margin-left: 75px;
     height: 55px;
-    width: 300px;
+    width: 316px;
 }
 .D {
     margin: 0%;
@@ -410,9 +393,10 @@ a {
 .BOX-C {
     float: left;
     margin-top: 50px;
-    margin-left: 95px;
+    margin-left: 75px;
     height: 400px;
-    width: 300px;
+    width: 316px;
+    background-color: teal;
 }  
 #S-C3 {
     width: 70px;
@@ -423,13 +407,13 @@ a {
     height: 470px;
 }
 #BOX-SCP {
-    height: 50px;
+    height: 55px;
 }
 .MBox-C {
     float: left;
-    margin-left: 95px;
+    margin-left: 75px;
     height: 55px;
-    width: 300px;
+    width: 316px;
 }
 .C {
     margin: 0%;
@@ -561,6 +545,67 @@ footer {
     top: 15.5px;
 }
 
+
+
+
+/*===============================================================*/
+/*===============================================================*/
+/*===============================================================*/
+/*===============================================================*/
+
+
+
+
+
+@media only screen and (max-width: 1920px){
+    header {height: 960px;}
+    .container1 {
+        height: 83px;
+        width: 100%;
+    }
+    .links {
+        font-size: 18px;
+    }
+    
+    main {
+    height: 2400px;
+}
+
+    /*=============================================*/
+    /*=========== HIERBAS AROMATICAS ==============*/
+    /*=============================================*/
+    .IMG1 {
+        display: block;
+    }
+    .IMG2 {
+        display: none;
+    }
+
+    /*=============================================*/
+    /*================ CONDIMENTOS ================*/
+    /*=============================================*/
+
+    .btn-moveCondiments {
+        margin-top: 130px;
+    }
+
+
+}
+
+
+
+
+
+
+/*===============================================================*/
+/*===============================================================*/
+/*===============================================================*/
+/*===============================================================*/
+
+
+
+
+
 /*/// Screen size 1630px "Philips*/
 @media only screen and (max-width: 1630px){
     body {
@@ -669,18 +714,20 @@ footer {
     }
     .BOX-H {
         margin-top: 30px;
-        margin-left: 65px;
+        margin-left: 35px;
         height: 300px;
-        width: 200px;
+        width: 237px;
     }
-    .IMG-PRD-Size {
-        height: 300px;
-        width: 200px;
-    }  
+    .IMG1 {
+        display: none;
+    }
+    .IMG2 {
+        display: block;
+    }
     .MBox-H {
-        margin-left: 65px;
+        margin-left: 35px;
         height: 55px;
-        width: 200px;
+        width: 237px;
     }
     /*=============================================*/
     /*=========== CONDIMENTOS NOTICIAS ============*/

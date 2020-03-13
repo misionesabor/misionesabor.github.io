@@ -226,15 +226,22 @@ html {
 }
 .prd {
     height: 300px;
-    width: 220px;
+    width: 237px;
     margin-top: 30px;
-    margin-left: 100px;
+    margin-left: 75px;
 }
 .prd-name {
     height: 50px;
-    width: 220px;
+    width: 237px;
     margin-top: 20px;
-    margin-left: 100px;
+    margin-left: 75px;
+    background-color: chartreuse;
+}
+.IMGP1 {
+    display: block;
+}
+.IMGP2 {
+    display: none;
 }
 .text-name {
     height: 30px;
@@ -413,16 +420,24 @@ html {
     margin-top: 20px;
 }
 .prd {
-    height: 300px;
+    height: 240px;
     width: 190px;
     margin-top: 30px;
     margin-left: 30px;
+    background-color: coral;
+}
+.IMGP1 {
+    display: none;
+}
+.IMGP2 {
+    display: block;
 }
 .prd-name {
     height: 50px;
     width: 190px;
     margin-top: 20px;
     margin-left: 30px;
+    background-color: coral;
 }
 .text-name {
     height: 30px;
