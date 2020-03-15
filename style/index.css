@@ -431,6 +431,7 @@ a {
 footer {
     margin-top: 2%;
     height: 880px;
+    background-color: green;
 }
 #boxAD {
     background-color: rgba(209, 209, 209, 0.6);
