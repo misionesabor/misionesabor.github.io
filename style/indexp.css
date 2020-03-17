@@ -262,7 +262,9 @@ html {
     font-family: "Roboto", sans-serif;
 }
 
-
+#foot {
+    height: 250px;
+}
 
 
 }
@@ -454,6 +456,10 @@ html {
     font-size: 20px;
     font-weight: 500;
     font-family: "Roboto", sans-serif;
+}
+
+#foot {
+    height: 250px;
 }
 
 
