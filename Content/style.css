@@ -21,7 +21,6 @@ header {
     position: absolute;
     top: 0;
     z-index: 1;
-    background-color: rgb(23, 47, 20)!important;
 }
 h1 {
     font-size: 20px;
@@ -75,13 +74,16 @@ a {
     height: 80px;
     width: 120px;
     margin: 0px;
+    margin-left: 20px;
     padding: 0px;
 }
 .navbar-dark .nav-link {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0)!important;
+    font-weight: 600!important;
+
 }
 .navbar, .navbar-dark {
-    background-color: rgb(23, 47, 20)!important;
+    background-color: rgb(255, 255, 255)!important;
 }
 /*===================================================*/
 /*===================================================*/
@@ -890,7 +892,9 @@ footer {
     width: 100%;
     height: auto;
 }
-
+#cont-menu-logo {
+    margin-left: 40px;
+}
 /*······························*/
 /*     CONTENIDO DE INICIO      */
 /*······························*/
@@ -1225,6 +1229,9 @@ footer {
         width: 100%;
         height: auto;
     }
+    #cont-menu-logo {
+        margin-left: 50px;
+    }
     /*······························*/
     /*     CONTENIDO DE INICIO      */
     /*······························*/
@@ -1554,6 +1561,9 @@ footer {
     .img-fluid {
         width: 100%;
         height: auto;
+    }
+    #cont-menu-logo {
+        margin-left: 0px;
     }
     /*······························*/
     /*     CONTENIDO DE INICIO      */
