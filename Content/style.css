@@ -20,7 +20,7 @@ header {
     height: 100px;
     position: absolute;
     top: 0;
-    z-index: 1;
+    z-index: 10;
 }
 h1 {
     font-size: 20px;
@@ -84,14 +84,29 @@ a {
 /*===================================================*/
 /*===================================================*/
 /*===================================================*/
-.baseimg {
+#carousel1 {
     position: relative;
     height: 100%;
     width: 100%;
-    background-image: url(./images/IMGFondo/Slide-1.png);
+}
+
+.cover {
+    margin: 0%;
+    padding: 0%;
     background-size: cover;
     background-position: center;
-}
+    background-repeat: no-repeat;
+    top: auto;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+
+.owl-slide {
+    position: relative;
+    height: 100vh;
+  }
+
 
 /*===================================================*/
 /*            XS EXTRA SMALL SCREEN PHONES           */

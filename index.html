@@ -17,7 +17,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div id="cont-menu-logo">
                 <a class="navbar-brand" href="#">
-                    <img class="img-fluid" src="./Content/images/logo/logo-menu.png" alt="Misiones Sabor">
+                    <img class="img-fluid" src="./images/logo/logo-menu.png" alt="Misiones Sabor">
                 </a>
             </div>
 
@@ -39,8 +39,8 @@
                 </ul>
 
                 <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Busqueda:</button>
+                    <input class="form-control mr-sm-2" type="search" placeholder="'Manzanilla...'" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar:</button>
                 </form>
             </div>
         </nav>
@@ -49,7 +49,35 @@
     
     <!-----------------------  AGREGAR CONTENIDO --------------->
     <!----------- BOTON DE DESPLAZAMIENTO DECENDENTE -->
-    <div class="baseimg">
+    <div id="carousel1" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div role="img" class="owl-slide d-flex align-items-center cover" style="background-image: url(./images/IMGFondo/Slide-1.png);"></div>
+        </div>
+        <div class="carousel-item">
+            <div role="img" class="owl-slide d-flex align-items-center cover" style="background-image: url(./images/IMGFondo/Slide-2.png);"></div>
+        </div>
+        <div class="carousel-item">
+            <div role="img" class="owl-slide d-flex align-items-center cover" style="background-image: url(./images/IMGFondo/Slide-3.png);"></div>
+        </div>
+        </div>
+        
+        <!--Controles NEXT y PREV-->
+        <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        
+        <!--Controles de indicadores-->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel1" data-slide-to="1"></li>
+            <li data-target="#carousel1" data-slide-to="2"></li>
+        </ol>
     </div>
 
     <main>
@@ -58,7 +86,8 @@
         <!--                            HIERBAS AROMATICAS                                  -->
         <!--================================================================================-->
         <!--================================================================================-->
-        <section class="container-fluid" id="cont_hierbas">
+        <section>
+        <div class="container-fluid" id="cont_hierbas">
             <div class="row">
                 <div class="col-lg-7 col-md-6 pst" id="BoximgHerb">
                     <div id="BengHerb">
@@ -73,14 +102,9 @@
                     </p>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <!--================================================================================-->
-        <!--================================================================================-->
-        <!--                      CONTENIDO HIERBAS AROMATICAS                              -->
-        <!--================================================================================-->
-        <!--================================================================================-->
-        <section class="container-fluid" id="box_hierbas">
+        <div class="container-fluid" id="box_hierbas">
             <div class="row">
                 <div id="cont_box0">
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-xs-12 box0" id="box1">
@@ -114,6 +138,7 @@
                     <div class="col-xl-3 boxText" id="boxT4"><a class="HRBPLink" href="#">UÑA DE GATO</a></div>
                 </div>
             </div>
+        </div>
         </section>
 
         <!--================================================================================-->
@@ -121,54 +146,53 @@
         <!--                          CONDIMENTOS Y ESPECIAS                                -->
         <!--================================================================================-->
         <!--================================================================================-->
-        <section class="container-fluid" id="cont_condimentos">
-            <div class="row">
-                <div class="col-lg-7 col-md-6 pst" id="BoximgCond">
-                    <div id="BengCond">
+        <section>
+            <div class="container-fluid" id="cont_condimentos">
+                <div class="row">
+                    <div class="col-lg-7 col-md-6 pst" id="BoximgCond">
+                        <div id="BengCond">
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-6 col-sm-12 pst" id="BoxtextCond">
+                        <h2 id="titleCond" class="pst">CONDIMENTOS Y ESPECIAS</h2>
+                        <p id="textCond" class="pst">
+                            <span><strong><em>Sabia que:</em></strong></span>
+                            <br>
+                            <em>"Los condimentos y especias llenan de aroma y sabor nuestros alimentos. Pueden convertir sus comidas en un platillo exquisito!."</em>
+                        </p>
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-6 col-sm-12 pst" id="BoxtextCond">
-                    <h2 id="titleCond" class="pst">CONDIMENTOS Y ESPECIAS</h2>
-                    <p id="textCond" class="pst">
-                        <span><strong><em>Sabia que:</em></strong></span>
-                        <br>
-                        <em>"Los condimentos y especias llenan de aroma y sabor nuestros alimentos. Pueden convertir sus comidas en un platillo exquisito!."</em>
-                    </p>
+            </div>
+    
+            <div class="container-fluid" id="box_condimentos">
+                <div class="row">
+                    <div id="boxbaseCond1" class="line col-xl-3 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <div class="condboximg">
+                            <img class="condimg" src="./Content/images/Products Destaques/Condimentos/Etiquet Models/Oregano/Oregano.png" alt="Oregano">
+                        </div>
+                    </div>
+                    <div id="boxbaseCond2" class="line col-xl-3 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <div class="condboximg">
+                            <img class="condimg" src="./Content/images/Products Destaques/Condimentos/Etiquet Models/Pimenton/Pimenton.png" alt="Pimenton">
+                        </div>
+                    </div>
+                    <div id="boxbaseCond3" class="line col-xl-3 col-lg-4">
+                        <div class="condboximg">
+                            <img class="condimg" src="./Content/images/Products Destaques/Condimentos/Etiquet Models/Pizza/Pizza.png" alt="Pizza">
+                        </div>
+                    </div>
+    
+                    <div id="boxbaseCond4" class="col-xl-3 col-lg-4">
+                        <div class="condboximg">
+                            <img class="condimg" src="./Content/images/Products Destaques/Condimentos/Etiquet Models/Provenzal/Provenzal.png" alt="Provenzal">
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!--================================================================================-->
-        <!--================================================================================-->
-        <!--                     CONTENIDO CONDIMENTOS Y ESPECIAS                           -->
-        <!--================================================================================-->
-        <!--================================================================================-->
-        <section class="container-fluid" id="box_condimentos">
-            <div class="row">
-                <div id="boxbaseCond1" class="line col-xl-3 col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                    <div class="condboximg">
-                        <img class="condimg" src="./Content/images/Products Destaques/Condimentos/Etiquet Models/Oregano/Oregano.png" alt="Oregano">
-                    </div>
-                </div>
-                <div id="boxbaseCond2" class="line col-xl-3 col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                    <div class="condboximg">
-                        <img class="condimg" src="./Content/images/Products Destaques/Condimentos/Etiquet Models/Pimenton/Pimenton.png" alt="Pimenton">
-                    </div>
-                </div>
-                <div id="boxbaseCond3" class="line col-xl-3 col-lg-4">
-                    <div class="condboximg">
-                        <img class="condimg" src="./Content/images/Products Destaques/Condimentos/Etiquet Models/Pizza/Pizza.png" alt="Pizza">
-                    </div>
-                </div>
 
-                <div id="boxbaseCond4" class="col-xl-3 col-lg-4">
-                    <div class="condboximg">
-                        <img class="condimg" src="./Content/images/Products Destaques/Condimentos/Etiquet Models/Provenzal/Provenzal.png" alt="Provenzal">
-                    </div>
-                </div>
-            </div>
-        </section>
-
+        
         <!--================================================================================-->
         <!--================================================================================-->
         <!--                         ACERCA DE MISIONES SABOR                               -->
@@ -232,6 +256,7 @@
     </footer>
 
     <script src="Scripts/jquery-3.5.1.min.js"></script>
+    <script src="./Scripts/popper.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
     <script src="Scripts/bootstrap.js"></script>
     <script src="Scripts/inpage.js"></script>
