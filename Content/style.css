@@ -79,6 +79,23 @@ a {
 .navbar, .navbar-dark {
     background-color: rgb(255, 255, 255)!important;
 }
+.navbar-brand {
+    position: relative;
+    left: 30px!important;
+}
+.navbar-nav {
+    padding-left: 50px!important;
+}
+.nav-item {
+    padding-left: 20px!important;
+    color: black;
+    font-weight: 500;
+}
+
+.form-control {
+    border-color: black!important;
+    font-weight: 500!important;
+}
 
 /*===================================================*/
 /*===================================================*/
@@ -105,9 +122,29 @@ a {
 .owl-slide {
     position: relative;
     height: 100vh;
-  }
+}
 
+.carousel-control-prev, .carousel-control-next {
+    width: 6%!important;
+    padding: 50px;
+}
 
+.carousel-indicators li {
+    background-color: rgb(0, 0, 0)!important;
+    padding-left: 10px;
+    padding-right: 5px;
+    position: relative;
+    top: 10px;
+}
+
+.carousel-caption {
+    color: black!important;
+    bottom: 40%!important;
+}
+.carousel-caption > h2 {
+    font-size: 60px;
+    font-weight: 500;
+}
 /*===================================================*/
 /*            XS EXTRA SMALL SCREEN PHONES           */
 /*===================================================*/
