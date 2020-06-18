@@ -424,7 +424,7 @@ footer {
         font-style: italic;
         text-align: center;
     }
-    
+   
     #BoxtextHerb,#BoxtextCond {
         top: 10px;
         height: 200px;
@@ -937,7 +937,7 @@ footer {
 #BengHerb {
     height: 275px;
     width: 100%;
-    background-image: url('./images/Products Destaques/Hierbas Aromaticas/Herbals.png');
+    background-image: url('./');
     background-position: center;
     background-size: cover;
 }
