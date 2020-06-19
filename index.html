@@ -23,6 +23,10 @@
                 </a>
             </div>
 
+            <button id="btntoggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
@@ -35,16 +39,14 @@
                         <a class="nav-link" href="#">CONTACTO</a>
                     </li>
                 </ul>
+                
+                <form id="fsearch" class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Buscar:" aria-label="Search">
+                    <span><img role="button" type="submit" src="./res/icons/search.png" alt=""></span>
+                </form>
             </div>
 
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Buscar:" aria-label="Search">
-                <span><img role="button" type="submit" src="./res/icons/search.png" alt=""></span>
-            </form>
             
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
         </nav>
     </header>
 
@@ -257,6 +259,7 @@
         </div>
     </footer>
 
+    <script src="./Scripts/index.js"></script>
     <script src="Scripts/jquery-3.5.1.min.js"></script>
     <script src="./Scripts/popper.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
