@@ -68,7 +68,6 @@ a {
     height: 80px;
     width: 120px;
     margin: 0px;
-    margin-left: 20px;
     padding: 0px;
 }
 .navbar-dark .nav-link {
@@ -87,7 +86,6 @@ a {
     padding-left: 50px!important;
 }
 .nav-item {
-    padding-left: 20px!important;
     color: black;
     font-weight: 500;
 }
@@ -140,10 +138,17 @@ a {
 .carousel-caption {
     color: black!important;
     bottom: 40%!important;
+    width: 90%;
+    margin-left: 5%;
+    left: 0%!important;
 }
 .carousel-caption > h2 {
     font-size: 60px;
     font-weight: 500;
+    text-align: center;
+}
+.text_clor {
+    color: white;
 }
 /*===================================================*/
 /*            XS EXTRA SMALL SCREEN PHONES           */
@@ -170,11 +175,40 @@ a {
     top: 25px;
     padding: 0px;
 }
+#cont-menu-logo {
+    position: relative;
+    left: 30px;
+}
 
+.navbar-brand {
+    left: 0%!important;
+}
+
+
+
+
+.nav-item {
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+    padding: 7px;
+}
+.form-inline {
+    display: none!important;
+}
 /*······························*/
 /*     CONTENIDO DE INICIO      */
 /*······························*/
 
+.carousel-caption {
+    bottom: 30%!important;
+}
+
+.carousel-caption > h2 {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
 
 
 /*······························*/
@@ -431,12 +465,18 @@ footer {
         padding: 0px;
     }
     
-    
+    .form-inline {
+        display: none!important;
+    }
     /*······························*/
     /*     CONTENIDO DE INICIO      */
     /*······························*/
     
-    
+    .carousel-caption > h2 {
+        font-size: 30px;
+        font-weight: 500;
+        text-align: center;
+    }
     
     /*······························*/
     /*     HIERBAS INFORMATION      */
@@ -689,12 +729,48 @@ footer {
         width: 100%;
         height: auto;
     }
+
+    .navbar-collapse {
+        flex-basis: 0%!important;
+        margin-right: 5px;
+    }
+    .navbar-brand {
+        position: relative;
+        left: 0px!important;
+    }
+    .navbar-nav {
+        width: 100%!important;
+        position: relative!important;
+        padding-left: 0px!important;
+        flex-direction: row!important;
+    }
     
+    .nav-item {
+        left: 0%;
+        color: black;
+        width: 100%;
+        text-align: center;
+        font-weight: 500;
+    }
+    .nav-item > a {
+        font-size: 14px;
+    }
+    .form-inline {
+        display: none!important;
+    }
     /*······························*/
     /*     CONTENIDO DE INICIO      */
     /*······························*/
     
-    
+    .carousel-caption {
+        display: block!important;
+        color: black!important;
+        bottom: 40%!important;
+    }
+    .carousel-caption > h2 {
+        font-size: 60px;
+        font-weight: 500;
+    }
     
     /*······························*/
     /*     HIERBAS INFORMATION      */
@@ -945,14 +1021,36 @@ footer {
     width: 100%;
     height: auto;
 }
-#cont-menu-logo {
-    margin-left: 40px;
-}
+
 /*······························*/
 /*     CONTENIDO DE INICIO      */
 /*······························*/
+.navbar-collapse {
+    flex-basis: 0%!important;
+    margin-right: 5px;
+}
+.navbar-brand {
+    position: relative;
+    left: 5px!important;
+}
+.navbar-nav {
+    width: 100%!important;
+    position: relative!important;
+    padding-left: 0px!important;
+    flex-direction: row!important;
+}
 
+.nav-item {
+    left: 0%;
+    color: black;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+}
 
+.form-inline {
+    display: none!important;
+}
 
 /*······························*/
 /*     HIERBAS INFORMATION      */
