@@ -155,6 +155,14 @@ a {
 .icons_arrow:hover {
     color: black;
 }
+/* .img-shadow {
+    box-shadow: gray (0, 10px, 0, 5px);
+} */
+.linkProducts {
+    color: black;
+    font-weight: bold;
+    text-decoration: none!important;
+}
 /* ===================== */
 /* ===================== */
 
@@ -533,7 +541,6 @@ footer {
     }
     .box0 {
         height: 370px;
-        border-right: 1px solid;
         text-align: center;
     }
     .box2, .box3, .box4 {
