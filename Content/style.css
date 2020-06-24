@@ -815,6 +815,12 @@ footer {
     .box3, .box4 {
         display: none;
     }
+    #boxfig1 {
+        margin-left: 40px;
+    }
+    #boxfig2 {
+        margin-right: 40px;
+    }
     .cont-figures > figcaption {
         padding-top: 15px;
     }
@@ -1085,7 +1091,12 @@ footer {
 .box3, .box4 {
     display: none;
 }
-
+#boxfig1 {
+    margin-left: 60px;
+}
+#boxfig2 {
+    margin-right: 60px;
+}
 .cont-figures > figcaption {
     padding-top: 15px;
 }
@@ -1348,6 +1359,13 @@ footer {
     .box4 {
         display: none;
     }
+
+    #boxfig1 {
+        margin-left: 50px;
+    }
+    #boxfig3 {
+        margin-right: 50px;
+    }
     .cont-figures > figcaption {
         padding-top: 15px;
     }
@@ -1581,8 +1599,8 @@ footer {
     /*================*/
     /*------ BOXES HIERBAS ------- */
     #box_hierbas {
-        margin-bottom: 5%;
-        margin-top: 50px;
+        margin-bottom: 10%;
+        margin-top: 100px;
         height: 370px;
         width: 100%;        
         padding: 0%!important;
@@ -1596,24 +1614,29 @@ footer {
         text-align: center;
     }
     .box1 {
-        padding-left: 65px;
-        padding-right: 0px;
+        padding-right: 0px!important;
     }
     .box2 {
-        padding-left: 35px;
-        padding-right: 0px;
+        padding-right: 0px!important;
     }
     .box3 {
-        padding-left: 0px;
-        padding-right: 35px;
+        padding-left: 0px!important;
     }
     .box4 {
-        padding-left: 0px;
-        padding-right: 65px;
+        padding-left: 0px!important;
     }
-    /* #boxfig1, #boxfig2, #boxfig3, #boxfig4 {
-        background-color: crimson;
-    } */
+    #boxfig1 {
+        margin-left: 40px;
+    }
+    #boxfig2 {
+        margin-left: 20px;
+    }
+    #boxfig3 {
+        margin-right: 20px;
+    }
+    #boxfig4 {
+        margin-right: 40px;
+    }
     .cont-figures > figcaption {
         padding-top: 15px;
     }
@@ -2059,7 +2082,31 @@ footer {
         font-size: 20px;
         padding-top: 12%;
     }
-    
+
+    .box1 {
+        padding-right: 0px!important;
+    }
+    .box2 {
+        padding-right: 0px!important;
+    }
+    .box3 {
+        padding-left: 0px!important;
+    }
+    .box4 {
+        padding-left: 0px!important;
+    }
+    #boxfig1 {
+        margin-left: 70px;
+    }
+    #boxfig2 {
+        margin-left: 20px;
+    }
+    #boxfig3 {
+        margin-right: 20px;
+    }
+    #boxfig4 {
+        margin-right: 70px;
+    }
     /*······························*/
     /*------ BOXES CONDIMENTOS ------- */
     #box_condimentos {
@@ -2285,6 +2332,30 @@ footer {
         padding-top: 9%;
     }
 
+    .box1 {
+        padding-right: 0px!important;
+    }
+    .box2 {
+        padding-right: 0px!important;
+    }
+    .box3 {
+        padding-left: 0px!important;
+    }
+    .box4 {
+        padding-left: 0px!important;
+    }
+    #boxfig1 {
+        margin-left: 90px;
+    }
+    #boxfig2 {
+        margin-left: 45px;
+    }
+    #boxfig3 {
+        margin-right: 45px;
+    }
+    #boxfig4 {
+        margin-right: 90px;
+    }
     /*······························*/
     /*------ BOXES CONDIMENTOS ------- */
     #box_condimentos {
