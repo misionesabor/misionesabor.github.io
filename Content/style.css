@@ -47,14 +47,6 @@ a {
 #BoximgHerb, #BoximgCond, #imgLogoText {
     display: none;
 }
-.hidderbox {
-    display: none;
-}
-
-.clor {
-    background-color: red;
-}
-
 
 
 /*=====================*/
@@ -66,14 +58,12 @@ a {
     margin: 0px;
     padding: 0px;
 }
-
 .nav-link {
     padding-left: 0!important;
     padding-right: 0!important;
     position: relative!important;
     color: rgb(0, 0, 0)!important;
 }
-
 .nav-link::after {
     border-top: 2px solid rgb(0, 0, 0)!important;
     content: ""!important;
@@ -115,7 +105,6 @@ a {
     height: 100%;
     width: 100%;
 }
-
 .cover {
     margin: 0%;
     padding: 0%;
@@ -126,18 +115,10 @@ a {
     left: 50%;
     transform: translate(-50%);
   }
-
-
 .owl-slide {
     position: relative;
     height: 100vh;
 }
-
-.carousel-control-prev, .carousel-control-next {
-    width: 6%!important;
-    padding: 50px;
-}
-
 .carousel-indicators li {
     background-color: rgb(0, 0, 0)!important;
     padding-left: 10px;
@@ -145,7 +126,6 @@ a {
     position: relative;
     top: 10px;
 }
-
 .carousel-caption {
     color: black!important;
     bottom: 40%!important;
@@ -161,6 +141,23 @@ a {
 .text_clor {
     color: white;
 }
+
+/* ===================== */
+/* CARROUSEL HERB BOXES */
+/* ===================== */
+.herbs_btns_notice:hover {
+    opacity: 0.5;
+}
+
+.herbs_control_btns:hover {
+    background-color: rgb(255, 255, 255, 0.3);
+}
+.icons_arrow:hover {
+    color: black;
+}
+/* ===================== */
+/* ===================== */
+
 /*===================================================*/
 /*            XS EXTRA SMALL SCREEN PHONES           */
 /*===================================================*/
@@ -242,13 +239,14 @@ a {
 #cont_hierbas, #cont_condimentos {
     margin-top: 15%;
     margin-bottom: 5%;
+    padding: 0;
     height: 230px;
     width: 100%;
 }
 
 
 #carousel_Herbs_Sectiom {
-    height: 390px;
+    height: 230px;
     width: 100%;
 }
 
@@ -259,54 +257,33 @@ a {
 }
 /*------ BOXES HIERBAS ------- */
 #box_hierbas {
-    margin-bottom: 5%;
-    height: auto;
-    width: 100%;
-}
-#cont_box0 {
-    width: 100%;
-    height: auto;
-    text-align: center;
+    height: 370px;
+    width: 100%;        
+    padding: 0%!important;
     margin-top: 50px;
+}
+#carousel-products-herb {
+    height: 370px;
+    width: 100%;
 }
 .box0 {
-    width: 100%;
-    height: auto;
-}
-.Herbimgs {
-    height: auto;
-    width: 100%;
-}
-.contimgbox {
-    width: 80%;
-    height: auto;
-    margin-left: 10%;
-    box-shadow: rgba(134, 134, 134, 0.5) 10px 15px 20px 15px;
-}
-#box2, #box3, #box4 {
-    display: none;
-}
-#cont_boxText0 {
-    width: 100%;
-    height: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    height: 370px;
     text-align: center;
 }
-.boxText {
-    width: 100%;
-    height: auto;
-}
-.HRBPLink {
-    color: black;
-    font-weight: 600;
-}
-#boxT2, #boxT3, #boxT4 {
+.box2, .box3, .box4 {
     display: none;
 }
-#bext1 {
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
+.cont-figures > figcaption {
+    padding-top: 15px;
+}
+.herbs_control_btns {
+    color: gray!important;
+    height: 300px;
+}
+.herbs_btns_notice {
+    color: gray!important;
+    height: 230px;
+    width: 10%!important;
 }
 /*------ BOXES CONDIMENTOS ------- */
 #box_condimentos {
@@ -521,13 +498,14 @@ footer {
     /*   CONDIMENTOS INFORMATION    */
     /*······························*/
     main {
-        margin-top: 10%;
+        margin-top: 20%;
     }
     #cont_hierbas, #cont_condimentos {
         margin-top: 5%;
         margin-bottom: 5%;
         height: 220px;
         width: 100%;
+        opacity: 0.5;
     }
 
 
@@ -543,50 +521,30 @@ footer {
     }
     /*------ BOXES HIERBAS ------- */
     #box_hierbas {
-        margin-bottom: 5%;
-        height: auto;
-        width: 100%;
+        margin-top: 70px;
+        margin-bottom: 30px;
+        height: 370px;
+        width: 100%;        
+        padding: 0%!important;
     }
-    #cont_box0 {
+    #carousel-products-herb {
+        height: 370px;
         width: 100%;
-        height: auto;
-        text-align: center;
-        margin-top: 50px;
     }
     .box0 {
-        width: 100%;
-        height: auto;
-    }
-    .Herbimgs {
-        height: auto;
-        width: 100%;
-    }
-    .contimgbox {
-        width: 80%;
-        height: auto;
-        margin-left: 10%;
-        box-shadow: rgba(134, 134, 134, 0.5) 10px 15px 20px 15px;
-    }
-    #box2, #box3, #box4 {
-        display: none;
-    }
-    #cont_boxText0 {
-        width: 100%;
-        height: auto;
-        margin-top: 50px;
-        margin-bottom: 50px;
+        height: 370px;
+        border-right: 1px solid;
         text-align: center;
     }
-    .boxText {
-        width: 100%;
-        height: auto;
-    }
-    .HRBPLink {
-        color: black;
-        font-weight: 600;
-    }
-    #boxT2, #boxT3, #boxT4 {
+    .box2, .box3, .box4 {
         display: none;
+    }
+    .cont-figures > figcaption {
+        padding-top: 15px;
+    }
+    .herbs_control_btns {
+        color: gray!important;
+        height: 300px;
     }
     /*------ BOXES CONDIMENTOS ------- */
     #box_condimentos {
@@ -833,50 +791,37 @@ footer {
     }
     /*------ BOXES HIERBAS ------- */
     #box_hierbas {
-        margin-bottom: 15%;
-        height: auto;
-        width: 100%;
+        margin-top: 70px;
+        height: 370px;
+        width: 100%;        
+        padding: 0%!important;
     }
-    #cont_box0 {
+    #carousel-products-herb {
+        height: 370px;
         width: 100%;
-        height: auto;
-        margin-top: 50px;
-        text-align: center;
     }
     .box0 {
-        width: 70%;
-        height: auto;
-    }
-    .Herbimgs {
-        height: auto;
-        width: 100%;
-    }
-    .contimgbox {
-        width: 80%;
-        height: auto;
-        margin-left: 10%;
-        box-shadow: rgba(134, 134, 134, 0.5) 10px 15px 20px 15px;
-    }
-    #box2, #box3, #box4 {
-        display: none;
-    }
-    #cont_boxText0 {
-        width: 100%;
-        height: auto;
-        margin-top: 50px;
+        height: 370px;
         text-align: center;
     }
-    .boxText {
-        width: 100%;
-        height: auto;
+    .box1 {
+        padding-left: 25px;
+        padding-right: 0px;
     }
-    .HRBPLink {
-        color: black;
-        font-weight: 600;
-        font-size: 25px;
+    .box2 {
+        padding-left: 0px;
+        padding-right: 25px;
     }
-    #boxT2, #boxT3, #boxT4 {
+    .box3, .box4 {
         display: none;
+    }
+    .cont-figures > figcaption {
+        padding-top: 15px;
+    }
+    .herbs_control_btns {
+        color: rgb(83, 83, 83)!important;
+        height: 300px;
+        width: 4%!important;
     }
     /*------ BOXES CONDIMENTOS ------- */
     #box_condimentos {
@@ -1116,86 +1061,38 @@ footer {
 
 /*------ BOXES HIERBAS ------- */
 #box_hierbas {
-    margin-bottom: 10%;
-    height: auto;
+    margin-top: 70px;
+    height: 370px;
+    width: 100%;        
+    padding: 0%!important;
+}
+#carousel-products-herb {
+    height: 370px;
     width: 100%;
 }
-.HRBPLink {
-    color: black;
-    font-weight: 600;
-    font-size: 23px;
+.box0 {
+    height: 370px;
+    text-align: center;
 }
-.Herbimgs {
-    height: auto;
-    width: 100%;
+.box1 {
+    padding-left: 85px;
+    padding-right: 0px;
 }
-.contimgbox {
-    width: 80%;
-    height: auto;
-    margin-left: 10%;
-    box-shadow: rgba(134, 134, 134, 0.5) 10px 15px 20px 15px;
+.box2 {
+    padding-left: 0px;
+    padding-right: 85px;
 }
-@media (min-width: 768px) and (max-width: 809px){
-    #cont_box0 {
-        width: 100%;
-        height: auto;
-    }
-    .box0 {
-        width: 99%;
-        height: auto;
-        border-right: rgb(0, 0, 0) 1px solid;
-        float: left;
-    }
-    #box2 {
-        border-right: none;
-    }
-    #box3, #box4 {
-        display: none;
-    }
-    #cont_boxText0 {
-        width: 100%;
-        height: auto;
-        margin-top: 50px;
-    }
-    .boxText {
-        height: auto;
-        float: left;
-        text-align: center;
-    }
-    #boxT3, #boxT4 {
-        display: none;
-    }
+.box3, .box4 {
+    display: none;
 }
-@media (min-width: 810px) and (max-width: 991px){
-    #cont_box0 {
-        width: 100%;
-        height: auto;
-    }
-    .box0 {
-        width: 99%;
-        height: auto;
-        border-right: rgb(0, 0, 0) 1px solid;
-        float: left;
-    }
-    #box2 {
-        border-right: none;
-    }
-    #box3, #box4 {
-        display: none;
-    }
-    #cont_boxText0 {
-        width: 100%;
-        height: auto;
-        margin-top: 50px;
-    }
-    .boxText {
-        height: auto;
-        float: left;
-        text-align: center;
-    }
-    #boxT3, #boxT4 {
-        display: none;
-    }
+
+.cont-figures > figcaption {
+    padding-top: 15px;
+}
+.herbs_control_btns {
+    color: rgb(83, 83, 83)!important;
+    height: 300px;
+    width: 8%!important;
 }
 /*------ BOXES CONDIMENTOS ------- */
 #box_condimentos {
@@ -1427,86 +1324,37 @@ footer {
     
     /*------ BOXES ------- */
     #box_hierbas {
-        margin-bottom: 5%;
-        height: auto;
+        margin-top: 70px;
+        height: 370px;
+        width: 100%;        
+        padding: 0%!important;
+    }
+    #carousel-products-herb {
+        height: 370px;
         width: 100%;
     }
-    .HRBPLink {
-        color: black;
-        font-weight: 600;
-        font-size: 22px;
+    .box0 {
+        height: 370px;
+        text-align: center;
     }
-    .Herbimgs {
-        height: auto;
-        width: 100%;
+    .box1 {
+        padding-left: 65px;
+        padding-right: 0px;
     }
-    .contimgbox {
-        width: 80%;
-        height: auto;
-        margin-left: 10%;
-        box-shadow: rgba(134, 134, 134, 0.5) 10px 15px 20px 15px;
+    .box3 {
+        padding-left: 0px;
+        padding-right: 65px;
     }
-    @media (min-width: 992px) and (max-width: 1149px){
-        #cont_box0 {
-            width: 100%;
-            height: auto;
-        }
-        .box0 {
-            width: 99%;
-            height: auto;
-            border-right: rgb(0, 0, 0) 1px solid;
-            float: left;
-        }
-        #box3 {
-            border-right: none;
-        }
-        #box4 {
-            display: none;
-        }
-        #cont_boxText0 {
-            width: 100%;
-            height: auto;
-            margin-top: 50px;
-        }
-        .boxText {
-            height: auto;
-            float: left;
-            text-align: center;
-        }
-        #boxT4 {
-            display: none;
-        }
+    .box4 {
+        display: none;
     }
-    @media (min-width: 1150px) and (max-width: 1199px){
-        #cont_box0 {
-            width: 100%;
-            height: auto;
-        }
-        .box0 {
-            width: 99%;
-            height: auto;
-            border-right: rgb(0, 0, 0) 1px solid;
-            float: left;
-        }
-        #box3 {
-            border-right: none;
-        }
-        #box4 {
-            display: none;
-        }
-        #cont_boxText0 {
-            width: 100%;
-            height: auto;
-            margin-top: 50px;
-        }
-        .boxText {
-            height: auto;
-            float: left;
-            text-align: center;
-        }
-        #boxT4 {
-            display: none;
-        }
+    .cont-figures > figcaption {
+        padding-top: 15px;
+    }
+    .herbs_control_btns {
+        color: rgb(83, 83, 83)!important;
+        height: 300px;
+        width: 4%!important;
     }
     /*------ BOXES ------- */
     #box_condimentos {
@@ -1734,54 +1582,45 @@ footer {
     /*------ BOXES HIERBAS ------- */
     #box_hierbas {
         margin-bottom: 5%;
-        height: auto;
-        width: 100%;
-    }
-    .HRBPLink {
-        color: black;
-        font-weight: 600;
-        font-size: 23px;
-    }
-    /*================*/
-    /*================*/
-    /*================*/
-    #cont_box0 {
-        width: 100%;
-        height: auto;
-        text-align: center;
         margin-top: 50px;
+        height: 370px;
+        width: 100%;        
+        padding: 0%!important;
+    }
+    #carousel-products-herb {
+        height: 370px;
+        width: 100%;
     }
     .box0 {
-        width: 99%;
-        height: auto;
-        border-right: rgb(161, 161, 161) 1px solid;
-        float: left;
-    }
-    #box4 {
-        border-right: none;
-    }
-    .Herbimgs {
-        height: auto;
-        width: 100%;
-    }
-    .contimgbox {
-        width: 80%;
-        height: auto;
-        margin-left: 10%;
-        box-shadow: rgba(134, 134, 134, 0.5) 10px 15px 20px 15px;
-    }
-    /*================*/
-    /*================*/
-    #cont_boxText0 {
-        width: 100%;
-        height: auto;
-        margin-top: 50px;
+        height: 370px;
         text-align: center;
     }
-    .boxText {
-        height: auto;
-        float: left;
-        text-align: center;
+    .box1 {
+        padding-left: 65px;
+        padding-right: 0px;
+    }
+    .box2 {
+        padding-left: 35px;
+        padding-right: 0px;
+    }
+    .box3 {
+        padding-left: 0px;
+        padding-right: 35px;
+    }
+    .box4 {
+        padding-left: 0px;
+        padding-right: 65px;
+    }
+    /* #boxfig1, #boxfig2, #boxfig3, #boxfig4 {
+        background-color: crimson;
+    } */
+    .cont-figures > figcaption {
+        padding-top: 15px;
+    }
+    .herbs_control_btns {
+        color: rgb(83, 83, 83)!important;
+        height: 300px;
+        width: 5%!important;
     }
     /*================*/
     /*================*/
@@ -2001,37 +1840,8 @@ footer {
         font-size: 20px;
         padding-top: 12%;
     }
-    
-    /*------ BOXES HIERBAS ------- */
-    #box_hierbas {
-        margin-bottom: 5%;
-        height: auto;
-        width: 100%;
-    }
-    #cont_box0 {
-        width: 100%;
-        height: auto;
-    }
-    .Herbimgs {
-        height: auto;
-        width: 100%;
-    }
-    .contimgbox {
-        width: 80%;
-        height: auto;
-        margin-left: 10%;
-        box-shadow: rgba(134, 134, 134, 0.5) 10px 15px 20px 15px;
-    }
-    #cont_boxText0 {
-        width: 100%;
-        height: auto;
-        margin-top: 50px;
-    }
-    .boxText {
-        height: auto;
-        float: left;
-        text-align: center;
-    }
+
+
     /*······························*/
     /*------ BOXES CONDIMENTOS ------- */
     #box_condimentos {
@@ -2250,39 +2060,6 @@ footer {
         padding-top: 12%;
     }
     
-    /*------ BOXES HIERBAS ------- */
-    #box_hierbas {
-        margin-bottom: 5%;
-        height: auto;
-        width: 100%;
-    }
-    #cont_box0 {
-        width: 100%;
-        height: auto;
-        margin-top: 50px;
-    }
-    .box0 {
-        width: 100%;
-    }
-    .Herbimgs {
-        height: 350px;
-        width: auto;
-    }
-    .contimgbox {
-        width: 65%;
-        height: auto;
-        box-shadow: rgba(134, 134, 134, 0.5) 20px 15px 20px 15px;
-    }
-    #cont_boxText0 {
-        width: 100%;
-        height: auto;
-        margin-top: 50px;
-    }
-    .boxText {
-        height: auto;
-        float: left;
-        text-align: center;
-    }
     /*······························*/
     /*------ BOXES CONDIMENTOS ------- */
     #box_condimentos {
@@ -2508,43 +2285,6 @@ footer {
         padding-top: 9%;
     }
 
-
-
-    /*------ BOXES HIERBAS ------- */
-    #box_hierbas {
-        margin-bottom: 5%;
-        height: auto;
-        width: 100%;
-    }
-    #cont_box0 {
-        width: 100%;
-        height: auto;
-        margin-top: 50px;
-        text-align: center;
-    }
-    .box0 {
-        width: 100%;
-    }
-    .Herbimgs {
-        height: 350px;
-        width: auto;
-    }
-    .contimgbox {
-        width: 60%;
-        height: auto;
-        margin-left: 17.5%;
-        box-shadow: rgba(134, 134, 134, 0.5) 10px 15px 20px 15px;
-    }
-    #cont_boxText0 {
-        width: 100%;
-        height: auto;
-        margin-top: 50px;
-    }
-    .boxText {
-        height: auto;
-        float: left;
-        text-align: center;
-    }
     /*······························*/
     /*------ BOXES CONDIMENTOS ------- */
     #box_condimentos {
