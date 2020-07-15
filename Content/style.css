@@ -126,22 +126,29 @@ a {
     position: relative;
     top: 10px;
 }
-.carousel-caption {
-    color: black!important;
-    bottom: 40%!important;
-    width: 90%;
-    margin-left: 5%;
-    left: 0%!important;
-}
-.carousel-caption > h2 {
-    font-size: 60px;
-    font-weight: 500;
-    text-align: center;
+#rexload {
+    display: none;
+    transition-property: opacity;
+    transition-duration: 1.5s;
+    transition-delay: 1.5s;
+    opacity: 0;
 }
 .text_clor {
     color: white;
 }
+.cont_wow {
+    width: 400px;
+    height: 100px;
+    position: relative;
+    left: 35%;
+    top: 35%;
+}
 
+h1 {
+    font-size: 25px;
+    padding: 100px;
+    background-color: rgb(255, 0, 0);
+}
 /* ===================== */
 /* CARROUSEL HERB BOXES */
 /* ===================== */
@@ -211,10 +218,11 @@ a {
     display: inline-block!important;
     left: 0%;
     color: black;
-    text-align: center;
+    text-align: center;    
+    font-size: 13px!important;
     font-weight: 500;
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 #fsearch {
     width: 100%;
@@ -226,16 +234,31 @@ a {
     width: 70%!important;
     display: inline-flex!important;
 }
+
+main {
+    margin-top: 100px!important;
+}
 /*······························*/
 /*     CONTENIDO DE INICIO      */
 /*······························*/
-.carousel-caption {
-    bottom: 30%!important;
-}
-.carousel-caption > h2 {
-    font-size: 20px;
-    font-weight: 500;
+.rextor {
+    position: absolute;
+    top: 40%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    transform: translate(-50%, -50%);
     text-align: center;
+}
+
+.titls_Prsent  {
+    font-size: 35px!important;
+    padding: 0%!important;
+}
+.texts_Prsent {
+    font-size: 15px!important;
+    margin: 0%!important;
+    padding: 0%!important;
 }
 
 
@@ -296,30 +319,51 @@ a {
 /*------ BOXES CONDIMENTOS ------- */
 #box_condimentos {
     margin-bottom: 5%;
+    margin-top: 30px;
+    padding-left: 0px!important;
+    padding-right: 0px!important;
     height: auto;
     width: 100%;
 }
-#boxbaseCond1 {
-    height: 225px;
-    width: 100%;
+
+.cond0 {
+    height: 250px;
 }
-#boxbaseCond2 {
-    height: 225px;
-    width: 100%;
-}
-#boxbaseCond3, #boxbaseCond4 {
+.cond2, .cond3, .cond4 {
     display: none;
 }
-.condboximg {
-    width: 90%;
-    height: auto;
-    margin-left: 5%;
-    margin-top: 27.5px;
-    box-shadow: rgb(195, 194, 194) 1px 1px 15px 10px;
+.cond_imgs {
+    height: 130px;
+    width: auto;
 }
-.condimg {
-    width: 100%;
-    height: auto;
+.fig_conds {
+    text-align: center;
+    margin: 0%!important;
+}
+.figc_conds {
+    padding-top: 25px;
+}
+#fig1_conds {
+    margin-left: 40px;
+}
+#fig2_conds {
+    margin-right: 40px;
+}
+.link_conds {
+    font-family: "Popins", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none!important;
+}
+.price_conds {
+    font-family: "Popins", sans-serif;
+    font-size: 15px;
+}
+.cond_control_btns {
+    width: 18%!important;
+    height: 120px;
+    color: gray!important;
 }
 
 /*···················*/
@@ -473,9 +517,10 @@ footer {
         left: 0%;
         color: black;
         text-align: center;
+        font-size: 15px;
         font-weight: 500;
-        padding-right: 15px;
-        padding-left: 15px;
+        padding-right: 10px;
+        padding-left: 10px;
     }
     #fsearch {
         width: 100%;
@@ -491,13 +536,24 @@ footer {
     /*······························*/
     /*     CONTENIDO DE INICIO      */
     /*······························*/
-    .carousel-caption {
-        bottom: 30%!important;
-    }
-    .carousel-caption > h2 {
-        font-size: 40px;
-        font-weight: 500;
+    .rextor {
+        position: absolute;
+        top: 45%;
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+        transform: translate(-50%, -50%);
         text-align: center;
+    }
+    
+    .titls_Prsent  {
+        font-size: 35px!important;
+        padding: 0%!important;
+    }
+    .texts_Prsent {
+        font-size: 15px!important;
+        margin: 0%!important;
+        padding: 0%!important;
     }
     
     /*······························*/
@@ -556,31 +612,51 @@ footer {
     /*------ BOXES CONDIMENTOS ------- */
     #box_condimentos {
         margin-bottom: 5%;
+        margin-top: 30px;
+        padding-left: 0px!important;
+        padding-right: 0px!important;
         height: auto;
         width: 100%;
     }
-    #boxbaseCond1 {
-        height: auto;
-        width: 100%;
-        margin-bottom: 50px;
+    
+    .cond0 {
+        height: 250px;
     }
-    #boxbaseCond2 {
-        height: auto;
-        width: 100%;
-    }
-    #boxbaseCond3, #boxbaseCond4 {
+    .cond2, .cond3, .cond4 {
         display: none;
     }
-    .condboximg {
-        width: 80%;
-        height: auto;
-        margin-left: 10%;
-        margin-top: 27.5px;
-        box-shadow: rgb(195, 194, 194) 1px 1px 15px 10px;
+    .cond_imgs {
+        height: 130px;
+        width: auto;
     }
-    .condimg {
-        width: 100%;
-        height: auto;
+    .fig_conds {
+        text-align: center;
+        margin: 0%!important;
+    }
+    .figc_conds {
+        padding-top: 25px;
+    }
+    #fig1_conds {
+        margin-left: 40px;
+    }
+    #fig2_conds {
+        margin-right: 40px;
+    }
+    .link_conds {
+        font-family: "Popins", sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        color: black;
+        text-decoration: none!important;
+    }
+    .price_conds {
+        font-family: "Popins", sans-serif;
+        font-size: 15px;
+    }
+    .cond_control_btns {
+        width: 18%!important;
+        height: 120px;
+        color: gray!important;
     }
     /*···················*/
     /*   BOX NOSOTROS    */
@@ -743,8 +819,8 @@ footer {
         color: black;
         text-align: center;
         font-weight: 500;
-        padding-right: 50px;
-        padding-left: 50px;
+        padding-right: 35px;
+        padding-left: 35px;
     }
     .nav-item > a {
         font-size: 14px;
@@ -762,15 +838,24 @@ footer {
     /*     CONTENIDO DE INICIO      */
     /*······························*/
     
-    .carousel-caption {
-        display: block!important;
-        color: black!important;
-        bottom: 30%!important;
+    .rextor {
+        position: absolute;
+        top: 35%;
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+        transform: translate(-50%, -50%);
+        text-align: center;
     }
     
-    .carousel-caption > h2 {
-        font-size: 60px;
-        font-weight: 500;
+    .titls_Prsent  {
+        font-size: 45px!important;
+        padding: 0%!important;
+    }
+    .texts_Prsent {
+        font-size: 25px!important;
+        margin: 0%!important;
+        padding: 0%!important;
     }
     
     /*······························*/
@@ -839,30 +924,50 @@ footer {
     /*------ BOXES CONDIMENTOS ------- */
     #box_condimentos {
         margin-bottom: 5%;
+        margin-top: 30px;
+        padding-left: 0px!important;
+        padding-right: 0px!important;
         height: auto;
         width: 100%;
     }
-    #boxbaseCond1 {
-        height: auto;
-        width: 100%;
+    
+    .cond0 {
+        height: 250px;
     }
-    #boxbaseCond2 {
-        height: auto;
-        width: 100%;
-    }
-    #boxbaseCond3, #boxbaseCond4 {
+    .cond2, .cond3, .cond4 {
         display: none;
     }
-    .condboximg {
-        width: 80%;
-        height: auto;
-        margin-left: 10%;
-        margin-top: 27.5px;
-        box-shadow: rgb(195, 194, 194) 1px 1px 15px 10px;
+    .cond_imgs {
+        height: 130px;
+        width: auto;
     }
-    .condimg {
-        width: 100%;
-        height: auto;
+    .fig_conds {
+        text-align: center;
+    }
+    .figc_conds {
+        padding-top: 25px;
+    }
+    #fig1_conds {
+        margin-left: 40px;
+    }
+    #fig2_conds {
+        margin-right: 40px;
+    }
+    .link_conds {
+        font-family: "Popins", sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        color: black;
+        text-decoration: none!important;
+    }
+    .price_conds {
+        font-family: "Popins", sans-serif;
+        font-size: 15px;
+    }
+    .cond_control_btns {
+        width: 18%!important;
+        height: 120px;
+        color: gray!important;
     }
     /*···················*/
     /*   BOX NOSOTROS    */
@@ -1046,9 +1151,26 @@ footer {
     width: 50%!important;
 }
 
-.carousel-caption {
-    bottom: 30%!important;
+.rextor {
+    position: absolute;
+    top: 35%;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
+
+.titls_Prsent  {
+    font-size: 60px!important;
+    padding: 0%!important;
+}
+.texts_Prsent {
+    font-size: 30px!important;
+    margin: 0%!important;
+    padding: 0%!important;
+}
+
 /*······························*/
 /*     HIERBAS INFORMATION      */
 /*              &               */
@@ -1115,34 +1237,50 @@ footer {
 /*------ BOXES CONDIMENTOS ------- */
 #box_condimentos {
     margin-bottom: 5%;
+    margin-top: 30px;
+    padding-left: 0px!important;
+    padding-right: 0px!important;
     height: auto;
     width: 100%;
 }
-#boxbaseCond1 {
-    height: auto;
-    width: 100%;
+
+.cond0 {
+    height: 250px;
 }
-#boxbaseCond2 {
-    height: auto;
-    width: 100%;
-    border-right: none;
-}
-#boxbaseCond3, #boxbaseCond4 {
+.cond3, .cond4 {
     display: none;
 }
-.line {
-    border-right: rgb(194, 194, 194) 1px solid;
+.cond_imgs {
+    height: 130px;
+    width: auto;
 }
-.condboximg {
-    width: 80%;
-    height: auto;
-    margin-left: 10%;
-    margin-top: 27.5px;
-    box-shadow: rgb(195, 194, 194) 1px 1px 15px 10px;
+.fig_conds {
+    text-align: center;
 }
-.condimg {
-    width: 100%;
-    height: auto;
+.figc_conds {
+    padding-top: 25px;
+}
+#fig1_conds {
+    margin-left: 40px;
+}
+#fig2_conds {
+    margin-right: 40px;
+}
+.link_conds {
+    font-family: "Popins", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none!important;
+}
+.price_conds {
+    font-family: "Popins", sans-serif;
+    font-size: 15px;
+}
+.cond_control_btns {
+    width: 8%!important;
+    height: 120px;
+    color: gray!important;
 }
 /*···················*/
 /*   BOX NOSOTROS    */
@@ -1303,7 +1441,7 @@ footer {
     #cont-menu-logo {
         margin-left: 50px;
     }
-
+    
     .nav-item {
         padding-left: 50px;
     }
@@ -1311,10 +1449,31 @@ footer {
         padding-left: 0%!important;
         padding-right: 0%!important;
     }
+    .form-control {
+        width: 170px!important;
+    }
     /*······························*/
     /*     CONTENIDO DE INICIO      */
     /*······························*/
+    .rextor {
+        position: absolute;
+        top: 35%;
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
     
+    .titls_Prsent  {
+        font-size: 70px!important;
+        padding: 0%!important;
+    }
+    .texts_Prsent {
+        font-size: 30px!important;
+        margin: 0%!important;
+        padding: 0%!important;
+    }
     
     
     /*······························*/
@@ -1384,37 +1543,53 @@ footer {
     /*------ BOXES ------- */
     #box_condimentos {
         margin-bottom: 5%;
+        margin-top: 30px;
+        padding-left: 0px!important;
+        padding-right: 0px!important;
         height: auto;
         width: 100%;
     }
-    #boxbaseCond1 {
-        height: auto;
-        width: 100%;
+
+    .cond0 {
+        height: 250px;
     }
-    #boxbaseCond2 {
-        height: auto;
-        width: 100%;
-    }
-    #boxbaseCond3 {
-        height: auto;
-        width: 100%;
-    }
-    #boxbaseCond4 {
+    .cond4 {
         display: none;
     }
-    .line {
-        border-right: rgb(194, 194, 194) 1px solid;
+    .cond_imgs {
+        height: 130px;
+        width: auto;
     }
-    .condboximg {
-        width: 80%;
-        height: auto;
-        margin-left: 10%;
-        margin-top: 27.5px;
-        box-shadow: rgb(195, 194, 194) 1px 1px 15px 10px;
+    .fig_conds {
+        text-align: center;
     }
-    .condimg {
-        width: 100%;
-        height: auto;
+    .figc_conds {
+        padding-top: 25px;
+    }
+    #fig1_conds {
+        margin-left: 40px;
+    }
+    #fig2_conds {
+        margin-left: 10px;
+    }
+    #fig3_conds {
+        margin-right: 10px;
+    }
+    .link_conds {
+        font-family: "Popins", sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        color: black;
+        text-decoration: none!important;
+    }
+    .price_conds {
+        font-family: "Popins", sans-serif;
+        font-size: 15px;
+    }
+    .cond_control_btns {
+        width: 3%!important;
+        height: 120px;
+        color: gray!important;
     }
     /*···················*/
     /*   BOX NOSOTROS    */
@@ -1576,8 +1751,24 @@ footer {
     /*······························*/
     /*     CONTENIDO DE INICIO      */
     /*······························*/
+    .rextor {
+        position: absolute;
+        top: 35%;
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
     
-    
+    .titls_Prsent  {
+        font-size: 70px;
+    }
+    .texts_Prsent {
+        font-size: 30px;
+        margin: 0%!important;
+        padding: 0%!important;
+    }
     
     /*······························*/
     /*     HIERBAS INFORMATION      */
@@ -1594,12 +1785,6 @@ footer {
     #carousel_Herbs_Sectiom {
         height: 390px;
         width: 100%;
-    }
-    
-    .carousel-item > div > h2 {
-        text-align: center;
-        font-size: 20px;
-        padding-top: 15%;
     }
     
     /*================*/
@@ -1644,6 +1829,10 @@ footer {
     #boxfig4 {
         margin-right: 40px;
     }
+    .linkProducts {
+        font-family: "Popins", sans-serif;
+        font-size: 18px;
+    }
     .cont-figures > figcaption {
         padding-top: 15px;
     }
@@ -1658,37 +1847,52 @@ footer {
     #box_condimentos {
         margin-bottom: 5%;
         margin-top: 30px;
+        padding-left: 0px!important;
+        padding-right: 0px!important;
         height: auto;
         width: 100%;
     }
-    #boxbaseCond1 {
-        height: auto;
-        width: 100%;
+
+    .cond0 {
+        height: 250px;
     }
-    #boxbaseCond2 {
-        height: auto;
-        width: 100%;
+    .cond_imgs {
+        height: 120px;
+        width: auto;
     }
-    #boxbaseCond3 {
-        height: auto;
-        width: 100%;
+    .fig_conds {
+        text-align: center;
     }
-    #boxbaseCond4 {
-        height: auto;
-        width: 100%;
+    .figc_conds {
+        padding-top: 25px;
     }
-    .line {
-        border-right: rgb(194, 194, 194) 1px solid;
+    #fig1_conds {
+        margin-left: 40px;
     }
-    .condboximg {
-        width: 80%;
-        height: auto;
-        margin-left: 10%;
-        box-shadow: rgb(195, 194, 194) 1px 1px 15px 10px;
+    #fig2_conds {
+        margin-left: 10px;
     }
-    .condimg {
-        width: 100%;
-        height: auto;
+    #fig3_conds {
+        margin-right: 10px;
+    }
+    #fig4_conds {
+        margin-right: 40px;
+    }
+    .link_conds {
+        font-family: "Popins", sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        color: black;
+        text-decoration: none!important;
+    }
+    .price_conds {
+        font-family: "Popins", sans-serif;
+        font-size: 15px;
+    }
+    .cond_control_btns {
+        width: 3%!important;
+        height: 120px;
+        color: gray!important;
     }
     /*···················*/
     /*   BOX NOSOTROS    */
@@ -1845,7 +2049,11 @@ footer {
     /*······························*/
     /*     CONTENIDO DE INICIO      */
     /*······························*/
-    
+    .rextor {
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
     
     
     /*······························*/
@@ -1864,51 +2072,8 @@ footer {
         height: 390px;
         width: 100%;
     }
-    
-    .carousel-item > div > h2 {
-        text-align: center;
-        font-size: 20px;
-        padding-top: 12%;
-    }
 
 
-    /*······························*/
-    /*------ BOXES CONDIMENTOS ------- */
-    #box_condimentos {
-        margin-bottom: 5%;
-        margin-top: 30px;
-        height: auto;
-        width: 100%;
-    }
-    #boxbaseCond1 {
-        height: auto;
-        width: 100%;
-    }
-    #boxbaseCond2 {
-        height: auto;
-        width: 100%;
-    }
-    #boxbaseCond3 {
-        height: auto;
-        width: 100%;
-    }
-    #boxbaseCond4 {
-        height: auto;
-        width: 100%;
-    }
-    .line {
-        border-right: rgb(194, 194, 194) 1px solid;
-    }
-    .condboximg {
-        width: 80%;
-        height: auto;
-        margin-left: 10%;
-        box-shadow: rgb(195, 194, 194) 1px 1px 15px 10px;
-    }
-    .condimg {
-        width: 100%;
-        height: auto;
-    }
     /*···················*/
     /*   BOX NOSOTROS    */
     /*···················*/
@@ -2064,6 +2229,11 @@ footer {
     /*······························*/
     /*     CONTENIDO DE INICIO      */
     /*······························*/
+    .rextor {
+        width: 45%;
+        margin-left: 27.5%;
+        margin-right: 27.5%;
+    }
     
     
     
@@ -2084,11 +2254,6 @@ footer {
         width: 100%;
     }
     
-    .carousel-item > div > h2 {
-        text-align: center;
-        font-size: 20px;
-        padding-top: 12%;
-    }
 
     .box1 {
         padding-right: 0px!important;
@@ -2114,42 +2279,12 @@ footer {
     #boxfig4 {
         margin-right: 70px;
     }
-    /*······························*/
-    /*------ BOXES CONDIMENTOS ------- */
-    #box_condimentos {
-        margin-bottom: 5%;
-        margin-top: 30px;
-        height: auto;
-        width: 100%;
+
+    .cond_imgs {
+        height: 170px;
     }
-    #boxbaseCond1 {
-        height: auto;
-        width: 100%;
-    }
-    #boxbaseCond2 {
-        height: auto;
-        width: 100%;
-    }
-    #boxbaseCond3 {
-        height: auto;
-        width: 100%;
-    }
-    #boxbaseCond4 {
-        height: auto;
-        width: 100%;
-    }    
-    .line {
-        border-right: rgb(194, 194, 194) 1px solid;
-    }
-    .condboximg {
-        width: 80%;
-        height: auto;
-        margin-left: 10%;
-        box-shadow: rgb(195, 194, 194) 1px 1px 15px 10px;
-    }
-    .condimg {
-        width: 100%;
-        height: auto;
+    .cond_control_btns {
+        height: 170px;
     }
     /*···················*/
     /*   BOX NOSOTROS    */
@@ -2313,7 +2448,14 @@ footer {
     /*······························*/
     /*     CONTENIDO DE INICIO      */
     /*······························*/
-
+    .titls_Prsent  {
+        font-size: 80px;
+    }
+    .texts_Prsent {
+        font-size: 30px;
+        margin: 0%!important;
+        padding: 0%!important;
+    }
     
     
     /*······························*/
@@ -2327,18 +2469,10 @@ footer {
         height: 390px;
         width: 100%;
     }
-
     #carousel_Herbs_Sectiom {
         height: 390px;
         width: 100%;
     }
-
-    .carousel-item > div > h2 {
-        text-align: center;
-        font-size: 50px;
-        padding-top: 9%;
-    }
-
     .box1 {
         padding-right: 0px!important;
     }
@@ -2363,43 +2497,7 @@ footer {
     #boxfig4 {
         margin-right: 90px;
     }
-    /*······························*/
-    /*------ BOXES CONDIMENTOS ------- */
-    #box_condimentos {
-        margin-bottom: 5%;
-        height: auto;
-        width: 100%;
-        margin-top: 70px;
-    }
-    #boxbaseCond1 {
-        height: auto;
-        width: 99%;
-    }
-    #boxbaseCond2 {
-        height: auto;
-        width: 99%;
-    }
-    #boxbaseCond3 {
-        height: auto;
-        width: 99%;
-    }
-    #boxbaseCond4 {
-        height: auto;
-        width: 99%;
-    }
-    .line {
-        border-right: rgb(194, 194, 194) 1px solid;
-    }
-    .condboximg {
-        width: 80%;
-        height: auto;
-        margin-left: 10%;
-        box-shadow: rgb(195, 194, 194) 1px 1px 15px 10px;
-    }
-    .condimg {
-        width: 100%;
-        height: auto;
-    }
+
     /*···················*/
     /*   BOX NOSOTROS    */
     /*···················*/

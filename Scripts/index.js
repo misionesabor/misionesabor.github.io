@@ -1,11 +1,19 @@
 //=============================================================================//
 //============================ CAROUSEL SETTINGS ==============================//
+/*······························*/
+/*     CONTENIDO DE INICIO      */
+/*······························*/
 $(function(){
     $("#carousel1").carousel({
-         pause: "false",
+         pause: "true",
          interval: 12000
     });
 });
+function pageload (){
+    var eventCapt = document.getElementById("rexload");
+    eventCapt.style.display = "block";
+    eventCapt.style.opacity = "1";
+};
 
 //===========================================//
 $(function(){
@@ -28,7 +36,14 @@ $(function(){
          interval: 9000
     });
 });
-
+$(function(){
+    $('#carousel-products-cond').carousel({
+        pause: "true"
+    });
+});
 //===========================================//
+$(function (){
+    new WOW().init();
+});
 //=============================================================================//
 //=============================================================================//
