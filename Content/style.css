@@ -130,7 +130,7 @@ a {
     display: none;
     transition-property: opacity;
     transition-duration: 0.5ms;
-    transition-delay: 0.5ms;
+    transition-delay: 0.1ms;
     opacity: 0;
 }
 .text_clor {
