@@ -18,7 +18,7 @@ function pageload (){
 //===========================================//
 $(function(){
     $("#carousel_Herbs_Sectiom").carousel({
-         pause: "false",
+         pause: "true",
          interval: 9000
     });
 });
