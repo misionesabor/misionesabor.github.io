@@ -18,8 +18,8 @@ function pageload (){
 //===========================================//
 $(function(){
     $("#carousel_Herbs_Sectiom").carousel({
-         pause: "true",
-         interval: 9000
+         pause: "false",
+         interval: 5000 * 100
     });
 });
 $(function(){
