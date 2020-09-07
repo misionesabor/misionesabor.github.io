@@ -18,8 +18,7 @@ function pageload (){
 //===========================================//
 $(function(){
     $("#carousel_Herbs_Sectiom").carousel({
-         pause: "false",
-         interval: 5000 * 100
+         pause: "false"
     });
 });
 $(function(){
@@ -32,8 +31,7 @@ $(function(){
 //===========================================//
 $(function(){
     $("#carousel_condiment_Sectiom").carousel({
-         pause: "false",
-         interval: 9000
+         pause: "false"
     });
 });
 $(function(){
