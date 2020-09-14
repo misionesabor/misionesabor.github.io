@@ -150,7 +150,6 @@ a {
 h1 {
     font-size: 25px;
     padding: 100px;
-    background-color: rgb(255, 0, 0);
 }
 /* ===================== */
 /* CARROUSEL HERB BOXES */
@@ -411,16 +410,17 @@ main {
 /*   BOX NOSOTROS    */
 /*···················*/
 #box_about {
-    height: auto;
+    height: 350px;
     width: 100%;
     margin-bottom: 5%;
     padding-bottom: 50px;
+    background-size: cover;
     box-shadow: rgb(209, 209, 209) 1px 1px 20px 5px;
 }
 #logo_contain {
     height: auto;
     width: 100%;
-    top: 10px;
+    top: 80px;
 }
 #imgLogo {
     height: auto;
@@ -433,8 +433,8 @@ main {
     height: auto;
 }
 #mslogo {
-    width: 100%;
-    height: auto;
+    width: 168px;
+    height: 116px;
 }
 #titleAbout, #pxta1, #pxta2 {
     display: none;
@@ -443,6 +443,9 @@ main {
     display: block;
     text-align: center;
     font-size: 15px;
+    padding-top: 10px;
+    margin-left: 15px;
+    margin-right: 10px;
 }
 /*···················*/
 /*   BOX NETWORK     */
@@ -475,7 +478,7 @@ main {
 }
 #titleBoxReg {
     font-family: sans-serif;
-    font-size: 11px;
+    font-size: 12px;
     color: black;
 }
 #formInput {
@@ -741,16 +744,17 @@ footer {
     /*···················*/
     #box_about {
         padding-bottom: 50px;
-        height: auto;
+        height: 300px;
         width: 100%;
         margin-bottom: 5%;
         margin-top: 10%;
+        background-size: cover;
         box-shadow: rgb(209, 209, 209) 1px 1px 20px 5px;
     }
     #logo_contain {
         height: auto;
         width: 100%;
-        top: 10px;
+        top: 60px;
     }
     #imgLogo {
         height: auto;
@@ -763,8 +767,8 @@ footer {
         height: auto;
     }
     #mslogo {
-        width: 100%;
-        height: auto;
+        width: 168px;
+        height: 116px;
     }
     #titleAbout, #pxta1, #pxta2 {
         display: none;
@@ -1093,17 +1097,18 @@ footer {
     /*   BOX NOSOTROS    */
     /*···················*/
     #box_about {
-        height: auto;
+        height: 400px;
         padding-bottom: 50px;
         width: 100%;
         margin-top: 5%;
         margin-bottom: 5%;
+        background-size: cover;
         box-shadow: rgb(209, 209, 209) 1px 1px 20px 5px;
     }
     #logo_contain {
         height: auto;
         width: 100%;
-        top: 10px;
+        top: 75px;
     }
     #imgLogo {
         height: auto;
@@ -1116,8 +1121,8 @@ footer {
         height: auto;
     }
     #mslogo {
-        width: 100%;
-        height: auto;
+        width: 236px;
+        height: 163px;
     }
     #titleAbout, #pxta1, #pxta2 {
         display: none;
@@ -1442,6 +1447,7 @@ footer {
 /*···················*/
 #box_about {
     background-color: rgb(255, 255, 255);
+    background-size: cover;
     height: 340px;
     width: 100%;
     margin-bottom: 5%;
@@ -1451,22 +1457,24 @@ footer {
     height: 320px;
     width: 90%;
     margin-left: 5%;
-    top: 10px;
+    top: 40px;
 }
 #imgLogo {
     height: auto;
     top: 33.5px;
+    left: 30px;
     padding: 0px;
+    text-align: center;
     float: left;
 }
 #mslogo {
-    width: 100%;
-    height: auto;
+    width: 234px;
+    height: 162px;
 }
 #imgLgText {
     height: 300px;
     float: left;
-    top: 10px;
+    top: -20px;
     text-align: center;
     padding-top: 7%;
 }
@@ -1797,49 +1805,54 @@ footer {
     /*···················*/
     #box_about {
         background-color: rgb(255, 255, 255);
-        height: 380px;
+        height: 340px;
         width: 100%;
         margin-bottom: 5%;
+        background-size: cover;
         box-shadow: rgb(209, 209, 209) 1px 1px 20px 5px;
     }
     #logo_contain {
         height: 320px;
         width: 90%;
         margin-left: 5%;
-        top: 10px;
+        top: 40px;
     }
     #imgLogo {
         height: auto;
         top: 33.5px;
+        left: 15px;
         padding: 0px;
         float: left;
+        text-align: center;
     }
     #mslogo {
-        width: 100%;
-        height: auto;
+        width: 234px;
+        height: 162px;
+        position: relative;
+        top: 20px;
     }
     #imgLgText {
         height: 300px;
         float: left;
-        top: 10px;
+        top: -20px;
         text-align: center;
         padding-top: 7%;
     }
     #titleAbout {
         color: black;
-        font-size: 30px;
+        font-size: 25px;
         font-family: sans-serif;
         font-weight: bold;
         font-style: italic;
     }
     .pxta {
         font-family: sans-serif;
-        font-size: 19px;
+        font-size: 17px;
     }
     #pxta1 {
         width: 100%;
-        height: 100px;
-        margin-top: 20px;
+        height: auto;
+        margin-top: 5px;
     }
     #pxta2 {
         display: none;
@@ -2086,7 +2099,7 @@ footer {
     /*------ BOXES CONDIMENTOS ------- */
     #box_condimentos {
         margin-bottom: 5%;
-        margin-top: 30px;
+        margin-top: 100px;
         padding-left: 0px!important;
         padding-right: 0px!important;
         height: auto;
@@ -2139,6 +2152,7 @@ footer {
     /*···················*/
     #box_about {
         background-color: rgb(255, 255, 255);
+        background-size: cover;
         height: 400px;
         width: 100%;
         margin-bottom: 5%;
@@ -2147,7 +2161,7 @@ footer {
     #logo_contain {
         height: 380px;
         width: 100%;
-        top: 10px;
+        top: 50px;
     }
     #imgLogo {
         width: 100%;
@@ -2162,36 +2176,46 @@ footer {
         text-align: center;
     }
     #mslogo {
-        width: 443px;
-        height: 316px;
+        width: 234px;
+        height: 162px;
+        position: relative;
+        top: 30px;
+        left: 50px;
     }
     #imgLgText {
         height: 300px;
         float: left;
-        top: 30px;
+        top: 40px;
+        text-align: justify;
+    }
+    #cont-titleAbout {
         text-align: center;
-        padding-top: 3%;
     }
     #titleAbout {
-        font-size: 25px;
+        font-size: 20px;
         font-family: sans-serif;
         font-weight: bold;
-        font-style: italic;
+        font-style: normal;
         color: black;
     }
     .pxta {
         font-family: sans-serif;
-        font-size: 17px;
+        font-size: 15px;
         margin-left: 5%;
-        margin-right: 5%;       
-        width: 90%;
-        height: 70px;
+        margin-right: 5%;      
+        width: auto;
+        height: auto;
     }
     #pxta1 {
         margin-top: 20px;
     }
     #pxta2 {
         margin-top: 5px;
+    }
+    #pxta3 {
+        font-family: sans-serif;
+        font-size: 17px;
+        text-align: center;
     }
     /*···················*/
     /*   BOX NETWORK     */
@@ -2360,17 +2384,19 @@ footer {
         height: 400px;
         width: 100%;
         margin-bottom: 5%;
+        background-size: cover;
         box-shadow: rgb(209, 209, 209) 1px 1px 20px 5px;
     }
     #logo_contain {
         height: 380px;
         width: 100%;
-        top: 10px;
+        top: 80px;
     }
     #imgLogo {
         width: 100%;
         height: 316px;
-        top: 33.5px;
+        top: 0px;
+        left: 50px;
         padding: 0px;
         float: left;
     }
@@ -2380,36 +2406,46 @@ footer {
         text-align: center;
     }
     #mslogo {
-        width: 443px;
-        height: 316px;
+        width: 341px;
+        height: 236px;
+        position: relative;
+        left: 20px;
+        top: 10px;
     }
     #imgLgText {
         height: 300px;
         float: left;
-        top: 30px;
+        top: 20px;
+        text-align: justify;
+    }
+    #cont-titleAbout {
         text-align: center;
-        padding-top: 3%;
     }
     #titleAbout {
-        font-size: 25px;
+        font-size: 20px;
         font-family: sans-serif;
         font-weight: bold;
-        font-style: italic;
+        font-style: normal;
         color: black;
     }
     .pxta {
         font-family: sans-serif;
         font-size: 17px;
-        margin-left: 5%;
+        margin-left: 10%;
         margin-right: 5%;       
-        width: 90%;
-        height: 70px;
+        width: auto;
+        height: auto;
     }
     #pxta1 {
         margin-top: 20px;
     }
     #pxta2 {
         margin-top: 5px;
+    }
+    #pxta3 {
+        font-family: sans-serif;
+        font-size: 17px;
+        text-align: center;
     }
     /*···················*/
     /*   BOX NETWORK     */
@@ -2609,15 +2645,16 @@ footer {
     /*···················*/
     #box_about {
         background-color: rgb(255, 255, 255);
-        height: 400px;
+        height: 550px;
         width: 100%;
         margin-bottom: 5%;
+        background-size: cover;
         box-shadow: rgb(209, 209, 209) 1px 1px 20px 5px;
     }
     #logo_contain {
         height: 380px;
         width: 100%;
-        top: 10px;
+        top: 80px;
     }
     #imgLogo {
         width: 100%;
@@ -2637,26 +2674,29 @@ footer {
         height: 316px;
     }
     #imgLgText {
-        height: 316px;
+        height: 250px;
         float: left;
-        top: 33.5px;
+        margin-top: 40px;
+        text-align: left;
+    }
+    #cont-titleAbout {
         text-align: center;
     }
     #titleAbout {
         font-size: 25px;
         font-family: sans-serif;
         font-weight: bold;
-        font-style: italic;
+        font-style: normal;
         margin-right: 20%;
         color: black;
     }
     .pxta {
         font-family: sans-serif;
-        font-size: 17px;
+        font-size: 19px;
         margin-left: 5%;
-        margin-right: 5%;       
-        width: 70%;
-        height: 70px;
+        margin-right: 15%;       
+        width: auto;
+        height: auto;
     }
     #pxta1 {
         margin-top: 20px;
@@ -2666,6 +2706,9 @@ footer {
     }
     #pxta3 {
         margin-right: 20%;
+        font-family: sans-serif;
+        font-size: 17px;
+        text-align: center;
     }
     /*···················*/
     /*   BOX NETWORK     */
@@ -2862,15 +2905,16 @@ footer {
     /*···················*/
     #box_about {
         background-color: rgb(255, 255, 255);
-        height: 420px;
+        height: 550px;
         width: 100%;
         margin-bottom: 5%;
         box-shadow: rgb(209, 209, 209) 1px 1px 20px 5px;
+        background-size: cover;
     }
     #logo_contain {
         height: 380px;
         width: 100%;
-        top: 10px;
+        top: 80px;
     }
     #imgLogo {
         width: 100%;
@@ -2892,11 +2936,14 @@ footer {
     #imgLgText {
         height: 316px;
         float: left;
-        top: 33.5px;
+        top: 10px!important;
+        text-align: left;
+    }
+    #cont-titleAbout {
         text-align: center;
     }
     #titleAbout {
-        font-size: 25px;
+        font-size: 28px;
         font-family: sans-serif;
         font-weight: bold;
         font-style: italic;
@@ -2905,9 +2952,8 @@ footer {
     }
     .pxta {
         font-family: sans-serif;
-        font-size: 17px;
-        margin-left: 5%;
-        margin-right: 5%;       
+        font-size: 20px;  
+        margin-left: 10%;
         width: 70%;
         height: 70px;
     }
