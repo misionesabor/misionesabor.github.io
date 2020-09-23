@@ -516,10 +516,10 @@ footer {
     background-color: rgb(22, 19, 19);
     text-align: center;
 }
-#textfoot_1 {
+.textfoot_1 {
     position: relative;
     top: 8px;
-    font-size: 12px;
+    font-size: 20px;
     color: white;
 }
 
@@ -850,10 +850,10 @@ footer {
     background-color: rgb(22, 19, 19);
     text-align: center;
 }
-#textfoot_1 {
+.textfoot_1 {
     position: relative;
     top: 8px;
-    font-size: 12px;
+    font-size: 20px;
     color: white;
 }
 }
@@ -1204,7 +1204,7 @@ footer {
     background-color: rgb(22, 19, 19);
     text-align: center;
 }
-#textfoot_1 {
+.textfoot_1 {
     position: relative;
     top: 8px;
     font-size: 12px;
@@ -1573,7 +1573,7 @@ footer {
     background-color: rgb(22, 19, 19);
     text-align: center;
 }
-#textfoot_1 {
+.textfoot_1 {
     position: relative;
     top: 8px;
     font-size: 12px;
@@ -1929,7 +1929,7 @@ footer {
     background-color: rgb(22, 19, 19);
     text-align: center;
 }
-#textfoot_1 {
+.textfoot_1 {
     position: relative;
     top: 8px;
     font-size: 12px;
@@ -2289,7 +2289,7 @@ footer {
     background-color: rgb(22, 19, 19);
     text-align: center;
 }
-#textfoot_1 {
+.textfoot_1 {
     position: relative;
     top: 8px;
     font-size: 12px;
@@ -2519,7 +2519,7 @@ footer {
     background-color: rgb(22, 19, 19);
     text-align: center;
 }
-#textfoot_1 {
+.textfoot_1 {
     position: relative;
     top: 8px;
     font-size: 12px;
@@ -2782,7 +2782,7 @@ footer {
     background-color: rgb(22, 19, 19);
     text-align: center;
 }
-#textfoot_1 {
+.textfoot_1 {
     position: relative;
     top: 8px;
     font-size: 12px;
@@ -3038,7 +3038,7 @@ footer {
     background-color: rgb(22, 19, 19);
     text-align: center;
 }
-#textfoot_1 {
+.textfoot_1 {
     position: relative;
     top: 8px;
     font-size: 12px;
