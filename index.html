@@ -445,6 +445,15 @@
         </div>
     </footer>
 
+    <script>
+        document.body.classNmae += " js-loading";
+        window.addEventListener("load", showPage, false);
+
+        function showPage () {
+            document.body.className = document.body.className.replace("js-loading", "");
+        }
+    </script>
+
     <script src="./Scripts/jquery-3.5.1.min.js"></script>
     <script src="./Scripts/bootstrap.min.js"></script>
     <script src="./Scripts/wow.min.js"></script>
