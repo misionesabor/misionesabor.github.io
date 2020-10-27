@@ -6,6 +6,11 @@
 body {
     height: 0%;
 }
+main {
+    height: 1000px;
+    width: 100%;
+}
+
 
 footer {
     width: 100%;
@@ -34,16 +39,14 @@ header {
 /*=====================*/
 /*        MAIN         */
 /*=====================*/
-main {
-    height: auto;
-    width: 100%;
-    /* background-color: red; */
-}
 a {
     text-decoration: none!important;
 }
 .cont-link-text:hover {
-    border: solid 3px rgb(255, 255, 255);
+    color: white;
+}
+.sword {
+    color: green;
 }
 /*===================================================*/
 /*            XS EXTRA SMALL SCREEN PHONES           */
@@ -62,7 +65,7 @@ a {
 .cont-products > h1 {
     color: black;
     margin-top: 20px!important;
-    font-size: 20 px;
+    font-size: 30px;
     font-weight: bolder;
     padding-top: 20px;
     padding-right: 0%;
@@ -72,11 +75,11 @@ a {
 }
 .cont-products > p {
     color: black;
-    width: 100%;
-    padding-left: 20px;
+    width: 90%;
     padding-bottom: 20px;
-    margin: 0%!important;
-    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
 }
 
 .cont-list-products {
@@ -91,18 +94,51 @@ a {
 .li-productlink {
     list-style: none;
 }
+#herbal-img {
+    background-image: url(./images/ProductsLogo/Herbals/hierbas-aromaticas.jpg);
+}
+#condiments-img {
+    background-image: url(./images/ProductsLogo/Condiments/Condimentos\(Original\).jpg);
+}
+#spices-img {
+    background-image: url(./images/ProductsLogo/Spices/spices.jpeg);
+}
+#seed-img {
+    background-image: url(./images/ProductsLogo/seeds/seeds.jpg);
+}
+#grane-img {
+    background-image: url(./images/ProductsLogo/granes/granes.jpg);
+}
+#yerbal-img {
+    background-image: url(./images/ProductsLogo/YerbaMate/Yerba-mate.jpg);
+}
 .cont-link-text {
-    height: 80px;
+    height: 100px;
     width: 90%;
     margin-left: 5%;
     background-color: rgb(47, 126, 50);
     margin-top: 20px;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.cont-link-text > h2 {
-    font-size: 15px;
-    padding-left: 20px;
-    padding-top: 30px;
+
+.shadbox {
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.453);
+}
+.shadbox > h2 {
+    font-size: 20px;
+    padding-left: 50px;
+    position: relative;
+    top: 40px;
     text-decoration: none;
+}
+.shadbox:hover {
+    box-shadow: 15px 15px 20px #b1620f;
+    transition-duration: 5s;
 }
 
 
@@ -177,19 +213,52 @@ main {
 .li-productlink {
     list-style: none;
 }
+#herbal-img {
+    background-image: url(./images/ProductsLogo/Herbals/hierbas-aromaticas.jpg);
+}
+#condiments-img {
+    background-image: url(./images/ProductsLogo/Condiments/Condimentos\(Original\).jpg);
+}
+#spices-img {
+    background-image: url(./images/ProductsLogo/Spices/spices.jpeg);
+}
+#seed-img {
+    background-image: url(./images/ProductsLogo/seeds/seeds.jpg);
+}
+#grane-img {
+    background-image: url(./images/ProductsLogo/granes/granes.jpg);
+}
+#yerbal-img {
+    background-image: url(./images/ProductsLogo/YerbaMate/Yerba-mate.jpg);
+}
 .cont-link-text {
-    height: 130px;
+    height: 150px;
     width: 40%;
     margin-left: 6.5%;
     background-color: rgb(47, 126, 50);
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
     float: left;
     text-align: center;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.cont-link-text > h2 {
-    font-size: 15px;
-    padding-top: 55px;
+.shadbox {
+    height: 150px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.453);
+}
+.shadbox > h2 {
+    font-size: 20px;
+    position: relative;
+    top: 65px;
     text-decoration: none;
+}
+.shadbox:hover {
+    box-shadow: 15px 15px 20px #b1620f;
+    transition-duration: 5s;
 }
 }
 /*===================================================*/
@@ -239,19 +308,52 @@ main {
     .li-productlink {
         list-style: none;
     }
+    #herbal-img {
+        background-image: url(./images/ProductsLogo/Herbals/hierbas-aromaticas.jpg);
+    }
+    #condiments-img {
+        background-image: url(./images/ProductsLogo/Condiments/Condimentos\(Original\).jpg);
+    }
+    #spices-img {
+        background-image: url(./images/ProductsLogo/Spices/spices.jpeg);
+    }
+    #seed-img {
+        background-image: url(./images/ProductsLogo/seeds/seeds.jpg);
+    }
+    #grane-img {
+        background-image: url(./images/ProductsLogo/granes/granes.jpg);
+    }
+    #yerbal-img {
+        background-image: url(./images/ProductsLogo/YerbaMate/Yerba-mate.jpg);
+    }
     .cont-link-text {
-        height: 130px;
+        height: 150px;
         width: 40%;
         margin-left: 6.5%;
         background-color: rgb(47, 126, 50);
-        margin-top: 30px;
+        margin-top: 20px;
+        margin-bottom: 30px;
         float: left;
         text-align: center;
+        border-radius: 10px;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
-    .cont-link-text > h2 {
-        font-size: 15px;
-        padding-top: 55px;
+    .shadbox {
+        height: 150px;
+        width: 100%;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.453);
+    }
+    .shadbox > h2 {
+        font-size: 20px;
+        position: relative;
+        top: 65px;
         text-decoration: none;
+    }
+    .shadbox:hover {
+        box-shadow: 15px 15px 20px #b1620f;
+        transition-duration: 5s;
     }
 }
 /*===================================================*/
@@ -262,7 +364,7 @@ main {
 /*===================================================*/
 @media (min-width: 992px) and (max-width: 1199px){
     main {
-        height: 700px;
+        height: 800px;
         margin-top: 10%;
     }
     .cont-products {
@@ -273,7 +375,7 @@ main {
     .cont-products > h1 {
         color: black;
         margin-top: 20px!important;
-        font-size: 20 px;
+        font-size: 30px;
         font-weight: bolder;
         padding-top: 20px;
         padding-right: 0%;
@@ -283,10 +385,10 @@ main {
     }
     .cont-products > p {
         color: black;
-        width: 100%;
+        width: 80%;
         padding-left: 20px;
         padding-bottom: 20px;
-        margin: 0%!important;
+        margin-left: 10%;
         text-align: left;
     }
     
@@ -301,19 +403,52 @@ main {
     .li-productlink {
         list-style: none;
     }
+    #herbal-img {
+        background-image: url(./images/ProductsLogo/Herbals/hierbas-aromaticas.jpg);
+    }
+    #condiments-img {
+        background-image: url(./images/ProductsLogo/Condiments/Condimentos\(Original\).jpg);
+    }
+    #spices-img {
+        background-image: url(./images/ProductsLogo/Spices/spices.jpeg);
+    }
+    #seed-img {
+        background-image: url(./images/ProductsLogo/seeds/seeds.jpg);
+    }
+    #grane-img {
+        background-image: url(./images/ProductsLogo/granes/granes.jpg);
+    }
+    #yerbal-img {
+        background-image: url(./images/ProductsLogo/YerbaMate/Yerba-mate.jpg);
+    }
     .cont-link-text {
         height: 150px;
         width: 25%;
         margin-left: 6.5%;
         background-color: rgb(47, 126, 50);
-        margin-top: 30px;
+        margin-top: 20px;
+        margin-bottom: 30px;
         float: left;
         text-align: center;
+        border-radius: 10px;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
-    .cont-link-text > h2 {
-        font-size: 15px;
-        padding-top: 65px;
+    .shadbox {
+        height: 150px;
+        width: 100%;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.453);
+    }
+    .shadbox > h2 {
+        font-size: 20px;
+        position: relative;
+        top: 65px;
         text-decoration: none;
+    }
+    .shadbox:hover {
+        box-shadow: 15px 15px 20px #b1620f;
+        transition-duration: 5s;
     }
 
 }
@@ -325,7 +460,7 @@ main {
 /*===================================================*/
 @media (min-width: 1200px) and (max-width: 1500px){
     main {
-        height: 700px;
+        height: 800px;
         margin-top: 6%;
     }
     .cont-products {
@@ -347,6 +482,7 @@ main {
     .cont-products > p {
         color: black;
         width: 85%;
+        font-size: 18px;
         padding-left: 20px;
         padding-bottom: 20px;
         margin-top: 0%;
@@ -366,19 +502,51 @@ main {
     .li-productlink {
         list-style: none;
     }
+    #herbal-img {
+        background-image: url(./images/ProductsLogo/Herbals/hierbas-aromaticas.jpg);
+    }
+    #condiments-img {
+        background-image: url(./images/ProductsLogo/Condiments/Condimentos\(Original\).jpg);
+    }
+    #spices-img {
+        background-image: url(./images/ProductsLogo/Spices/spices.jpeg);
+    }
+    #seed-img {
+        background-image: url(./images/ProductsLogo/seeds/seeds.jpg);
+    }
+    #grane-img {
+        background-image: url(./images/ProductsLogo/granes/granes.jpg);
+    }
+    #yerbal-img {
+        background-image: url(./images/ProductsLogo/YerbaMate/Yerba-mate.jpg);
+    }
     .cont-link-text {
-        height: 150px;
+        height: 200px;
         width: 25%;
         margin-left: 6.5%;
         background-color: rgb(47, 126, 50);
-        margin-top: 30px;
+        margin-top: 20px;
+        margin-bottom: 30px;
         float: left;
         text-align: center;
+        border-radius: 10px;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
-    .cont-link-text > h2 {
-        font-size: 15px;
-        padding-top: 65px;
+    .shadbox {
+        height: 200px;
+        width: 100%;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.453);
+    }
+    .shadbox > h2 {
+        font-size: 20px;
+        padding-top: 90px;
         text-decoration: none;
+    }
+    .shadbox:hover {
+        box-shadow: 15px 15px 20px #b1620f;
+        transition-duration: 5s;
     }
 }
 
@@ -425,20 +593,54 @@ main {
     .li-productlink {
         list-style: none;
     }
+    #herbal-img {
+        background-image: url(./images/ProductsLogo/Herbals/hierbas-aromaticas.jpg);
+    }
+    #condiments-img {
+        background-image: url(./images/ProductsLogo/Condiments/Condimentos\(Original\).jpg);
+    }
+    #spices-img {
+        background-image: url(./images/ProductsLogo/Spices/spices.jpeg);
+    }
+    #seed-img {
+        background-image: url(./images/ProductsLogo/seeds/seeds.jpg);
+    }
+    #grane-img {
+        background-image: url(./images/ProductsLogo/granes/granes.jpg);
+    }
+    #yerbal-img {
+        background-image: url(./images/ProductsLogo/YerbaMate/Yerba-mate.jpg);
+    }
     .cont-link-text {
-        height: 200px;
+        height: 230px;
         width: 25%;
         margin-left: 6.5%;
         background-color: rgb(47, 126, 50);
         margin-top: 50px;
+        margin-bottom: 50px;
         float: left;
         text-align: center;
+        border-radius: 10px;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
-    .cont-link-text > h2 {
-        font-size: 15px;
-        padding-top: 90px;
+    .shadbox {
+        height: 230px;
+        width: 100%;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.453);
+    }
+    .shadbox > h2 {
+        font-size: 25px;
+        position: relative;
+        top: 105px;
         text-decoration: none;
     }
+    .shadbox:hover {
+        box-shadow: 15px 15px 20px #b1620f;
+        transition-duration: 5s;
+    }
+    
 }
 
 

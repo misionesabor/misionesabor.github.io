@@ -82,13 +82,6 @@ a {
 .navbar, .navbar-dark {
     background-color: rgb(255, 255, 255)!important;
 }
-.navbar-brand {
-    position: relative;
-    left: 30px!important;
-}
-.navbar-nav {
-    padding-left: 50px!important;
-}
 .nav-item {
     color: black;
     font-weight: 500;
@@ -1602,7 +1595,7 @@ footer {
         height: auto;
     }
     #cont-menu-logo {
-        margin-left: 50px;
+        margin-left: 20px;
     }
     
     .nav-item {
@@ -1957,7 +1950,7 @@ footer {
         height: auto;
     }
     #cont-menu-logo {
-        margin-left: 0px;
+        margin-left: 20px;
     }
     .nav-item {
         padding-left: 50px;
