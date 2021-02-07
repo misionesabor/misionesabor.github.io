@@ -141,6 +141,10 @@ a {
 .text_clor {
     color: white;
 }
+.titls_Prsent, .texts_Prsent {
+    color: white!important;
+}
+ 
 .cont_wow {
     width: 400px;
     height: 100px;
