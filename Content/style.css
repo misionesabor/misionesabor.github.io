@@ -1,110 +1,231 @@
-﻿/*===================================================*/
-/*===================================================*/
-/*             CONFIGURACION DE PAGINA               */
-/*===================================================*/
-/*===================================================*/
-
-/*=================================*/
-/*=================================*/
-.js-loading *,
-.js-loading *:before,
-.js-loading *:after {
-    animation-play-state: paused !important;
+﻿* {
+    margin: 0;
+    padding: 0;
 }
-/*=================================*/
 
-
-html, body {
+/*== FUENTES ==*/
+@font-face {
+    font-family: Varela;
+    src: url(../res/fonts/Varela/Varela-Regular.ttf);
+}
+@font-face {
+    font-family: VarelaRound-Regular;
+    src: url(../res/fonts/Varela_Round/VarelaRound-Regular.ttf);
+}
+@font-face {
+    font-family: Merienda-Bold;
+    src: url(../res/fonts/Merienda/Merienda-Bold.ttf)
+}
+@font-face {
+    font-family: Merienda-Regular;
+    src: url(../res/fonts/Merienda/Merienda-Regular.ttf)
+}
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(../res/fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(../res/fonts/Poppins/Poppins-Medium.ttf)
+}
+/*==================*/
+.bodymargin {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.SCT-MARGIN {
+    margin-top: 100px;
+}
+.SCT-P-MARGIN {
+    margin-top: 50px;
+}
+.SCT-TITLE {
+    font-family: Poppins-Bold;
+    letter-spacing: 5px;
+    color: black;
+    text-transform: uppercase;
+}
+.SCT-STITLE {
+    font-family: VarelaRound-Regular;
+    color: black;
+    letter-spacing: 1px;
+}
+.SCT-S2TITLE {
+    font-family: VarelaRound-Regular;
+    color: black;
+    letter-spacing: 1px;
+}
+.SCT-BOX-MARGIN {
+    margin-top: 50px;
+}
+.SCT-UL {
+    list-style: none;
+}
+.SCT-SUPER-LI {
+    height: auto;
+    width: 45%;
+    float: left;
+}
+.SCT-DIV {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+}
+.SCT-DIV-IMG {
     width: 100%;
-    height: 100%;
+    height: auto;
+    border-radius: 10px;
 }
-
-footer {
+.SCT-LI-TOPMARGIN {
+    margin-top: 25px;
+}
+.SCT-LI-SPACE {
+    margin-right: 10%;
+}
+.SCT-BOX-TITLE {
+    font-family: Poppins-Medium;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 20px;
+}
+.SCT-BOX-STITLE {
+    font-family: Varela;
+    letter-spacing: 1px;
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+}
+.SCT-BOX2-MARGIN {
+    height: auto;
     width: 100%;
-    background-color: rgb(0, 0, 0);
-    position: relative;
-    bottom: 0%;
+    margin-top: 50px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: rgb(25, 118, 34, 0.8);
+    color: white;
 }
+.SCT-BOX2-W {
+    padding: 25px 25px 25px 25px;
+}
+.SCT-BOX2-TITLE {
+    font-family: Poppins-Medium;
+}
+.SCT-BOX2-STITLE, .SCT-BOX2-S2TITLE {
+    font-family: VarelaRound-Regular;
+    margin-top: 25px;
+}
+.SCT-BOX2-IMG {
+    width: 100%;
+    height: auto;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+/*======*//*======*//*======*//*======*//*======*/
+/*======*/
+.SCT-BOX3-MARGIN {
+    width: 100%;
+    height: auto;
+}
+.SCT-BOX3-TITLE {
+    font-family: Poppins-Medium;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+.SCT-BOX3-STITLE {
+    font-family: VarelaRound-Regular;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    font-size: 13px;
+    line-height: 25px;
+}
+/*======*/
+.SCT-BOX3-UL {
+    margin-top: 25px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10%;
+}
+.SCT-BOX3-LI {
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+.SCT-BOX3-LIMG {
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(246, 246, 246);
+}
+.SCT-BOX3-IMG {
+    width: 100%;
+    height: auto;
+}
+.SCT-BOX3-LI-TITLE {
+    font-family: Poppins-Medium;
+    letter-spacing: 1px;
+    margin-top: 25px;
+}
+.SCT-BOX3-LI-STITLE {
+    font-family: Varela;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+/*==================*/
+
+/*=========================================*/
+/*================= HEADER ================*/
 header {
-    width: 100%;
-    height: 100px;
     position: absolute;
-    top: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
     z-index: 10;
 }
-h1 {
-    font-size: 20px;
-    font-family: sans-serif;
-    font-weight: 500;
-    color: white;
-    text-align: center;
-    padding: 35px;
-}
-
-/*========================================*/
-/*========================================*/
-/*========================================*/
-a {
-    color: white;
-}
-#cont_hierbas {
-    background-color: rgb(38, 149, 34, 0.8);
-}
-#cont_condimentos {
-    background-color: rgb(182, 143, 71);
-}
-.pst {
-    position: relative;
-}
-#BoximgHerb, #BoximgCond, #imgLogoText {
-    display: none;
-}
-
-
-/*=====================*/
-/*       HEADER        */
-/*=====================*/
-#cont-menu-logo {
-    height: 80px;
-    width: 120px;
-    margin: 0px;
-    padding: 0px;
-}
-.nav-link {
-    padding-left: 0!important;
-    padding-right: 0!important;
-    position: relative!important;
-    color: rgb(0, 0, 0)!important;
-}
-.nav-link::after {
-    border-top: 2px solid rgb(0, 0, 0)!important;
-    content: ""!important;
-    position: absolute!important;
-    right: 100%!important;
-    bottom: 3px!important;
-    left: 0!important;
-    transition: right .6s cubic-bezier(1.0, 0.7, 0.3, 0.0)!important;
-}
-.nav-link:hover::after {
-    right: 0!important;
-}
-
-.navbar, .navbar-dark {
+.navbar {
     background-color: rgb(255, 255, 255)!important;
+    padding: 5px!important;
+}
+#LOGO {
+    width: auto;
+    height: 70px;
+}
+.navbar-toggler {
+    outline: none!important;
 }
 .nav-item {
-    color: black;
-    font-weight: 500;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
-.form-control {
-    border-color: black!important;
-    font-weight: 500!important;
+.nav-link {
+    font-family: Varela;
+    font-size: 14px;
+    color: rgb(87, 87, 87)!important;
 }
+@media (min-width: 768px) and (max-width: 991px){
+    #LOGO {
+        height: 100px;
+    }
+}
+@media (min-width: 992px) and (max-width: 2000px){
+    .navbar-collapse {
+        margin-left: 50px;
+    }
+    .nav-item {
+        padding-right: 25px;
+    }
+    .nav-item-2 {
+        padding-right: 25px;
+    }
+}
+/*=========================================*/
+/*=========================================*/
 
-/*===================================================*/
-/*===================================================*/
-/*===================================================*/
-/*===================================================*/
+
+
+/*=========================================*/
+/*================= MAIN ================*/
 #carousel1 {
     position: relative;
     height: 100%;
@@ -119,2940 +240,617 @@ a {
     top: auto;
     left: 50%;
     transform: translate(-50%);
-  }
+}
 .owl-slide {
     position: relative;
     height: 100vh;
 }
-.carousel-indicators li {
-    background-color: rgb(0, 0, 0)!important;
-    padding-left: 10px;
-    padding-right: 5px;
-    position: relative;
-    top: 10px;
-}
-#rexload {
-    display: none;
-    transition-property: opacity;
-    transition-duration: 0.5ms;
-    transition-delay: 0.1ms;
-    opacity: 0;
-}
-.text_clor {
-    color: white;
-}
-.titls_Prsent, .texts_Prsent {
-    color: white!important;
-}
- 
-.cont_wow {
-    width: 400px;
-    height: 100px;
-    position: relative;
-    left: 35%;
-    top: 35%;
-}
-h1 {
-    font-size: 25px;
-    padding: 100px;
-}
-/* ===================== */
-/* CARROUSEL HERB BOXES */
-/* ===================== */
-.herbs_btns_notice:hover {
-    opacity: 0.5;
-}
-
-.herbs_control_btns:hover {
-    background-color: rgb(255, 255, 255, 0.3);
-}
-.icons_arrow:hover {
-    color: black;
-}
-/* .img-shadow {
-    box-shadow: gray (0, 10px, 0, 5px);
-} */
-.linkProducts {
-    color: black;
-    font-weight: bold;
-    text-decoration: none!important;
-}
-/* ===================== */
-/* ===================== */
-
-/*===================================================*/
-/*            XS EXTRA SMALL SCREEN PHONES           */
-/*===================================================*/
-@media (min-width: 100px) and (max-width: 390px){
-
-/*==============================*/
-/*   CONFIGURACION DE PAGINA    */
-/*==============================*/
-.continitial {
-    position: relative;
-    margin: 0%;
-    padding: 0%;
-    width: 100%;
-    height: 100%;
-}
-.img-fluid {
-    width: 116px;
-    height: 80px;
-}
-.ctn-btn {
-    height: 150px;
-    position: relative;
-    top: 25px;
-    padding: 0px;
-}
-#cont-menu-logo {
-    position: relative;
-    left: 30px;
-}
-.navbar-brand {
-    left: 0%!important;
-    width: 100%;
-    padding: 0px;
-}
-.navbar-nav {
-    width: 100%!important;
-    position: relative!important;
-    padding-left: 0px!important;
-    flex-direction: row!important;
-    display: block!important;
-    text-align: center!important;
-}
-
-.nav-item {
-    display: inline-block!important;
-    left: 0%;
-    color: black;
-    text-align: center;    
-    font-size: 13px!important;
-    font-weight: 500;
-    padding-right: 10px;
-    padding-left: 10px;
-}
-#fsearch {
-    width: 100%;
-    padding-top: 10px;
-    text-align: center!important;
-    display: block!important;
-}
-.form-control {
-    width: 70%!important;
-    display: inline-flex!important;
-}
-
-main {
-    margin-top: 100px!important;
-}
-/*······························*/
-/*     CONTENIDO DE INICIO      */
-/*······························*/
-.rextor {
-    position: absolute;
-    top: 40%;
+.slide-title {
     width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.titls_Prsent  {
-    font-size: 35px!important;
-    padding: 0%!important;
-}
-.texts_Prsent {
-    font-size: 15px!important;
-    margin: 0%!important;
-    padding: 0%!important;
-}
-
-
-/*······························*/
-/*     HIERBAS INFORMATION      */
-/*              &               */
-/*   CONDIMENTOS INFORMATION    */
-/*······························*/
-#cont_hierbas, #cont_condimentos {
-    margin-top: 15%;
-    margin-bottom: 5%;
-    padding: 0;
     height: auto;
-    width: 100%;
-}
-
-#carousel_Herbs_Sectiom {
-    height: auto;
-    width: 100%;
-}
-
-.carousel-item {
-    position: relative!important;
-}
-
-.img_benefits {
-    height: auto;
-    width: 100%;
-}
-
-.cont_data_product {
-    position: relative;
-    height: 215px;
-    width: 100%;
-    top: 0px;
-    background-color: rgb(0, 0, 0, 0.2);
-    text-align: center;
-}
-.shadow-div {
-    background-color: rgb(0, 0, 0, 0.2);
-    position: relative;
-    top: 25px;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 10px;
-}
-.title_data_product {
-    position: relative;
-    font-size: 30px;
     color: white;
+    position: absolute;
+    top: 35%;
+    font-family: Merienda-Bold;
+    text-transform: uppercase;
 }
-.text_data_product {
-    position: relative;
-    color: white;
-    font-size: 12px;
-    margin-left: 5px;
-    margin-right: 5px;
-    padding: 5px;
+.slide-h1 {
+    font-size: 33px;
+    line-height: 55px;
 }
-.link_data_product {
-    font-size: 13px;
-    position: relative;
-    top: 5px;
-    font-weight: 600;
+.slide-h2 {
+    font-size: 15px;
+    line-height: auto;
 }
-/*------ BOXES HIERBAS ------- */
-#box_hierbas {
-    height: 370px;
-    width: 100%;        
-    padding: 0%!important;
-    margin-top: 50px;
+.cont-fa-go {
+    margin-top: 25px;
+    width: 46px;
+    height: 42px;
 }
-#carousel-products-herb {
-    height: 370px;
-    width: 100%;
-}
-.box0 {
-    height: 370px;
+.cont-fa-gem {
+    width: 50px;
+    height: 50px;
+    border: rgba(255, 255, 255) solid 2px;
+    opacity: 0.7;
     text-align: center;
 }
-.box2, .box3, .box4 {
-    display: none;
+.cont-fa-gem:hover {
+    border-color: white;
+    opacity: 1;
 }
-.cont-figures > figcaption {
-    padding-top: 15px;
+.fa-chevron-right {
+    color: white;
+    position: relative;
+    height: 32px!important;
+    width: 36px!important;
+    top: 7px;
 }
-.herbs_control_btns {
-    color: gray!important;
-    height: 300px;
-}
-.herbs_btns_notice {
-    color: gray!important;
-    height: 230px;
-    width: 10%!important;
-}
-/*------ BOXES CONDIMENTOS ------- */
-#box_condimentos {
-    margin-bottom: 5%;
-    margin-top: 30px;
-    padding-left: 0px!important;
-    padding-right: 0px!important;
+/*=====*/
+.SCT2-HA {
     height: auto;
-    width: 100%;
-}
-
-.cond0 {
-    height: 250px;
-}
-.cond2, .cond3, .cond4 {
-    display: none;
-}
-.cond_imgs {
-    height: 130px;
     width: auto;
 }
-.fig_conds {
-    text-align: center;
-    margin: 0%!important;
-}
-.figc_conds {
-    padding-top: 25px;
-}
-#fig1_conds {
-    margin-left: 40px;
-}
-#fig2_conds {
-    margin-right: 40px;
-}
-.link_conds {
-    font-family: "Popins", sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    color: black;
-    text-decoration: none!important;
-}
-.price_conds {
-    font-family: "Popins", sans-serif;
-    font-size: 15px;
-}
-.cond_control_btns {
-    width: 18%!important;
-    height: 120px;
-    color: gray!important;
-}
 
-/*···················*/
-/*   BOX NOSOTROS    */
-/*···················*/
-#box_about {
-    height: 350px;
-    width: 100%;
-    margin-bottom: 5%;
-    padding-bottom: 50px;
-    background-size: cover;
-    box-shadow: rgb(209, 209, 209) 1px 1px 20px 5px;
-}
-#logo_contain {
-    height: auto;
-    width: 100%;
-    top: 80px;
-}
-#imgLogo {
-    height: auto;
-    padding: 0px;
-    text-align: center;
-}
-#boxlogo {
-    margin-left: 10%;
-    width: 80%;
-    height: auto;
-}
-#mslogo {
-    width: 168px;
-    height: 116px;
-}
-#titleAbout, #pxta1, #pxta2 {
-    display: none;
-}
-#pxta3 {
-    display: block;
-    text-align: center;
-    font-size: 15px;
-    padding-top: 10px;
-    margin-left: 15px;
-    margin-right: 10px;
-}
-/*···················*/
-/*   BOX NETWORK     */
-/*···················*/
-#box_socialnet {
-    height: 150px;
-    width: 100%;
-    margin-top: 5%;
-    margin-bottom: 10%;
-}
-#socialinks {
-    width: 100%;
-    height: 50px;
-    text-align: center;
-}
-.imgSNet {
-    top: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-.imgsNetSize {
-    width: 22px;
-    height: 22px;
-}
-#registerbox {
-    margin-top: 10px;
-    height: 80px;
-    width: 100%;
-    text-align: center;
-}
-#titleBoxReg {
-    font-family: sans-serif;
-    font-size: 12px;
-    color: black;
-}
-#formInput {
-    position: relative;
-    top: 10px;
-}
-#inputReg {
-    width: 50%;
-    height: 25px;
-    font-size: 10px;
-    padding-left: 5px;
-    color: rgb(71, 71, 71);
-    background-color: rgb(223, 223, 223);
-    border-color: transparent;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
-#inputBtn {
-    height: 25px;
-    width: 30%;
-    font-size: 10px;
-    background-color: rgb(223, 223, 223);
-    border-color: transparent;
-    border-radius: 15px;
-}
-
-/*=============*/
-/*=============*/
-footer {
-    width: 100%;
-}
-#footbar {
-    width: 100%;
-    height: 45px;
-    background-color: rgb(22, 19, 19);
-    text-align: center;
-}
-.textfoot_1 {
-    position: relative;
-    top: 8px;
-    font-size: 20px;
-    color: white;
-}
-
-}
-@media (min-width: 391px) and (max-width: 575px){
-
-    /*==============================*/
-    /*   CONFIGURACION DE PAGINA    */
-    /*==============================*/ 
-    .continitial {
-        position: relative;
-        margin: 0%;
-        padding: 0%;
-        width: 100%;
-        height: 100%;
+@media (min-width: 100px) and (max-width: 390px){
+    .SCT-TITLE {
+        font-size: 35px;
+        line-height: 50px;
     }
-    .img-fluid {
-        width: 100%;
-        height: auto;
-    }
-    
-    .ctn-btn {
-        height: 150px;
-        position: relative;
-        top: 25px;
-        padding: 0px;
-    }
-    .navbar-nav {
-        width: 100%!important;
-        position: relative!important;
-        padding-left: 0px!important;
-        flex-direction: row!important;
-        display: block!important;
-        text-align: center!important;
-    }
-    
-    .nav-item {
-        display: inline-block!important;
-        left: 0%;
-        color: black;
-        text-align: center;
+    .SCT-STITLE {
         font-size: 15px;
-        font-weight: 500;
-        padding-right: 10px;
-        padding-left: 10px;
+        line-height: 30px;
     }
-    #fsearch {
-        width: 100%;
-        padding-top: 10px;
-        text-align: center!important;
-        display: block!important;
+    .SCT-BOX-MARGIN {
+        height: 500px;
     }
-    .form-control {
-        width: 70%!important;
-        display: inline-flex!important;
-    }
-
-    /*······························*/
-    /*     CONTENIDO DE INICIO      */
-    /*······························*/
-    .rextor {
-        position: absolute;
-        top: 45%;
-        width: 70%;
-        margin-left: 15%;
-        margin-right: 15%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-    }
-    
-    .titls_Prsent  {
-        font-size: 35px!important;
-        padding: 0%!important;
-    }
-    .texts_Prsent {
-        font-size: 15px!important;
-        margin: 0%!important;
-        padding: 0%!important;
-    }
-    
-    /*······························*/
-    /*     HIERBAS INFORMATION      */
-    /*              &               */
-    /*   CONDIMENTOS INFORMATION    */
-    /*······························*/
-    main {
-        margin-top: 20%;
-    }
-    #cont_hierbas, #cont_condimentos {
-        margin-top: 5%;
-        margin-bottom: 5%;
-        height: auto;
-        width: 100%;
-        padding: 0px!important;
-    }
-    #carousel_Herbs_Sectiom {
-        height: auto;
-        width: 100%;
-    }
-    
-    .carousel-item {
-        position: relative!important;
-    }
-    
-    .img_benefits {
-        height: auto;
-        width: 100%;
-    }
-    
-    .cont_data_product {
-        position: relative;
-        height: 250px;
-        width: 100%;
-        top: 0px;
-        background-color: rgb(0, 0, 0, 0.2);
-        text-align: center;
-    }
-    .shadow-div {
-        background-color: rgb(0, 0, 0, 0.2);
-        position: relative;
-        top: 50px;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding: 10px;
-    }
-    .title_data_product {
-        position: relative;
-        font-size: 30px;
-        color: white;
-    }
-    .text_data_product {
-        position: relative;
-        color: white;
+    .SCT-S2TITLE {
         font-size: 12px;
-        margin-left: 5px;
-        margin-right: 5px;
-        padding: 5px;
+        line-height: 20px;
     }
-    .link_data_product {
+    .SCT-BOX-TITLE {
         font-size: 13px;
-        position: relative;
-        top: 5px;
-        font-weight: 600;
     }
-    /*------ BOXES HIERBAS ------- */
-    #box_hierbas {
-        margin-top: 70px;
-        margin-bottom: 30px;
-        height: 370px;
-        width: 100%;        
-        padding: 0%!important;
+    .SCT-BOX-STITLE {
+        font-size: 10px;
+        line-height: 15px;
     }
-    #carousel-products-herb {
-        height: 370px;
-        width: 100%;
+    .SCT-BOX2-MARGIN {
+        margin-left: 0px!important;
+        margin-right: 0px!important;
     }
-    .box0 {
-        height: 370px;
-        text-align: center;
+    .SCT-BOX2-TITLE {
+        font-size: 25px;
     }
-    .box2, .box3, .box4 {
-        display: none;
+    .SCT-BOX2-STITLE {
+        font-size: 16px;
+        line-height: 30px;
     }
-    .cont-figures > figcaption {
-        padding-top: 15px;
-    }
-    .herbs_control_btns {
-        color: gray!important;
-        height: 300px;
-    }
-    /*------ BOXES CONDIMENTOS ------- */
-    #box_condimentos {
-        margin-bottom: 5%;
-        margin-top: 30px;
-        padding-left: 0px!important;
-        padding-right: 0px!important;
-        height: auto;
-        width: 100%;
-    }
-    
-    .cond0 {
-        height: 250px;
-    }
-    .cond2, .cond3, .cond4 {
-        display: none;
-    }
-    .cond_imgs {
-        height: 130px;
-        width: auto;
-    }
-    .fig_conds {
-        text-align: center;
-        margin: 0%!important;
-    }
-    .figc_conds {
-        padding-top: 25px;
-    }
-    #fig1_conds {
-        margin-left: 40px;
-    }
-    #fig2_conds {
-        margin-right: 40px;
-    }
-    .link_conds {
-        font-family: "Popins", sans-serif;
-        font-size: 15px;
-        font-weight: bold;
-        color: black;
-        text-decoration: none!important;
-    }
-    .price_conds {
-        font-family: "Popins", sans-serif;
-        font-size: 15px;
-    }
-    .cond_control_btns {
-        width: 18%!important;
-        height: 120px;
-        color: gray!important;
-    }
-    /*···················*/
-    /*   BOX NOSOTROS    */
-    /*···················*/
-    #box_about {
-        padding-bottom: 50px;
-        height: 300px;
-        width: 100%;
-        margin-bottom: 5%;
-        margin-top: 10%;
-        background-size: cover;
-        box-shadow: rgb(209, 209, 209) 1px 1px 20px 5px;
-    }
-    #logo_contain {
-        height: auto;
-        width: 100%;
-        top: 60px;
-    }
-    #imgLogo {
-        height: auto;
-        padding: 0px;
-        text-align: center;
-    }
-    #boxlogo {
-        margin-left: 10%;
-        width: 80%;
-        height: auto;
-    }
-    #mslogo {
-        width: 168px;
-        height: 116px;
-    }
-    #titleAbout, #pxta1, #pxta2 {
-        display: none;
-    }
-    #pxta3 {
-        display: block;
-        text-align: center;
-        font-size: 15px;
-    }
-    /*···················*/
-    /*   BOX NETWORK     */
-    /*···················*/
-    #box_socialnet {
-        height: 150px;
-        width: 100%;
-        margin-top: 5%;
-        margin-bottom: 10%;
-    }
-    #socialinks {
-        width: 100%;
-        height: 50px;
-        text-align: center;
-    }
-    .imgSNet {
-        top: 10px;
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-    .imgsNetSize {
-        width: 32px;
-        height: 32px;
-    }
-    #registerbox {
-        margin-top: 10px;
-        height: 80px;
-        width: 100%;
-        text-align: center;
-    }
-    #titleBoxReg {
-        font-family: sans-serif;
-        font-size: 13px;
-        color: black;
-    }
-    #formInput {
-        position: relative;
-        top: 10px;
-    }
-    #inputReg {
-        width: 55%;
-        height: 30px;
-        font-size: 13px;
-        padding-left: 20px;
-        color: rgb(71, 71, 71);
-        background-color: rgb(223, 223, 223);
-        border-color: transparent;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-    }
-    #inputBtn {
-        height: 30px;
-        width: 30%;
-        font-size: 13px;
-        background-color: rgb(223, 223, 223);
-        border-color: transparent;
-        border-radius: 15px;
-    }
-    #inputBtn:hover {
-        border-color: rgb(60, 90, 56);
-        background-color: rgb(230, 230, 230);
-    }
-    /*=============*/
-/*=============*/
-footer {
-    width: 100%;
-}
-#footbar {
-    width: 100%;
-    height: 45px;
-    background-color: rgb(22, 19, 19);
-    text-align: center;
-}
-.textfoot_1 {
-    position: relative;
-    top: 8px;
-    font-size: 20px;
-    color: white;
-}
-}
-/*===================================================*/
-/*===================================================*/
-
-/*===================================================*/
-/*              SM SMALL SCREEN PHONES               */
-/*===================================================*/
-@media (min-width: 576px) and (max-width: 767px){
-    /*==============================*/
-    /*   CONFIGURACION DE PAGINA    */
-    /*==============================*/
-    .continitial {
-        position: relative;
-        margin: 0%;
-        padding: 0%;
-        width: 100%;
-        height: 100%;
-    }
-    .img-fluid {
-        width: 100%;
-        height: auto;
-    }
-
-    .navbar-collapse {
-        margin-right: 5px;
-    }
-    .navbar-brand {
-        position: relative;
-        left: 0px!important;
-    }
-    .navbar-nav {
-        width: 100%!important;
-        position: relative!important;
-        padding-left: 0px!important;
-        flex-direction: row!important;
-        display: block!important;
-        text-align: center!important;
-    }
-    
-    .nav-item {
-        display: inline-block!important;
-        left: 0%;
-        color: black;
-        text-align: center;
-        font-weight: 500;
-        padding-right: 35px;
-        padding-left: 35px;
-    }
-    .nav-item > a {
+    .SCT-BOX2-S2TITLE {
         font-size: 14px;
     }
-    #fsearch {
-        width: 100%;
-        padding-top: 10px;
-        text-align: center!important;
-        display: block!important;
+    /*=======*/
+    .SCT-BOX3-TITLE {
+        font-size: 35px;
     }
-    .form-control {
-        width: 50%!important;
+    .SCT-BOX3-STITLE {
+        font-size: 15px;
+        line-height: 25px;
     }
-    /*······························*/
-    /*     CONTENIDO DE INICIO      */
-    /*······························*/
-    
-    .rextor {
-        position: absolute;
-        top: 35%;
-        width: 60%;
-        margin-left: 20%;
-        margin-right: 20%;
-        transform: translate(-50%, -50%);
-        text-align: center;
+    /*=======*/
+    .SCT-BOX3-UL {
+        grid-template-columns: auto auto;
+        grid-gap: 10%;
     }
-    
-    .titls_Prsent  {
-        font-size: 45px!important;
-        padding: 0%!important;
+    .SCT-BOX3-LI-TITLE {
+        font-size: 14px;
     }
-    .texts_Prsent {
-        font-size: 25px!important;
-        margin: 0%!important;
-        padding: 0%!important;
-    }
-    
-    /*······························*/
-    /*     HIERBAS INFORMATION      */
-    /*              &               */
-    /*   CONDIMENTOS INFORMATION    */
-    /*······························*/
-
-    #cont_hierbas, #cont_condimentos {
-        margin-top: 15%;
-        margin-bottom: 5%;
-        height: auto;
-        width: 100%;
-        padding: 0px!important;
-    }
-    #carousel_Herbs_Sectiom {
-        height: auto;
-        width: 100%;
-    }
-    
-    .carousel-item {
-        position: relative!important;
-    }
-    
-    .img_benefits {
-        height: auto;
-        width: 50%;
-    }
-    
-    .lead {
-        float: left;
-    }
-    .cont_data_product {
-        position: relative;
-        height: 250px;
-        width: 50%;
-        top: 0px;
-        background-color: rgb(0, 0, 0, 0.2);
-        text-align: center;
-    }
-    .shadow-div {
-        background-color: rgb(0, 0, 0, 0.2);
-        position: relative;
-        top: 50px;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding: 10px;
-    }
-    .title_data_product {
-        position: relative;
-        font-size: 30px;
-        color: white;
-    }
-    .text_data_product {
-        position: relative;
-        color: white;
+    .SCT-BOX3-LI-STITLE {
         font-size: 12px;
-        margin-left: 5px;
-        margin-right: 5px;
-        padding: 5px;
     }
-    .link_data_product {
+    .SCT-BOX3-LI-5 {
+        display: none;
+    }
+}
+@media (min-width: 391px) and (max-width: 575px){
+    /*===*/
+    .SCT-TITLE {
+        font-size: 40px;
+        line-height: 65px;
+    }
+    .SCT-STITLE {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .SCT-BOX-MARGIN {
+        height: 550px;
+    }
+    .SCT-S2TITLE {
+        font-size: 12px;
+        line-height: 23px;
+    }
+    .SCT-BOX-TITLE {
         font-size: 13px;
-        position: relative;
-        top: 5px;
-        font-weight: 600;
     }
-    /*------ BOXES HIERBAS ------- */
-    #box_hierbas {
-        margin-top: 70px;
-        height: 370px;
-        width: 100%;        
-        padding: 0%!important;
+    .SCT-BOX-STITLE {
+        font-size: 10px;
+        line-height: 15px;
     }
-    #carousel-products-herb {
-        height: 370px;
-        width: 100%;
+    .SCT-BOX2-TITLE {
+        font-size: 27px;
     }
-    .box0 {
-        height: 370px;
-        text-align: center;
+    .SCT-BOX2-STITLE {
+        font-size: 17px;
+        line-height: 35px;
     }
-    .box1 {
-        padding-left: 25px;
-        padding-right: 0px;
+    .SCT-BOX2-S2TITLE {
+        font-size: 14px;
+        line-height: 25px;
     }
-    .box2 {
-        padding-left: 0px;
-        padding-right: 25px;
+    /*=======*/
+    .SCT-BOX3-TITLE {
+        font-size: 35px;
     }
-    .box3, .box4 {
-        display: none;
-    }
-    #boxfig1 {
-        margin-left: 40px;
-    }
-    #boxfig2 {
-        margin-right: 40px;
-    }
-    .cont-figures > figcaption {
-        padding-top: 15px;
-    }
-    .herbs_control_btns {
-        color: rgb(83, 83, 83)!important;
-        height: 300px;
-        width: 4%!important;
-    }
-    /*------ BOXES CONDIMENTOS ------- */
-    #box_condimentos {
-        margin-bottom: 5%;
-        margin-top: 30px;
-        padding-left: 0px!important;
-        padding-right: 0px!important;
-        height: auto;
-        width: 100%;
-    }
-    
-    .cond0 {
-        height: 250px;
-    }
-    .cond2, .cond3, .cond4 {
-        display: none;
-    }
-    .cond_imgs {
-        height: 130px;
-        width: auto;
-    }
-    .fig_conds {
-        text-align: center;
-    }
-    .figc_conds {
-        padding-top: 25px;
-    }
-    #fig1_conds {
-        margin-left: 40px;
-    }
-    #fig2_conds {
-        margin-right: 40px;
-    }
-    .link_conds {
-        font-family: "Popins", sans-serif;
+    .SCT-BOX3-STITLE {
         font-size: 15px;
-        font-weight: bold;
-        color: black;
-        text-decoration: none!important;
+        line-height: 25px;
     }
-    .price_conds {
-        font-family: "Popins", sans-serif;
+    /*=======*/
+    .SCT-BOX3-UL {
+        grid-template-columns: auto auto;
+        grid-gap: 10%;
+    }
+    .SCT-BOX3-LI-TITLE {
+        font-size: 14px;
+    }
+    .SCT-BOX3-LI-STITLE {
+        font-size: 12px;
+    }
+    .SCT-BOX3-LI-5 {
+        display: none;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    .SCT-BOX-MARGIN {
+        height: 600px;
+    }
+    .SCT-BOX-TITLE {
         font-size: 15px;
     }
-    .cond_control_btns {
-        width: 18%!important;
-        height: 120px;
-        color: gray!important;
+    .SCT-BOX-STITLE {
+        font-size: 12px;
+        line-height: 15px;
     }
-    /*···················*/
-    /*   BOX NOSOTROS    */
-    /*···················*/
-    #box_about {
-        height: 400px;
-        padding-bottom: 50px;
-        width: 100%;
-        margin-top: 5%;
-        margin-bottom: 5%;
-        background-size: cover;
-        box-shadow: rgb(209, 209, 209) 1px 1px 20px 5px;
+    .SCT-BOX2-W {
+        padding: 35px 35px 35px 35px;
     }
-    #logo_contain {
-        height: auto;
-        width: 100%;
-        top: 75px;
+    .SCT-BOX2-TITLE {
+        font-size: 28px;
     }
-    #imgLogo {
-        height: auto;
-        padding: 0px;
-        text-align: center;
+    .SCT-BOX2-STITLE {
+        font-size: 18px;
+        line-height: 40px;
     }
-    #boxlogo {
-        margin-left: 10%;
-        width: 80%;
-        height: auto;
+    .SCT-BOX2-S2TITLE {
+        font-size: 16px;
+        line-height: 30px;
     }
-    #mslogo {
-        width: 236px;
-        height: 163px;
+    /*=======*/
+    .SCT-BOX3-TITLE {
+        font-size: 35px;
     }
-    #titleAbout, #pxta1, #pxta2 {
-        display: none;
+    .SCT-BOX3-STITLE {
+        font-size: 15px;
+        line-height: 25px;
     }
-    #pxta3 {
-        display: block;
-        text-align: center;
+    /*=======*/
+    .SCT-BOX3-UL {
+        grid-template-columns: auto auto auto;
+        grid-gap: 10%;
+    }
+    .SCT-BOX3-LI-TITLE {
+        font-size: 13px;
+    }
+    .SCT-BOX3-LI-STITLE {
+        font-size: 11px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .slide-h1 {
+        font-size: 50px;
+        line-height: 80px;
+    }
+    .slide-h2 {
         font-size: 20px;
     }
-    /*···················*/
-    /*   BOX NETWORK     */
-    /*···················*/
-    #box_socialnet {
-        height: 150px;
-        width: 100%;
-        margin-top: 5%;
-        margin-bottom: 10%;
-    }
-    #socialinks {
-        width: 100%;
+    .cont-fa-go {
+        margin-top: 25px;
+        width: 50px;
         height: 50px;
-        text-align: center;
     }
-    .imgSNet {
-        top: 10px;
-        padding-left: 25px;
-        padding-right: 25px;
+    .cont-fa-gem {
+        width: 50px;
+        height: 50px;
     }
-    .imgsNetSize {
-        width: 32px;
-        height: 32px;
+    .fa-chevron-right {
+        top: 7px;
+        height: 32px!important;
+        width: 36px!important;
     }
-    #registerbox {
-        margin-top: 20px;
-        height: 80px;
-        width: 100%;
-        text-align: center;
+    /*===*/
+    .SCT-TITLE {
+        font-size: 45px;
+        line-height: 70px;
     }
-    #titleBoxReg {
-        font-family: sans-serif;
-        font-size: 17px;
-        color: black;
-    }
-    #formInput {
-        position: relative;
-        top: 20px;
-    }
-    #inputReg {
+    .SCT-STITLE {
         width: 55%;
-        height: 40px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .SCT-BOX-MARGIN {
+        height: 700px;
+    }
+    .SCT-S2TITLE {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .SCT-BOX-TITLE {
         font-size: 17px;
-        padding-left: 25px;
-        color: rgb(71, 71, 71);
-        background-color: rgb(223, 223, 223);
-        border-color: transparent;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
     }
-    #inputBtn {
-        height: 40px;
-        width: 30%;
+    .SCT-BOX-STITLE {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .SCT-BOX2-W {
+        padding: 45px 45px 45px 45px;
+    }
+    .SCT-BOX2-TITLE {
+        font-size: 35px;
+    }
+    .SCT-BOX2-STITLE {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .SCT-BOX2-S2TITLE {
+        font-size: 18px;
+        line-height: 35px;
+    }
+    /*=======*/
+    .SCT-BOX3-TITLE {
+        font-size: 35px;
+    }
+    .SCT-BOX3-STITLE {
         font-size: 17px;
-        background-color: rgb(223, 223, 223);
-        border-color: transparent;
-        border-radius: 15px;
+        line-height: 25px;
     }
-    #inputBtn:hover {
-        border-color: rgb(60, 90, 56);
-        background-color: rgb(230, 230, 230);
+    /*=======*/
+    .SCT-BOX3-UL {
+        grid-template-columns: auto auto auto;
+        grid-gap: 10%;
     }
-    /*=============*/
-/*=============*/
-footer {
-    width: 100%;
+    .SCT-BOX3-LI-TITLE {
+        font-size: 15px;
+    }
+    .SCT-BOX3-LI-STITLE {
+        font-size: 13px;
+    }
 }
-#footbar {
-    width: 100%;
-    height: 45px;
-    background-color: rgb(22, 19, 19);
-    text-align: center;
-}
-.textfoot_1 {
-    position: relative;
-    top: 8px;
-    font-size: 12px;
-    color: white;
-}
-}
-/*===================================================*/
-/*===================================================*/
-
-/*===================================================*/
-/*              MD MEDIUM SCREEN TABLETS             */
-/*===================================================*/
-@media (min-width: 768px) and (max-width: 991px){
-/*==============================*/
-/*   CONFIGURACION DE PAGINA    */
-/*==============================*/
-.continitial {
-    position: relative;
-    margin: 0%;
-    padding: 0%;
-    width: 100%;
-    height: 100%;
-}
-.img-fluid {
-    width: 100%;
-    height: auto;
-}
-
-/*······························*/
-/*     CONTENIDO DE INICIO      */
-/*······························*/
-.navbar-collapse {
-    margin-right: 5px;
-}
-.navbar-brand {
-    position: relative;
-    left: 5px!important;
-}
-
-.navbar-nav {
-    width: 100%!important;
-    position: relative!important;
-    padding-left: 0px!important;
-    flex-direction: row!important;
-    display: block!important;
-    text-align: center!important;
-}
-
-.nav-item {
-    display: inline-block!important;
-    left: 0%;
-    color: black;
-    text-align: center;
-    font-weight: 500;
-    padding-right: 50px;
-    padding-left: 50px;
-}
-.nav-item > a {
-    font-size: 14px;
-
-}
-#fsearch {
-    width: 100%;
-    padding-top: 10px;
-    text-align: center!important;
-    display: block!important;
-}
-.form-control {
-    width: 50%!important;
-}
-
-.rextor {
-    position: absolute;
-    top: 35%;
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.titls_Prsent  {
-    font-size: 60px!important;
-    padding: 0%!important;
-}
-.texts_Prsent {
-    font-size: 30px!important;
-    margin: 0%!important;
-    padding: 0%!important;
-}
-
-/*······························*/
-/*     HIERBAS INFORMATION      */
-/*              &               */
-/*   CONDIMENTOS INFORMATION    */
-/*······························*/
-#cont_hierbas, #cont_condimentos {
-    margin-top: 10%;
-    margin-bottom: 5%;
-    height: auto;
-    width: 100%;
-    padding: 0px!important;
-}
-#carousel_Herbs_Sectiom {
-    height: auto;
-    width: 100%;
-}
-
-.clor {
-    position: relative!important;
-    background-color: rgb(0, 0, 0, 0.2);
-}
-
-.img_benefits {
-    height: auto;
-    width: 50%;
-}
-
-.lead {
-    float: left;
-}
-.cont_data_product {
-    height: auto;
-    width: 50%;
-    text-align: center;
-}
-.shadow-div {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.title_data_product {
-    font-size: 40px;
-    color: white;
-}
-.text_data_product {
-    position: relative;
-    color: white;
-    font-size: 17px;
-    margin: 0px!important;
-}
-.link_data_product {
-    font-size: 17px;
-    font-weight: 600;
-    position: relative;
-    top: 20px;
-}
-
-/*------ BOXES HIERBAS ------- */
-#box_hierbas {
-    margin-top: 70px;
-    height: 370px;
-    width: 100%;        
-    padding: 0%!important;
-}
-#carousel-products-herb {
-    height: 370px;
-    width: 100%;
-}
-.box0 {
-    height: 370px;
-    text-align: center;
-}
-.box1 {
-    padding-left: 85px;
-    padding-right: 0px;
-}
-.box2 {
-    padding-left: 0px;
-    padding-right: 85px;
-}
-.box3, .box4 {
-    display: none;
-}
-#boxfig1 {
-    margin-left: 60px;
-}
-#boxfig2 {
-    margin-right: 60px;
-}
-.cont-figures > figcaption {
-    padding-top: 15px;
-}
-.herbs_control_btns {
-    color: rgb(83, 83, 83)!important;
-    height: 300px;
-    width: 8%!important;
-}
-/*------ BOXES CONDIMENTOS ------- */
-#box_condimentos {
-    margin-bottom: 5%;
-    margin-top: 30px;
-    padding-left: 0px!important;
-    padding-right: 0px!important;
-    height: auto;
-    width: 100%;
-}
-
-.cond0 {
-    height: 250px;
-}
-.cond3, .cond4 {
-    display: none;
-}
-.cond_imgs {
-    height: 130px;
-    width: auto;
-}
-.fig_conds {
-    text-align: center;
-}
-.figc_conds {
-    padding-top: 25px;
-}
-#fig1_conds {
-    margin-left: 40px;
-}
-#fig2_conds {
-    margin-right: 40px;
-}
-.link_conds {
-    font-family: "Popins", sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    color: black;
-    text-decoration: none!important;
-}
-.price_conds {
-    font-family: "Popins", sans-serif;
-    font-size: 15px;
-}
-.cond_control_btns {
-    width: 8%!important;
-    height: 120px;
-    color: gray!important;
-}
-/*···················*/
-/*   BOX NOSOTROS    */
-/*···················*/
-#box_about {
-    background-color: rgb(255, 255, 255);
-    background-size: cover;
-    height: 340px;
-    width: 100%;
-    margin-bottom: 5%;
-    box-shadow: rgb(209, 209, 209) 1px 1px 20px 5px;
-}
-#logo_contain {
-    height: 320px;
-    width: 90%;
-    margin-left: 5%;
-    top: 40px;
-}
-#imgLogo {
-    height: auto;
-    top: 33.5px;
-    left: 30px;
-    padding: 0px;
-    text-align: center;
-    float: left;
-}
-#mslogo {
-    width: 234px;
-    height: 162px;
-}
-#imgLgText {
-    height: 300px;
-    float: left;
-    top: -20px;
-    text-align: center;
-    padding-top: 7%;
-}
-#titleAbout {
-    color: black;
-    font-size: 25px;
-    font-family: sans-serif;
-    font-weight: bold;
-    font-style: italic;
-}
-.pxta {
-    font-family: sans-serif;
-    font-size: 15px;
-}
-#pxta1 {
-    width: 100%;
-    height: 100px;
-    margin-top: 20px;
-}
-#pxta2 {
-    display: none;
-}
-#pxta3 {
-    position: relative;
-    bottom: 15px;
-}
-/*···················*/
-/*   BOX NETWORK     */
-/*···················*/
-#box_socialnet {
-    height: 150px;
-    width: 100%;
-    margin-top: 5%;
-    margin-bottom: 10%;
-}
-#socialinks {
-    width: 100%;
-    height: 50px;
-    text-align: center;
-}
-.imgSNet {
-    top: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-.imgsNetSize {
-    width: 32px;
-    height: 32px;
-}
-#registerbox {
-    margin-top: 20px;
-    height: 80px;
-    width: 100%;
-    text-align: center;
-}
-#titleBoxReg {
-    font-family: sans-serif;
-    font-size: 20px;
-    color: black;
-}
-#formInput {
-    position: relative;
-    top: 20px;
-}
-#inputReg {
-    width: 55%;
-    height: 50px;
-    font-size: 20px;
-    padding-left: 45px;
-    color: rgb(71, 71, 71);
-    background-color: rgb(223, 223, 223);
-    border-color: transparent;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
-#inputBtn {
-    height: 50px;
-    width: 30%;
-    font-size: 20px;
-    background-color: rgb(223, 223, 223);
-    border-color: transparent;
-    border-radius: 15px;
-}
-#inputBtn:hover {
-    border-color: rgb(60, 90, 56);
-    background-color: rgb(230, 230, 230);
-}
-/*=============*/
-/*=============*/
-footer {
-    width: 100%;
-}
-#footbar {
-    width: 100%;
-    height: 45px;
-    background-color: rgb(22, 19, 19);
-    text-align: center;
-}
-.textfoot_1 {
-    position: relative;
-    top: 8px;
-    font-size: 12px;
-    color: white;
-}
-}
-/*===================================================*/
-/*===================================================*/
-
-/*===================================================*/
-/*          LG lARGE SCREEN PC PORTATIL             */
-/*===================================================*/
 @media (min-width: 992px) and (max-width: 1199px){
-    /*==============================*/
-    /*   CONFIGURACION DE PAGINA    */
-    /*==============================*/
-    .continitial {
-        position: relative;
-        margin: 0%;
-        padding: 0%;
-        width: 100%;
-        height: 100%;
+    .slide-h1 {
+        font-size: 60px;
+        line-height: 90px;
     }
-    .img-fluid {
-        width: 100%;
-        height: auto;
+    .slide-h2 {
+        font-size: 20px;
     }
-    #cont-menu-logo {
-        margin-left: 20px;
+    .cont-fa-go {
+        margin-top: 35px;
+        width: 70px;
+        height: 70px;
     }
-    
-    .nav-item {
-        padding-left: 50px;
+    .cont-fa-gem {
+        width: 70px;
+        height: 70px;
     }
-    .nav-link {
-        padding-left: 0%!important;
-        padding-right: 0%!important;
+    .fa-chevron-right {
+        top: 12px;
+        height: 42px!important;
+        width: 46px!important;
     }
-    .form-control {
-        width: 170px!important;
+    /*===*/
+    .SCT-TITLE {
+        font-size: 65px;
+        line-height: 90px;
     }
-    /*······························*/
-    /*     CONTENIDO DE INICIO      */
-    /*······························*/
-    .rextor {
-        position: absolute;
-        top: 35%;
-        width: 60%;
-        margin-left: 20%;
-        margin-right: 20%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-    }
-    
-    .titls_Prsent  {
-        font-size: 70px!important;
-        padding: 0%!important;
-    }
-    .texts_Prsent {
-        font-size: 30px!important;
-        margin: 0%!important;
-        padding: 0%!important;
-    }
-    
-    
-    /*······························*/
-    /*     HIERBAS INFORMATION      */
-    /*              &               */
-    /*   CONDIMENTOS INFORMATION    */
-    /*······························*/
-    #cont_hierbas, #cont_condimentos {
-        margin-top: 10%;
-        margin-bottom: 5%;
-        height: auto;
-        padding: 0px!important;
-        width: 100%;
-    }
-
-    #carousel_Herbs_Sectiom {
-        height: auto;
-        width: 100%;
-    }
-    
-    .clor {
-        position: relative!important;
-        background-color: rgb(0, 0, 0, 0.2);
-    }
-    
-    .img_benefits {
-        height: auto;
+    .SCT-STITLE {
         width: 50%;
+        font-size: 19px;
+        line-height: 35px;
     }
-    
-    .lead {
-        float: left;
+    .SCT-BOX-MARGIN {
+        height: 360px;
     }
-    .cont_data_product {
-        height: auto;
-        width: 50%;
-        text-align: center;
+    .SCT-S2TITLE {
+        font-size: 16px;
+        line-height: 30px;
     }
-    .shadow-div {
-        padding-top: 50px;
-        padding-bottom: 50px;
-        margin-left: 20px;
-        margin-right: 20px;
+    .SCT-SUPER-LI {
+        width: 20%;
     }
-    .title_data_product {
-        font-size: 40px;
-        color: white;
+    .SCT-LI-TOPMARGIN {
+        margin-top: 0%;
     }
-    .text_data_product {
-        position: relative;
-        color: white;
+    .SCT-LI-SPACE2 {
+        margin-right: 6%!important;
+    }
+    .SCT-BOX-TITLE {
         font-size: 17px;
-        margin: 0px!important;
     }
-    .link_data_product {
-        font-size: 17px;
-        font-weight: 600;
-        position: relative;
-        top: 20px;
+    .SCT-BOX-STITLE {
+        font-size: 14px;
+        line-height: 25px;
     }
-    @media (min-width: 1100px) and (max-width: 1199px){
-        .shadow-div {
-            padding-top: 70px;
-            padding-bottom: 70px;
-            margin-left: 35px;
-            margin-right: 35px;
-        }
-        .text_data_product {
-            font-size: 20px;
-        }
-    }
-    /*------ BOXES ------- */
-    #box_hierbas {
-        margin-top: 70px;
-        height: 370px;
-        width: 100%;        
-        padding: 0%!important;
-    }
-    #carousel-products-herb {
-        height: 370px;
-        width: 100%;
-    }
-    .box0 {
-        height: 370px;
-        text-align: center;
-    }
-    .box1 {
-        padding-left: 65px;
-        padding-right: 0px;
-    }
-    .box3 {
-        padding-left: 0px;
-        padding-right: 65px;
-    }
-    .box4 {
-        display: none;
-    }
-
-    #boxfig1 {
-        margin-left: 50px;
-    }
-    #boxfig3 {
-        margin-right: 50px;
-    }
-    .cont-figures > figcaption {
-        padding-top: 15px;
-    }
-    .herbs_control_btns {
-        color: rgb(83, 83, 83)!important;
-        height: 300px;
-        width: 4%!important;
-    }
-    /*------ BOXES ------- */
-    #box_condimentos {
-        margin-bottom: 5%;
-        margin-top: 30px;
-        padding-left: 0px!important;
-        padding-right: 0px!important;
-        height: auto;
-        width: 100%;
-    }
-
-    .cond0 {
-        height: 250px;
-    }
-    .cond4 {
-        display: none;
-    }
-    .cond_imgs {
-        height: 130px;
-        width: auto;
-    }
-    .fig_conds {
-        text-align: center;
-    }
-    .figc_conds {
-        padding-top: 25px;
-    }
-    #fig1_conds {
-        margin-left: 40px;
-    }
-    #fig2_conds {
-        margin-left: 10px;
-    }
-    #fig3_conds {
-        margin-right: 10px;
-    }
-    .link_conds {
-        font-family: "Popins", sans-serif;
-        font-size: 15px;
-        font-weight: bold;
-        color: black;
-        text-decoration: none!important;
-    }
-    .price_conds {
-        font-family: "Popins", sans-serif;
-        font-size: 15px;
-    }
-    .cond_control_btns {
-        width: 3%!important;
-        height: 120px;
-        color: gray!important;
-    }
-    /*···················*/
-    /*   BOX NOSOTROS    */
-    /*···················*/
-    #box_about {
-        background-color: rgb(255, 255, 255);
-        height: 340px;
-        width: 100%;
-        margin-bottom: 5%;
-        background-size: cover;
-        box-shadow: rgb(209, 209, 209) 1px 1px 20px 5px;
-    }
-    #logo_contain {
-        height: 320px;
-        width: 90%;
-        margin-left: 5%;
-        top: 40px;
-    }
-    #imgLogo {
-        height: auto;
-        top: 33.5px;
-        left: 15px;
-        padding: 0px;
-        float: left;
-        text-align: center;
-    }
-    #mslogo {
-        width: 234px;
-        height: 162px;
-        position: relative;
-        top: 20px;
-    }
-    #imgLgText {
-        height: 300px;
-        float: left;
-        top: -20px;
-        text-align: center;
-        padding-top: 7%;
-    }
-    #titleAbout {
-        color: black;
+    .SCT-BOX2-TITLE {
         font-size: 25px;
-        font-family: sans-serif;
-        font-weight: bold;
-        font-style: italic;
     }
-    .pxta {
-        font-family: sans-serif;
+    .SCT-BOX2-STITLE {
         font-size: 17px;
     }
-    #pxta1 {
+    .SCT-BOX2-S2TITLE {
+        font-size: 16px;
+    }
+    .SCT-BOX2-MARGIN {
         width: 100%;
         height: auto;
-        margin-top: 5px;
     }
-    #pxta2 {
-        display: none;
-    }
-    /*···················*/
-    /*   BOX NETWORK     */
-    /*···················*/
-    #box_socialnet {
-        height: 150px;
-        width: 100%;
-        margin-top: 5%;
-        margin-bottom: 10%;
-    }
-    #socialinks {
-        width: 100%;
-        height: 50px;
-        text-align: center;
-    }
-    .imgSNet {
-        top: 10px;
+    .SCT-BOX2-W {
+        float: left;
+        width: 50%;
+        height: auto;
+        text-align: left;
+        padding-top: 25px;
         padding-left: 35px;
         padding-right: 35px;
     }
-    .imgsNetSize {
-        width: 46px;
-        height: 46px;
-    }
-    #registerbox {
-        margin-top: 35px;
-        height: 80px;
-        width: 100%;
-        text-align: center;
-    }
-    #titleBoxReg {
-        font-family: sans-serif;
-        font-size: 20px;
-        color: black;
-    }
-    #formInput {
-        position: relative;
-        top: 20px;
-    }
-    #inputReg {
-        width: 55%;
-        height: 50px;
-        font-size: 20px;
-        padding-left: 45px;
-        color: rgb(71, 71, 71);
-        background-color: rgb(223, 223, 223);
-        border-color: transparent;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-    }
-    #inputBtn {
-        height: 50px;
-        width: 15%;
-        font-size: 20px;
-        background-color: rgb(223, 223, 223);
-        border-color: transparent;
-        border-radius: 15px;
-    }
-    #inputBtn:hover {
-        border-color: rgb(60, 90, 56);
-        background-color: rgb(230, 230, 230);
-    }
-    /*=============*/
-/*=============*/
-footer {
-    width: 100%;
-}
-#footbar {
-    width: 100%;
-    height: 45px;
-    background-color: rgb(22, 19, 19);
-    text-align: center;
-}
-.textfoot_1 {
-    position: relative;
-    top: 8px;
-    font-size: 12px;
-    color: white;
-}
-}
-/*===================================================*/
-/*===================================================*/
-    
-/*===================================================*/
-/*           XL EXTRA LARGE SCREEN DESKTOP           */
-/*===================================================*/
-@media (min-width: 1200px){
-    /*==============================*/
-    /*   CONFIGURACION DE PAGINA    */
-    /*==============================*/
-    .continitial {
-        position: relative;
-        margin: 0%;
-        padding: 0%;
-        width: 100%;
-    }
-    .img-fluid {
-        width: 100%;
+    .SCT-BOX2-IMG {
         height: auto;
+        width:50%;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 30px;
     }
-    #cont-menu-logo {
-        margin-left: 20px;
+    /*=======*/
+    .SCT-BOX3-TITLE {
+        font-size: 35px;
     }
-    .nav-item {
-        padding-left: 50px;
+    .SCT-BOX3-STITLE {
+        font-size: 17px;
+        line-height: 25px;
     }
-    /*······························*/
-    /*     CONTENIDO DE INICIO      */
-    /*······························*/
-    .rextor {
-        position: absolute;
-        top: 35%;
-        width: 60%;
-        margin-left: 20%;
-        margin-right: 20%;
-        transform: translate(-50%, -50%);
-        text-align: center;
+    /*=======*/
+    .SCT-BOX3-UL {
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 10%;
     }
-    
-    .titls_Prsent  {
-        font-size: 70px;
+    .SCT-BOX3-LI-TITLE {
+        font-size: 15px;
     }
-    .texts_Prsent {
+    .SCT-BOX3-LI-STITLE {
+        font-size: 13px;
+    }
+    .SCT-BOX3-LI-5 {
+        display: none;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1499px){
+    .slide-h1 {
+        font-size: 60px;
+        line-height: 90px;
+    }
+    .slide-h2 {
+        font-size: 20px;
+    }
+    .cont-fa-go {
+        margin-top: 35px;
+        width: 70px;
+        height: 70px;
+    }
+    .cont-fa-gem {
+        width: 70px;
+        height: 70px;
+    }
+    .fa-chevron-right {
+        top: 12px;
+        height: 42px!important;
+        width: 46px!important;
+    }
+    /*===*/
+    .SCT-TITLE {
+        font-size: 75px;
+        line-height: 110px;
+    }
+    .SCT-STITLE {
+        width: 50%;
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .SCT-BOX-MARGIN {
+        height: 350px;
+    }
+    .SCT-S2TITLE {
+        font-size: 18px;
+        line-height: 35px;
+    }
+    .SCT-SUPER-LI {
+        width: 20%;
+    }
+    .SCT-LI-TOPMARGIN {
+        margin-top: 0%;
+    }
+    .SCT-LI-SPACE2 {
+        margin-right: 6%!important;
+    }
+    .SCT-BOX-TITLE {
+        font-size: 17px;
+    }
+    .SCT-BOX-STITLE {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .SCT-BOX2-TITLE {
         font-size: 30px;
-        margin: 0%!important;
-        padding: 0%!important;
     }
-    
-    /*······························*/
-    /*     HIERBAS INFORMATION      */
-    /*              &               */
-    /*   CONDIMENTOS INFORMATION    */
-    /*······························*/
-    #cont_hierbas, #cont_condimentos {
-        margin-top: 5%;
-        height: auto;
-        padding: 0px!important;
-        width: 100%;
+    .SCT-BOX2-STITLE {
+        font-size: 19px;
     }
-    #carousel_Herbs_Sectiom {
-        height: auto;
-        width: 100%;
-    }
-    .clor {
-        position: relative!important;
-        background-color: rgb(0, 0, 0, 0.2);
-    }
-    .img_benefits {
-        height: auto;
-        width: 50%;
-    }
-    .lead {
-        float: left;
-    }
-    .cont_data_product {
-        height: auto;
-        width: 50%;
-        text-align: center;
-    }
-    .shadow-div {
-        padding-top: 80px;
-        padding-bottom: 80px;
-        margin-left: 40px;
-        margin-right: 40px;
-    }
-    .title_data_product {
-        font-size: 40px;
-        color: white;
-    }
-    .text_data_product {
-        position: relative;
-        color: white;
-        top: 15px;
-        font-size: 22px;
-        margin: 0px!important;
-    }
-    .link_data_product {
+    .SCT-BOX2-S2TITLE {
         font-size: 17px;
-        font-weight: 600;
-        position: relative;
-        top: 20px;
+        line-height: 30px;
     }
-
-    /*================*/
-    /*================*/
-    /*------ BOXES HIERBAS ------- */
-    #box_hierbas {
-        margin-bottom: 10%;
-        margin-top: 100px;
-        height: 370px;
-        width: 100%;        
-        padding: 0%!important;
-    }
-    #carousel-products-herb {
-        height: 370px;
+    .SCT-BOX2-MARGIN {
         width: 100%;
-    }
-    .box0 {
-        height: 370px;
-        text-align: center;
-    }
-    .box1 {
-        padding-right: 0px!important;
-    }
-    .box2 {
-        padding-right: 0px!important;
-    }
-    .box3 {
-        padding-left: 0px!important;
-    }
-    .box4 {
-        padding-left: 0px!important;
-    }
-    #boxfig1 {
-        margin-left: 40px;
-    }
-    #boxfig2 {
-        margin-left: 20px;
-    }
-    #boxfig3 {
-        margin-right: 20px;
-    }
-    #boxfig4 {
-        margin-right: 40px;
-    }
-    .linkProducts {
-        font-family: "Popins", sans-serif;
-        font-size: 18px;
-    }
-    .cont-figures > figcaption {
-        padding-top: 15px;
-    }
-    .herbs_control_btns {
-        color: rgb(83, 83, 83)!important;
-        height: 300px;
-        width: 5%!important;
-    }
-    /*================*/
-    /*================*/
-    /*------ BOXES CONDIMENTOS ------- */
-    #box_condimentos {
-        margin-bottom: 5%;
-        padding-left: 0px!important;
-        padding-right: 0px!important;
-        height: 300px;
-        width: 100%;
-    }
-    #carousel-products-cond {
-        height: 300px;
-    }
-    .cond_control_btns {
-        margin-top: 50px;
-    }
-    .cond0 {
         height: auto;
-        margin-top: 50px;
     }
-    .cond_imgs {
-        height: 120px;
-        width: auto;
-    }
-    .fig_conds {
-        text-align: center;
-    }
-    .figc_conds {
-        padding-top: 25px;
-    }
-    #fig1_conds {
-        margin-left: 40px;
-    }
-    #fig2_conds {
-        margin-left: 10px;
-    }
-    #fig3_conds {
-        margin-right: 10px;
-    }
-    #fig4_conds {
-        margin-right: 40px;
-    }
-    .link_conds {
-        font-family: "Popins", sans-serif;
-        font-size: 18px;
-        font-weight: 500;
-        color: rgb(0, 0, 0);
-        text-decoration: none!important;
-    }
-    .price_conds {
-        font-family: "Popins", sans-serif;
-        font-size: 15px;
-        color: rgb(0, 0, 0);
-    }
-    .cond_control_btns {
-        width: 3%!important;
-        height: 120px;
-        color: rgb(0, 0, 0)!important;
-    }
-    /*···················*/
-    /*   BOX NOSOTROS    */
-    /*···················*/
-    #box_about {
-        background-color: rgb(255, 255, 255);
-        background-size: cover;
-        height: 400px;
-        width: 100%;
-        margin-bottom: 5%;
-        box-shadow: rgb(209, 209, 209) 1px 1px 20px 5px;
-    }
-    #logo_contain {
-        height: 380px;
-        width: 100%;
-        top: 50px;
-    }
-    #imgLogo {
-        width: 100%;
-        height: 316px;
-        top: 33.5px;
-        padding: 0px;
+    .SCT-BOX2-W {
         float: left;
-    }
-    #boxlogo {
-        height: 316px;
-        width: 100%;
-        text-align: center;
-    }
-    #mslogo {
-        width: 234px;
-        height: 162px;
-        position: relative;
-        top: 30px;
-        left: 50px;
-    }
-    #imgLgText {
-        height: 300px;
-        float: left;
-        top: 40px;
-        text-align: justify;
-    }
-    #cont-titleAbout {
-        text-align: center;
-    }
-    #titleAbout {
-        font-size: 20px;
-        font-family: sans-serif;
-        font-weight: bold;
-        font-style: normal;
-        color: black;
-    }
-    .pxta {
-        font-family: sans-serif;
-        font-size: 15px;
-        margin-left: 5%;
-        margin-right: 5%;      
-        width: auto;
-        height: auto;
-    }
-    #pxta1 {
-        margin-top: 20px;
-    }
-    #pxta2 {
-        margin-top: 5px;
-    }
-    #pxta3 {
-        font-family: sans-serif;
-        font-size: 17px;
-        text-align: center;
-    }
-    /*···················*/
-    /*   BOX NETWORK     */
-    /*···················*/
-    #box_socialnet {
-        height: 150px;
-        width: 100%;
-        margin-top: 5%;
-        margin-bottom: 10%;
-    }
-    #socialinks {
-        width: 100%;
-        height: 50px;
-        text-align: center;
-    }
-    .imgSNet {
-        top: 10px;
-        padding-left: 40px;
-        padding-right: 40px;
-    }
-    .imgsNetSize {
-        width: 46px;
-        height: 46px;
-    }
-    #registerbox {
-        margin-top: 35px;
-        height: 80px;
-        width: 100%;
-        text-align: center;
-    }
-    #titleBoxReg {
-        font-family: sans-serif;
-        font-size: 20px;
-        color: black;
-    }
-    #formInput {
-        position: relative;
-        top: 20px;
-    }
-    #inputReg {
-        width: 45%;
-        height: 50px;
-        font-size: 18px;
-        padding-left: 45px;
-        color: rgb(71, 71, 71);
-        background-color: rgb(223, 223, 223);
-        border-color: transparent;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-    }
-    #inputBtn {
-        height: 50px;
-        width: 15%;
-        font-size: 18px;
-        background-color: rgb(223, 223, 223);
-        border-color: transparent;
-        border-radius: 15px;
-    }
-    #inputBtn:hover {
-        border-color: rgb(60, 90, 56);
-        background-color: rgb(230, 230, 230);
-    }
-    /*=============*/
-/*=============*/
-footer {
-    width: 100%;
-}
-#footbar {
-    width: 100%;
-    height: 45px;
-    background-color: rgb(22, 19, 19);
-    text-align: center;
-}
-.textfoot_1 {
-    position: relative;
-    top: 8px;
-    font-size: 12px;
-    color: white;
-}
-}
-@media (min-width: 1300px){
-    /*==============================*/
-    /*   CONFIGURACION DE PAGINA    */
-    /*==============================*/
-    .continitial {
-        position: relative;
-        margin: 0%;
-        padding: 0%;
-        width: 100%;
-    }
-    .img-fluid {
-        width: 100%;
-        height: auto;
-    }
-    /*······························*/
-    /*     CONTENIDO DE INICIO      */
-    /*······························*/
-    .rextor {
         width: 50%;
-        margin-left: 25%;
-        margin-right: 25%;
-    }
-    
-    
-    /*······························*/
-    /*     HIERBAS INFORMATION      */
-    /*              &               */
-    /*   CONDIMENTOS INFORMATION    */
-    /*······························*/
-    #cont_hierbas, #cont_condimentos {
-        margin-top: 5%;
         height: auto;
-        width: 100%;
-    }
-
-    #carousel_Herbs_Sectiom {
-        height: auto;
-        width: 100%;
-    }
-    .clor {
-        position: relative!important;
-        background-color: rgb(0, 0, 0, 0.2);
-    }
-    .img_benefits {
-        height: auto;
-        width: 35%;
-    }
-    .lead {
-        float: left;
-    }
-    .cont_data_product {
-        height: auto;
-        width: 65%;
-        text-align: center;
-    }
-    .shadow-div {
+        text-align: left;
         padding-top: 50px;
-        padding-bottom: 50px;
-        margin-left: 40px;
-        margin-right: 40px;
-    }
-    .title_data_product {
-        font-size: 40px;
-        color: white;
-    }
-    .text_data_product {
-        position: relative;
-        color: white;
-        top: 15px;
-        font-size: 22px;
-        margin: 0px!important;
-    }
-    .link_data_product {
-        font-size: 17px;
-        font-weight: 600;
-        position: relative;
-        top: 20px;
-    }
-
-    /*···················*/
-    /*   BOX NOSOTROS    */
-    /*···················*/
-    #box_about {
-        background-color: rgb(255, 255, 255);
-        height: 400px;
-        width: 100%;
-        margin-bottom: 5%;
-        background-size: cover;
-        box-shadow: rgb(209, 209, 209) 1px 1px 20px 5px;
-    }
-    #logo_contain {
-        height: 380px;
-        width: 100%;
-        top: 80px;
-    }
-    #imgLogo {
-        width: 100%;
-        height: 316px;
-        top: 0px;
-        left: 50px;
-        padding: 0px;
-        float: left;
-    }
-    #boxlogo {
-        height: 316px;
-        width: 100%;
-        text-align: center;
-    }
-    #mslogo {
-        width: 341px;
-        height: 236px;
-        position: relative;
-        left: 20px;
-        top: 10px;
-    }
-    #imgLgText {
-        height: 300px;
-        float: left;
-        top: 20px;
-        text-align: justify;
-    }
-    #cont-titleAbout {
-        text-align: center;
-    }
-    #titleAbout {
-        font-size: 20px;
-        font-family: sans-serif;
-        font-weight: bold;
-        font-style: normal;
-        color: black;
-    }
-    .pxta {
-        font-family: sans-serif;
-        font-size: 17px;
-        margin-left: 10%;
-        margin-right: 5%;       
-        width: auto;
-        height: auto;
-    }
-    #pxta1 {
-        margin-top: 20px;
-    }
-    #pxta2 {
-        margin-top: 5px;
-    }
-    #pxta3 {
-        font-family: sans-serif;
-        font-size: 17px;
-        text-align: center;
-    }
-    /*···················*/
-    /*   BOX NETWORK     */
-    /*···················*/
-    #box_socialnet {
-        height: 150px;
-        width: 100%;
-        margin-top: 5%;
-        margin-bottom: 10%;
-    }
-    #socialinks {
-        width: 100%;
-        height: 50px;
-        text-align: center;
-    }
-    .imgSNet {
-        top: 10px;
         padding-left: 50px;
         padding-right: 50px;
     }
-    .imgsNetSize {
-        width: 46px;
-        height: 46px;
-    }
-    #registerbox {
-        margin-top: 35px;
-        height: 80px;
-        width: 100%;
-        text-align: center;
-    }
-    #titleBoxReg {
-        font-family: sans-serif;
-        font-size: 20px;
-        color: black;
-    }
-    #formInput {
-        position: relative;
-        top: 20px;
-    }
-    #inputReg {
-        width: 35%;
-        height: 50px;
-        font-size: 18px;
-        padding-left: 45px;
-        color: rgb(71, 71, 71);
-        background-color: rgb(223, 223, 223);
-        border-color: transparent;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-    }
-    #inputBtn {
-        height: 50px;
-        width: 15%;
-        font-size: 18px;
-        background-color: rgb(223, 223, 223);
-        border-color: transparent;
-        border-radius: 15px;
-    }
-    #inputBtn:hover {
-        border-color: rgb(60, 90, 56);
-        background-color: rgb(230, 230, 230);
-    }
-    /*=============*/
-/*=============*/
-footer {
-    width: 100%;
-}
-#footbar {
-    width: 100%;
-    height: 45px;
-    background-color: rgb(22, 19, 19);
-    text-align: center;
-}
-.textfoot_1 {
-    position: relative;
-    top: 8px;
-    font-size: 12px;
-    color: white;
-}
-}
-@media (min-width: 1600px){
-    /*==============================*/
-    /*   CONFIGURACION DE PAGINA    */
-    /*==============================*/
-    .continitial {
-        position: relative;
-        margin: 0%;
-        padding: 0%;
-        width: 100%;
-    }
-    .img-fluid {
-        width: 100%;
+    .SCT-BOX2-IMG {
         height: auto;
+        width:50%;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 30px;
     }
-    /*······························*/
-    /*     CONTENIDO DE INICIO      */
-    /*······························*/
-    .rextor {
-        width: 45%;
-        margin-left: 27.5%;
-        margin-right: 27.5%;
+    /*=======*/
+    .SCT-BOX3-TITLE {
+        font-size: 35px;
     }
-    
-    
-    
-    /*······························*/
-    /*     HIERBAS INFORMATION      */
-    /*              &               */
-    /*   CONDIMENTOS INFORMATION    */
-    /*······························*/
-    #cont_hierbas, #cont_condimentos {
-        margin-top: 5%;
-        height: auto;
-        width: 100%;
-    }
-
-    #carousel_Herbs_Sectiom {
-        height: auto;
-        width: 100%;
-    }
-    .clor {
-        position: relative!important;
-        background-color: rgb(0, 0, 0, 0.2);
-    }
-    .img_benefits {
-        height: auto;
-        width: 40%;
-    }
-    .lead {
-        float: left;
-    }
-    .cont_data_product {
-        height: auto;
-        width: 60%;
-        text-align: center;
-    }
-    .shadow-div {
-        padding-top: 80px;
-        padding-bottom: 80px;
-        margin-top: 35px;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-    .title_data_product {
-        font-size: 45px;
-        color: white;
-    }
-    .text_data_product {
-        position: relative;
-        color: white;
-        top: 15px;
-        font-size: 25px;
-        margin: 0px!important;
-    }
-    .link_data_product {
-        font-size: 20px;
-        font-weight: 600;
-        position: relative;
-        top: 20px;
-    }
-
-
-    .box1 {
-        padding-right: 0px!important;
-    }
-    .box2 {
-        padding-right: 0px!important;
-    }
-    .box3 {
-        padding-left: 0px!important;
-    }
-    .box4 {
-        padding-left: 0px!important;
-    }
-    #boxfig1 {
-        margin-left: 70px;
-    }
-    #boxfig2 {
-        margin-left: 20px;
-    }
-    #boxfig3 {
-        margin-right: 20px;
-    }
-    #boxfig4 {
-        margin-right: 70px;
-    }
-
-    .cond_imgs {
-        height: 170px;
-    }
-    .cond_control_btns {
-        height: 170px;
-    }
-    /*···················*/
-    /*   BOX NOSOTROS    */
-    /*···················*/
-    #box_about {
-        background-color: rgb(255, 255, 255);
-        height: 550px;
-        width: 100%;
-        margin-bottom: 5%;
-        background-size: cover;
-        box-shadow: rgb(209, 209, 209) 1px 1px 20px 5px;
-    }
-    #logo_contain {
-        height: 380px;
-        width: 100%;
-        top: 80px;
-    }
-    #imgLogo {
-        width: 100%;
-        height: 316px;
-        top: 33.5px;
-        padding: 0px;
-        float: left;
-    }
-    #boxlogo {
-        height: 316px;
-        width: 90%;
-        margin-left: 10%;
-        text-align: center;
-    }
-    #mslogo {
-        width: 443px;
-        height: 316px;
-    }
-    #imgLgText {
-        height: 250px;
-        float: left;
-        margin-top: 40px;
-        text-align: left;
-    }
-    #cont-titleAbout {
-        text-align: center;
-    }
-    #titleAbout {
-        font-size: 25px;
-        font-family: sans-serif;
-        font-weight: bold;
-        font-style: normal;
-        margin-right: 20%;
-        color: black;
-    }
-    .pxta {
-        font-family: sans-serif;
-        font-size: 19px;
-        margin-left: 5%;
-        margin-right: 15%;       
-        width: auto;
-        height: auto;
-    }
-    #pxta1 {
-        margin-top: 20px;
-    }
-    #pxta2 {
-        margin-top: 5px;
-    }
-    #pxta3 {
-        margin-right: 20%;
-        font-family: sans-serif;
+    .SCT-BOX3-STITLE {
         font-size: 17px;
-        text-align: center;
+        line-height: 25px;
     }
-    /*···················*/
-    /*   BOX NETWORK     */
-    /*···················*/
-    #box_socialnet {
-        height: 150px;
-        width: 100%;
-        margin-top: 5%;
-        margin-bottom: 10%;
+    /*=======*/
+    .SCT-BOX3-UL {
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 10%;
     }
-    #socialinks {
-        width: 100%;
-        height: 50px;
-        text-align: center;
+    .SCT-BOX3-LI-TITLE {
+        font-size: 16px;
     }
-    .imgSNet {
-        top: 10px;
-        padding-left: 55px;
-        padding-right: 55px;
+    .SCT-BOX3-LI-STITLE {
+        font-size: 14px;
     }
-    .imgsNetSize {
-        width: 46px;
-        height: 46px;
+    .SCT-BOX3-LI-5 {
+        display: none;
     }
-    #registerbox {
+}
+@media (min-width: 1500px) and (max-width: 2000px){
+    .slide-h1 {
+        font-size: 70px;
+        line-height: 100px;
+    }
+    .slide-h2 {
+        font-size: 20px;
+    }
+    .cont-fa-go {
         margin-top: 35px;
-        height: 80px;
-        width: 100%;
-        text-align: center;
-    }
-    #titleBoxReg {
-        font-family: sans-serif;
-        font-size: 20px;
-        color: black;
-    }
-    #formInput {
-        position: relative;
-        top: 20px;
-    }
-    #inputReg {
-        width: 35%;
-        height: 50px;
-        font-size: 18px;
-        padding-left: 45px;
-        color: rgb(71, 71, 71);
-        background-color: rgb(223, 223, 223);
-        border-color: transparent;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-    }
-    #inputBtn {
-        height: 50px;
-        width: 15%;
-        font-size: 18px;
-        background-color: rgb(223, 223, 223);
-        border-color: transparent;
-        border-radius: 15px;
-    }
-    #inputBtn:hover {
-        border-color: rgb(60, 90, 56);
-        background-color: rgb(230, 230, 230);
-    }
-    /*=============*/
-/*=============*/
-footer {
-    width: 100%;
-}
-#footbar {
-    width: 100%;
-    height: 45px;
-    background-color: rgb(22, 19, 19);
-    text-align: center;
-}
-.textfoot_1 {
-    position: relative;
-    top: 8px;
-    font-size: 12px;
-    color: white;
-}
-}
-@media (min-width: 1800px){
-    /*==============================*/
-    /*   CONFIGURACION DE PAGINA    */
-    /*==============================*/
-    .continitial {
-        position: relative;
-        top: 0;
-        margin: 0%;
-        padding: 0%;
-        width: 100%;
-        height: auto;
-    }
-    .img-fluid {
-        width: 100%;
-        height: auto;
-    }
-    
-    /*······························*/
-    /*     CONTENIDO DE INICIO      */
-    /*······························*/
-    .titls_Prsent  {
-        font-size: 80px;
-    }
-    .texts_Prsent {
-        font-size: 30px;
-        margin: 0%!important;
-        padding: 0%!important;
-    }
-    
-    
-    /*······························*/
-    /*     HIERBAS INFORMATION      */
-    /*              &               */
-    /*   CONDIMENTOS INFORMATION    */
-    /*······························*/
-    #cont_hierbas, #cont_condimentos {
-        margin-top: 5%;
-        height: auto;
-        width: 100%;
-    }
-    #carousel_Herbs_Sectiom {
-        height: auto;
-        width: 100%;
-    }
-    .clor {
-        position: relative!important;
-        background-color: rgb(0, 0, 0, 0.2);
-    }
-    .img_benefits {
-        height: auto;
-        width: 40%;
-    }
-    .lead {
-        float: left;
-    }
-    .cont_data_product {
-        height: auto;
-        width: 60%;
-        text-align: center;
-    }
-    .shadow-div {
-        padding-top: 80px;
-        padding-bottom: 150px;
-        margin-top: 40px;
-        margin-left: 15%;
-        margin-right: 15%;
-    }
-    .title_data_product {
-        font-size: 50px;
-        color: white;
-    }
-    .text_data_product {
-        position: relative;
-        color: white;
-        top: 15px;
-        font-size: 25px;
-        margin: 0px!important;
-    }
-    .link_data_product {
-        font-size: 20px;
-        font-weight: 600;
-        position: relative;
-        top: 20px;
-    }
-
-    .box1 {
-        padding-right: 0px!important;
-    }
-    .box2 {
-        padding-right: 0px!important;
-    }
-    .box3 {
-        padding-left: 0px!important;
-    }
-    .box4 {
-        padding-left: 0px!important;
-    }
-    #boxfig1 {
-        margin-left: 90px;
-    }
-    #boxfig2 {
-        margin-left: 45px;
-    }
-    #boxfig3 {
-        margin-right: 45px;
-    }
-    #boxfig4 {
-        margin-right: 90px;
-    }
-
-    /*···················*/
-    /*   BOX NOSOTROS    */
-    /*···················*/
-    #box_about {
-        background-color: rgb(255, 255, 255);
-        height: 550px;
-        width: 100%;
-        margin-bottom: 5%;
-        box-shadow: rgb(209, 209, 209) 1px 1px 20px 5px;
-        background-size: cover;
-    }
-    #logo_contain {
-        height: 380px;
-        width: 100%;
-        top: 80px;
-    }
-    #imgLogo {
-        width: 100%;
-        height: 316px;
-        top: 33.5px;
-        padding: 0px;
-        float: left;
-    }
-    #boxlogo {
-        height: 316px;
-        width: 90%;
-        margin-left: 10%;
-        text-align: center;
-    }
-    #mslogo {
-        width: 443px;
-        height: 316px;
-    }
-    #imgLgText {
-        height: 316px;
-        float: left;
-        top: 10px!important;
-        text-align: left;
-    }
-    #cont-titleAbout {
-        text-align: center;
-    }
-    #titleAbout {
-        font-size: 28px;
-        font-family: sans-serif;
-        font-weight: bold;
-        font-style: italic;
-        margin-right: 20%;
-        color: black;
-    }
-    .pxta {
-        font-family: sans-serif;
-        font-size: 20px;  
-        margin-left: 10%;
-        width: 70%;
+        width: 70px;
         height: 70px;
     }
-    #pxta1 {
-        margin-top: 20px;
+    .cont-fa-gem {
+        width: 70px;
+        height: 70px;
     }
-    #pxta2 {
-        margin-top: 5px;
+    .fa-chevron-right {
+        top: 12px;
+        height: 42px!important;
+        width: 46px!important;
     }
-    #pxta3 {
-        margin-right: 20%;
+    /*===*/
+    .SCT-TITLE {
+        font-size: 85px;
+        line-height: 130px;
     }
-    /*···················*/
-    /*   BOX NETWORK     */
-    /*···················*/
-    #box_socialnet {
-        height: 250px;
-        width: 100%;
-        margin-top: 2%;
-        margin-bottom: 5%;
+    .SCT-STITLE {
+        width: 40%;
+        font-size: 22px;
+        line-height: 45px;
     }
-    #socialinks {
-        width: 100%;
-        height: 50px;
-        text-align: center;
+    .SCT-BOX-MARGIN {
+        height: 400px;
     }
-    .imgSNet {
-        top: 10px;
-        padding-left: 55px;
-        padding-right: 55px;
+    .SCT-S2TITLE {
+        font-size: 19px;
+        line-height: 40px;
     }
-    .imgsNetSize {
-        width: 32px;
-        height: 32px;
+    .SCT-SUPER-LI {
+        width: 20%;
     }
-    #registerbox {
-        margin-top: 40px;
-        height: 80px;
-        width: 100%;
-        text-align: center;
+    .SCT-LI-TOPMARGIN {
+        margin-top: 0%;
     }
-    #titleBoxReg {
-        font-family: sans-serif;
-        font-size: 25px;
-        color: black;
+    .SCT-LI-SPACE2 {
+        margin-right: 6%!important;
     }
-    #formInput {
-        position: relative;
-        top: 30px;
+    .SCT-BOX-TITLE {
+        font-size: 19px;
     }
-    #inputReg {
-        width: 35%;
-        height: 50px;
+    .SCT-BOX-STITLE {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .SCT-BOX2-TITLE {
+        font-size: 40px;
+    }
+    .SCT-BOX2-STITLE {
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .SCT-BOX2-S2TITLE {
         font-size: 18px;
-        padding-left: 45px;
-        color: rgb(71, 71, 71);
-        background-color: rgb(223, 223, 223);
-        border-color: transparent;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
+        line-height: 30px;
     }
-    #inputBtn {
-        height: 50px;
-        width: 15%;
+    .SCT-BOX2-MARGIN {
+        width: 100%;
+        height: auto;
+    }
+    .SCT-BOX2-W {
+        float: left;
+        width: 50%;
+        height: auto;
+        text-align: left;
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .SCT-BOX2-IMG {
+        height: auto;
+        width:50%;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 30px;
+    }
+    /*=======*/
+    .SCT-BOX3-TITLE {
+        font-size: 35px;
+    }
+    .SCT-BOX3-STITLE {
+        font-size: 17px;
+        line-height: 25px;
+    }
+    /*=======*/
+    .SCT-BOX3-UL {
+        grid-template-columns: auto auto auto auto auto;
+        grid-gap: 5%;
+    }
+    .SCT-BOX3-LI-TITLE {
         font-size: 18px;
-        background-color: rgb(223, 223, 223);
-        border-color: transparent;
-        border-radius: 15px;
     }
-    #inputBtn:hover {
-        border-color: rgb(60, 90, 56);
-        background-color: rgb(230, 230, 230);
+    .SCT-BOX3-LI-STITLE {
+        font-size: 16px;
     }
-    /*=============*/
-/*=============*/
-footer {
-    width: 100%;
 }
-#footbar {
-    width: 100%;
-    height: 45px;
-    background-color: rgb(22, 19, 19);
-    text-align: center;
-}
-.textfoot_1 {
-    position: relative;
-    top: 8px;
-    font-size: 12px;
-    color: white;
-}
-}
-/*===================================================*/
-/*===================================================*/
+/*=========================================*/
+/*=========================================*/
