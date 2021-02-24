@@ -28,17 +28,14 @@
     font-family: Poppins-Medium;
     src: url(../res/fonts/Poppins/Poppins-Medium.ttf)
 }
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../res/fonts/Poppins/Poppins-Regular.ttf);
+}
 /*==================*/
-.bodymargin {
-    margin-left: 10%;
-    margin-right: 10%;
-}
-.SCT-MARGIN {
-    margin-top: 100px;
-}
-.SCT-P-MARGIN {
-    margin-top: 50px;
-}
+
+
+/*=============$$$============*/
 .SCT-TITLE {
     font-family: Poppins-Bold;
     letter-spacing: 5px;
@@ -49,56 +46,28 @@
     font-family: VarelaRound-Regular;
     color: black;
     letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 30px;
 }
-.SCT-S2TITLE {
-    font-family: VarelaRound-Regular;
-    color: black;
-    letter-spacing: 1px;
+.SCT-W-100 {
+    width: 100%!important;
 }
-.SCT-BOX-MARGIN {
-    margin-top: 50px;
-}
-.SCT-UL {
-    list-style: none;
-}
-.SCT-SUPER-LI {
-    height: auto;
-    width: 45%;
-    float: left;
-}
-.SCT-DIV {
-    width: auto;
-    height: auto;
-    border-radius: 10px;
-}
-.SCT-DIV-IMG {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-.SCT-LI-TOPMARGIN {
-    margin-top: 25px;
-}
-.SCT-LI-SPACE {
+/*=============$$$============*/
+.SCT-SUPERMARGIN {
+    margin-left: 10%;
     margin-right: 10%;
 }
-.SCT-BOX-TITLE {
-    font-family: Poppins-Medium;
-    letter-spacing: 1px;
-    text-align: center;
-    margin-top: 20px;
-}
-.SCT-BOX-STITLE {
-    font-family: Varela;
-    letter-spacing: 1px;
-    text-align: center;
-    color: black;
-    margin-top: 10px;
-}
-.SCT-BOX2-MARGIN {
-    height: auto;
-    width: 100%;
+.SCT-MARGIN-50 {
     margin-top: 50px;
+}
+.SCT-MARGIN-100 {
+    margin-top: 100px;
+}
+.SCT-BOX-MARGIN {
+    height: auto!important;
+    width: 100%;
+}
+.SCT-BOX2 {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
@@ -108,13 +77,17 @@
 }
 .SCT-BOX2-W {
     padding: 25px 25px 25px 25px;
+    height: auto;
+    text-align: left;
 }
 .SCT-BOX2-TITLE {
     font-family: Poppins-Medium;
+    letter-spacing: 1px;
 }
-.SCT-BOX2-STITLE, .SCT-BOX2-S2TITLE {
+.SCT-BOX2-STITLE {
     font-family: VarelaRound-Regular;
     margin-top: 25px;
+    letter-spacing: 1px;
 }
 .SCT-BOX2-IMG {
     width: 100%;
@@ -122,58 +95,65 @@
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
 }
-/*======*//*======*//*======*//*======*//*======*/
-/*======*/
-.SCT-BOX3-MARGIN {
+/*=============$$$============*/
+.SCT-UL {
     width: 100%;
     height: auto;
-}
-.SCT-BOX3-TITLE {
-    font-family: Poppins-Medium;
-    letter-spacing: 1px;
-    font-size: 30px;
-}
-.SCT-BOX3-STITLE {
-    font-family: VarelaRound-Regular;
-    letter-spacing: 1px;
-    margin-top: 25px;
-    font-size: 13px;
-    line-height: 25px;
-}
-/*======*/
-.SCT-BOX3-UL {
-    margin-top: 25px;
-    width: 100%;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto;
     grid-gap: 10%;
+    list-style: none;
 }
-.SCT-BOX3-LI {
+.SCT-LI {
     height: auto;
     width: auto;
     text-align: center;
 }
-.SCT-BOX3-LIMG {
+.SCT-LI-DIV {
     height: auto;
     width: 100%;
-    padding: 10px;
+    padding: 5px;
     background-color: rgb(246, 246, 246);
+    border-radius: 10px;
 }
-.SCT-BOX3-IMG {
+.SCT-LI-DIV-IMG {
     width: 100%;
     height: auto;
+    border-radius: 10px;
 }
-.SCT-BOX3-LI-TITLE {
+.SCT-LI-TITLE {
     font-family: Poppins-Medium;
     letter-spacing: 1px;
-    margin-top: 25px;
+    margin-top: 20px;
 }
-.SCT-BOX3-LI-STITLE {
+.SCT-LI-STITLE {
     font-family: Varela;
-    margin-top: 5px;
+    letter-spacing: 1px;
+    color: black;
+    margin-top: 10px;
+}
+/*=============$$$============*/
+.SCT-BOXES-TITLE {
+    font-size: 35px;
+    font-family: Poppins-Medium;
     letter-spacing: 1px;
 }
-/*==================*/
+.SCT-BOXES-TITLE2 {
+    font-family: Poppins-Regular;
+    letter-spacing: 1px;
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 50px;
+}
+.SCT-BOXES-STITLE {
+    font-family: VarelaRound-Regular;
+    margin-top: 25px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 30px;
+}
+/*=============$$$============*/
+
 
 /*=========================================*/
 /*================= HEADER ================*/
@@ -296,129 +276,71 @@ header {
         font-size: 35px;
         line-height: 50px;
     }
-    .SCT-STITLE {
-        font-size: 15px;
-        line-height: 30px;
+    .SCT-UL {
+        padding-bottom: 50px;
     }
-    .SCT-BOX-MARGIN {
-        height: 500px;
-    }
-    .SCT-S2TITLE {
-        font-size: 12px;
-        line-height: 20px;
-    }
-    .SCT-BOX-TITLE {
+    .SCT-LI-TITLE {
         font-size: 13px;
     }
-    .SCT-BOX-STITLE {
-        font-size: 10px;
+    .SCT-LI-STITLE {
+        font-size: 12px;
         line-height: 15px;
     }
-    .SCT-BOX2-MARGIN {
-        margin-left: 0px!important;
-        margin-right: 0px!important;
+    .SCT-LI-5 {
+        display: none;
     }
     .SCT-BOX2-TITLE {
         font-size: 25px;
     }
     .SCT-BOX2-STITLE {
-        font-size: 16px;
+        font-size: 13px;
         line-height: 30px;
-    }
-    .SCT-BOX2-S2TITLE {
-        font-size: 14px;
-    }
-    /*=======*/
-    .SCT-BOX3-TITLE {
-        font-size: 35px;
-    }
-    .SCT-BOX3-STITLE {
-        font-size: 15px;
-        line-height: 25px;
-    }
-    /*=======*/
-    .SCT-BOX3-UL {
-        grid-template-columns: auto auto;
-        grid-gap: 10%;
-    }
-    .SCT-BOX3-LI-TITLE {
-        font-size: 14px;
-    }
-    .SCT-BOX3-LI-STITLE {
-        font-size: 12px;
-    }
-    .SCT-BOX3-LI-5 {
-        display: none;
     }
 }
 @media (min-width: 391px) and (max-width: 575px){
-    /*===*/
     .SCT-TITLE {
         font-size: 40px;
         line-height: 65px;
     }
-    .SCT-STITLE {
-        font-size: 15px;
-        line-height: 30px;
+    .SCT-UL {
+        padding-bottom: 60px;
     }
-    .SCT-BOX-MARGIN {
-        height: 550px;
+    .SCT-LI-TITLE {
+        font-size: 14px;
     }
-    .SCT-S2TITLE {
+    .SCT-LI-STITLE {
         font-size: 12px;
-        line-height: 23px;
-    }
-    .SCT-BOX-TITLE {
-        font-size: 13px;
-    }
-    .SCT-BOX-STITLE {
-        font-size: 10px;
         line-height: 15px;
+    }
+    .SCT-LI-5 {
+        display: none;
     }
     .SCT-BOX2-TITLE {
         font-size: 27px;
     }
     .SCT-BOX2-STITLE {
-        font-size: 17px;
-        line-height: 35px;
-    }
-    .SCT-BOX2-S2TITLE {
         font-size: 14px;
-        line-height: 25px;
-    }
-    /*=======*/
-    .SCT-BOX3-TITLE {
-        font-size: 35px;
-    }
-    .SCT-BOX3-STITLE {
-        font-size: 15px;
-        line-height: 25px;
-    }
-    /*=======*/
-    .SCT-BOX3-UL {
-        grid-template-columns: auto auto;
-        grid-gap: 10%;
-    }
-    .SCT-BOX3-LI-TITLE {
-        font-size: 14px;
-    }
-    .SCT-BOX3-LI-STITLE {
-        font-size: 12px;
-    }
-    .SCT-BOX3-LI-5 {
-        display: none;
+        line-height: 30px;
     }
 }
 @media (min-width: 576px) and (max-width: 767px){
-    .SCT-BOX-MARGIN {
-        height: 600px;
+    .SCT-TITLE {
+        font-size: 43px;
+        line-height: 65px;
     }
-    .SCT-BOX-TITLE {
+    .SCT-UL {
+        grid-template-columns: auto auto auto;
+        padding-bottom: 50px;
+    }
+    .SCT-LI-TITLE {
         font-size: 15px;
     }
-    .SCT-BOX-STITLE {
-        font-size: 12px;
+    .SCT-LI-STITLE {
+        font-size: 13px;
         line-height: 15px;
+    }
+    .SCT-LI-4, .SCT-LI-5 {
+        display: none;
     }
     .SCT-BOX2-W {
         padding: 35px 35px 35px 35px;
@@ -427,31 +349,8 @@ header {
         font-size: 28px;
     }
     .SCT-BOX2-STITLE {
-        font-size: 18px;
-        line-height: 40px;
-    }
-    .SCT-BOX2-S2TITLE {
-        font-size: 16px;
-        line-height: 30px;
-    }
-    /*=======*/
-    .SCT-BOX3-TITLE {
-        font-size: 35px;
-    }
-    .SCT-BOX3-STITLE {
-        font-size: 15px;
+        font-size: 14px;
         line-height: 25px;
-    }
-    /*=======*/
-    .SCT-BOX3-UL {
-        grid-template-columns: auto auto auto;
-        grid-gap: 10%;
-    }
-    .SCT-BOX3-LI-TITLE {
-        font-size: 13px;
-    }
-    .SCT-BOX3-LI-STITLE {
-        font-size: 11px;
     }
 }
 @media (min-width: 768px) and (max-width: 991px){
@@ -476,62 +375,38 @@ header {
         height: 32px!important;
         width: 36px!important;
     }
-    /*===*/
     .SCT-TITLE {
         font-size: 45px;
         line-height: 70px;
     }
     .SCT-STITLE {
-        width: 55%;
+        width: 50%;
         font-size: 18px;
-        line-height: 30px;
+        line-height: 35px;
     }
-    .SCT-BOX-MARGIN {
-        height: 700px;
+    .SCT-UL {
+        grid-template-columns: auto auto auto;
+        padding-bottom: 60px;
     }
-    .SCT-S2TITLE {
-        font-size: 14px;
-        line-height: 30px;
+    .SCT-LI-TITLE {
+        font-size: 16px;
     }
-    .SCT-BOX-TITLE {
-        font-size: 17px;
-    }
-    .SCT-BOX-STITLE {
+    .SCT-LI-STITLE {
         font-size: 14px;
         line-height: 15px;
+    }
+    .SCT-LI-4 {
+        display: none;
     }
     .SCT-BOX2-W {
         padding: 45px 45px 45px 45px;
     }
     .SCT-BOX2-TITLE {
-        font-size: 35px;
+        font-size: 29px;
     }
     .SCT-BOX2-STITLE {
-        font-size: 20px;
-        line-height: 40px;
-    }
-    .SCT-BOX2-S2TITLE {
-        font-size: 18px;
-        line-height: 35px;
-    }
-    /*=======*/
-    .SCT-BOX3-TITLE {
-        font-size: 35px;
-    }
-    .SCT-BOX3-STITLE {
-        font-size: 17px;
-        line-height: 25px;
-    }
-    /*=======*/
-    .SCT-BOX3-UL {
-        grid-template-columns: auto auto auto;
-        grid-gap: 10%;
-    }
-    .SCT-BOX3-LI-TITLE {
         font-size: 15px;
-    }
-    .SCT-BOX3-LI-STITLE {
-        font-size: 13px;
+        line-height: 30px;
     }
 }
 @media (min-width: 992px) and (max-width: 1199px){
@@ -556,7 +431,6 @@ header {
         height: 42px!important;
         width: 46px!important;
     }
-    /*===*/
     .SCT-TITLE {
         font-size: 65px;
         line-height: 90px;
@@ -566,78 +440,35 @@ header {
         font-size: 19px;
         line-height: 35px;
     }
-    .SCT-BOX-MARGIN {
-        height: 360px;
+    .SCT-UL {
+        grid-template-columns: auto auto auto auto;
     }
-    .SCT-S2TITLE {
-        font-size: 16px;
-        line-height: 30px;
-    }
-    .SCT-SUPER-LI {
-        width: 20%;
-    }
-    .SCT-LI-TOPMARGIN {
-        margin-top: 0%;
-    }
-    .SCT-LI-SPACE2 {
-        margin-right: 6%!important;
-    }
-    .SCT-BOX-TITLE {
+    .SCT-LI-TITLE {
         font-size: 17px;
     }
-    .SCT-BOX-STITLE {
+    .SCT-LI-STITLE {
         font-size: 14px;
         line-height: 25px;
     }
-    .SCT-BOX2-TITLE {
-        font-size: 25px;
-    }
-    .SCT-BOX2-STITLE {
-        font-size: 17px;
-    }
-    .SCT-BOX2-S2TITLE {
-        font-size: 16px;
-    }
-    .SCT-BOX2-MARGIN {
-        width: 100%;
-        height: auto;
+    .SCT-LI-5 {
+        display: none;
     }
     .SCT-BOX2-W {
         float: left;
         width: 50%;
-        height: auto;
-        text-align: left;
-        padding-top: 25px;
-        padding-left: 35px;
-        padding-right: 35px;
+        padding: 25px 35px 0px 35px;
+    }
+    .SCT-BOX2-TITLE {
+        font-size: 30px;
+    }
+    .SCT-BOX2-STITLE {
+        font-size: 15px;
+        line-height: 30px;
     }
     .SCT-BOX2-IMG {
-        height: auto;
-        width:50%;
+        width: 50%;
         border-bottom-left-radius: 0px;
         border-top-right-radius: 30px;
-    }
-    /*=======*/
-    .SCT-BOX3-TITLE {
-        font-size: 35px;
-    }
-    .SCT-BOX3-STITLE {
-        font-size: 17px;
-        line-height: 25px;
-    }
-    /*=======*/
-    .SCT-BOX3-UL {
-        grid-template-columns: auto auto auto auto;
-        grid-gap: 10%;
-    }
-    .SCT-BOX3-LI-TITLE {
-        font-size: 15px;
-    }
-    .SCT-BOX3-LI-STITLE {
-        font-size: 13px;
-    }
-    .SCT-BOX3-LI-5 {
-        display: none;
     }
 }
 @media (min-width: 1200px) and (max-width: 1499px){
@@ -662,7 +493,6 @@ header {
         height: 42px!important;
         width: 46px!important;
     }
-    /*===*/
     .SCT-TITLE {
         font-size: 75px;
         line-height: 110px;
@@ -672,79 +502,35 @@ header {
         font-size: 20px;
         line-height: 40px;
     }
-    .SCT-BOX-MARGIN {
-        height: 350px;
+    .SCT-UL {
+        grid-template-columns: auto auto auto auto;
     }
-    .SCT-S2TITLE {
+    .SCT-LI-TITLE {
         font-size: 18px;
-        line-height: 35px;
     }
-    .SCT-SUPER-LI {
-        width: 20%;
-    }
-    .SCT-LI-TOPMARGIN {
-        margin-top: 0%;
-    }
-    .SCT-LI-SPACE2 {
-        margin-right: 6%!important;
-    }
-    .SCT-BOX-TITLE {
-        font-size: 17px;
-    }
-    .SCT-BOX-STITLE {
+    .SCT-LI-STITLE {
         font-size: 14px;
         line-height: 25px;
     }
-    .SCT-BOX2-TITLE {
-        font-size: 30px;
-    }
-    .SCT-BOX2-STITLE {
-        font-size: 19px;
-    }
-    .SCT-BOX2-S2TITLE {
-        font-size: 17px;
-        line-height: 30px;
-    }
-    .SCT-BOX2-MARGIN {
-        width: 100%;
-        height: auto;
+    .SCT-LI-5 {
+        display: none;
     }
     .SCT-BOX2-W {
         float: left;
         width: 50%;
-        height: auto;
-        text-align: left;
-        padding-top: 50px;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding: 50px 50px 0px 50px;
     }
-    .SCT-BOX2-IMG {
-        height: auto;
-        width:50%;
-        border-bottom-left-radius: 0px;
-        border-top-right-radius: 30px;
-    }
-    /*=======*/
-    .SCT-BOX3-TITLE {
+    .SCT-BOX2-TITLE {
         font-size: 35px;
     }
-    .SCT-BOX3-STITLE {
-        font-size: 17px;
-        line-height: 25px;
+    .SCT-BOX2-STITLE {
+        font-size: 21px;
+        line-height: 30px;
     }
-    /*=======*/
-    .SCT-BOX3-UL {
-        grid-template-columns: auto auto auto auto;
-        grid-gap: 10%;
-    }
-    .SCT-BOX3-LI-TITLE {
-        font-size: 16px;
-    }
-    .SCT-BOX3-LI-STITLE {
-        font-size: 14px;
-    }
-    .SCT-BOX3-LI-5 {
-        display: none;
+    .SCT-BOX2-IMG {
+        width: 50%;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 30px;
     }
 }
 @media (min-width: 1500px) and (max-width: 2000px){
@@ -769,7 +555,6 @@ header {
         height: 42px!important;
         width: 46px!important;
     }
-    /*===*/
     .SCT-TITLE {
         font-size: 85px;
         line-height: 130px;
@@ -779,28 +564,21 @@ header {
         font-size: 22px;
         line-height: 45px;
     }
-    .SCT-BOX-MARGIN {
-        height: 400px;
+    .SCT-UL {
+        grid-template-columns: auto auto auto auto auto;
+        grid-gap: 5%;
     }
-    .SCT-S2TITLE {
-        font-size: 19px;
-        line-height: 40px;
-    }
-    .SCT-SUPER-LI {
-        width: 20%;
-    }
-    .SCT-LI-TOPMARGIN {
-        margin-top: 0%;
-    }
-    .SCT-LI-SPACE2 {
-        margin-right: 6%!important;
-    }
-    .SCT-BOX-TITLE {
+    .SCT-LI-TITLE {
         font-size: 19px;
     }
-    .SCT-BOX-STITLE {
-        font-size: 15px;
+    .SCT-LI-STITLE {
+        font-size: 16px;
         line-height: 30px;
+    }
+    .SCT-BOX2-W {
+        float: left;
+        width: 50%;
+        padding: 60px 50px 0px 50px;
     }
     .SCT-BOX2-TITLE {
         font-size: 40px;
@@ -809,47 +587,10 @@ header {
         font-size: 22px;
         line-height: 40px;
     }
-    .SCT-BOX2-S2TITLE {
-        font-size: 18px;
-        line-height: 30px;
-    }
-    .SCT-BOX2-MARGIN {
-        width: 100%;
-        height: auto;
-    }
-    .SCT-BOX2-W {
-        float: left;
-        width: 50%;
-        height: auto;
-        text-align: left;
-        padding-top: 50px;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
     .SCT-BOX2-IMG {
-        height: auto;
         width:50%;
         border-bottom-left-radius: 0px;
         border-top-right-radius: 30px;
-    }
-    /*=======*/
-    .SCT-BOX3-TITLE {
-        font-size: 35px;
-    }
-    .SCT-BOX3-STITLE {
-        font-size: 17px;
-        line-height: 25px;
-    }
-    /*=======*/
-    .SCT-BOX3-UL {
-        grid-template-columns: auto auto auto auto auto;
-        grid-gap: 5%;
-    }
-    .SCT-BOX3-LI-TITLE {
-        font-size: 18px;
-    }
-    .SCT-BOX3-LI-STITLE {
-        font-size: 16px;
     }
 }
 /*=========================================*/
