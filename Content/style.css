@@ -32,6 +32,14 @@
     font-family: Poppins-Regular;
     src: url(../res/fonts/Poppins/Poppins-Regular.ttf);
 }
+@font-face {
+    font-family: Rubik-Regular;
+    src: url(../res/fonts/Rubik/Rubik-Regular.ttf);
+}
+@font-face {
+    font-family: Rubik-Bold;
+    src: url(../res/fonts/Rubik/Rubik-Bold.ttf);
+}
 /*==================*/
 
 
@@ -57,8 +65,14 @@
     margin-left: 10%;
     margin-right: 10%;
 }
+.SCT-MARGIN-25 {
+    margin-top: 25px;
+}
 .SCT-MARGIN-50 {
     margin-top: 50px;
+}
+.SCT-MARGIN-B50 {
+    margin-bottom: 50px;
 }
 .SCT-MARGIN-100 {
     margin-top: 100px;
@@ -74,6 +88,9 @@
     border-bottom-right-radius: 30px;
     background-color: rgb(25, 118, 34, 0.8);
     color: white;
+}
+.SCT-BOX2-CE {
+    background-color: rgb(230, 125, 26);
 }
 .SCT-BOX2-W {
     padding: 25px 25px 25px 25px;
@@ -97,8 +114,8 @@
 }
 /*=============$$$============*/
 .SCT-UL {
-    width: 100%;
     height: auto;
+    width: 100%;
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 10%;
@@ -125,12 +142,77 @@
     font-family: Poppins-Medium;
     letter-spacing: 1px;
     margin-top: 20px;
+    line-height: 30px;
 }
 .SCT-LI-STITLE {
     font-family: Varela;
     letter-spacing: 1px;
     color: black;
     margin-top: 10px;
+}
+/*===*/
+.SCT-UL-POST {
+    padding: 0;
+    list-style: none;
+    height: auto;
+    width: auto;
+}
+.SCT-UL-POST::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.SCT-LI-POST {
+    text-align: left;
+    float: left;
+    height: auto;
+    border-radius: 30px;
+    width: 100%;
+    margin-right: 0;
+}
+.SCT-LI-DIV-POST {
+    width: 100%;
+    border-radius: 30px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/Herbs/product-coffee.jpg);
+}
+.SCT-LDIP-S {
+    height: 100px;
+}
+/*===*/
+.STC-UL-CE {
+    grid-template-columns: auto;
+    grid-row-gap: 2%;
+}
+.SCT-UL-POST-CE {
+    display: grid;
+    grid-gap: 5%;
+    list-style: none;
+    grid-template-columns: auto;
+    width: 100%;
+    height: auto;
+}
+.SCT-LI-POST-CE {
+    width: auto;
+    height: auto;
+}
+.SCT-A-POST-CE {
+    font-family: VarelaRound-Regular;
+    color: rgb(0, 87, 188);
+    letter-spacing: 1px;
+    font-size: 15px;
+    text-align: left;
+    display: block;
+}
+.SCT-LI-POST-CE-IMG {
+    width: auto;
+    height: 300px;
+    background-image: url(../images/spices/Cooking.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /*=============$$$============*/
 .SCT-BOXES-TITLE {
@@ -142,7 +224,7 @@
     font-family: Poppins-Regular;
     letter-spacing: 1px;
     font-size: 30px;
-    line-height: 30px;
+    line-height: 50px;
     margin-top: 50px;
 }
 .SCT-BOXES-STITLE {
@@ -153,7 +235,70 @@
     line-height: 30px;
 }
 /*=============$$$============*/
-
+.SCT-QS-DIV-A {
+    font-family: VarelaRound-Regular;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: rgb(9, 9, 9) solid 2px;
+    text-transform: uppercase;
+    padding: 20px 30px 20px 30px;
+    margin-top: 50px!important;
+    text-decoration: none!important;
+}
+.SCT-QS-DIV-A:hover {
+    color: rgb(201, 201, 201);
+}
+.SCT-QS-DIV-IMG {
+    width: 100%;
+    height: 200px;
+    background-image: url(../images/nosotros/empresa_nosotros.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*=============$$$============*/
+.SCT-NAV-F-SN {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.SCT-NAV-F-UL {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.SCT-NAV-F-LI {
+    padding: 0 15px 0 15px;
+}
+.fa-facebook, .fa-instagram {
+    color: rgba(33, 33, 33, 0.864);
+}
+.SCT-NAV-F-P {
+    font-family: Rubik-Regular;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.SCT-NAV-F {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.SCT-NAV-F-S {
+    font-family: Rubik-Regular;
+    font-size: 12px;
+    padding: 0 10px 0 10px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+}
 
 /*=========================================*/
 /*================= HEADER ================*/
@@ -266,18 +411,25 @@ header {
     top: 7px;
 }
 /*=====*/
-.SCT2-HA {
+.SCT2-HA, .SCT3-CE, .SCT3-QS {
     height: auto;
     width: auto;
 }
+
 
 @media (min-width: 100px) and (max-width: 390px){
     .SCT-TITLE {
         font-size: 35px;
         line-height: 50px;
     }
+    .SCT-TITLE-CE {
+        font-size: 30px;
+    }
     .SCT-UL {
         padding-bottom: 50px;
+    }
+    .SCT-LI-CE-3, .SCT-LI-CE-4 {
+        display: none;
     }
     .SCT-LI-TITLE {
         font-size: 13px;
@@ -296,14 +448,23 @@ header {
         font-size: 13px;
         line-height: 30px;
     }
+    .SCT-LI-POST3 {
+        display: none;
+    }
 }
 @media (min-width: 391px) and (max-width: 575px){
     .SCT-TITLE {
         font-size: 40px;
         line-height: 65px;
     }
+    .SCT-TITLE-CE {
+        font-size: 32px;
+    }
     .SCT-UL {
         padding-bottom: 60px;
+    }
+    .SCT-LI-CE-3, .SCT-LI-CE-4 {
+        display: none;
     }
     .SCT-LI-TITLE {
         font-size: 14px;
@@ -322,6 +483,9 @@ header {
         font-size: 14px;
         line-height: 30px;
     }
+    .SCT-LI-POST3 {
+        display: none;
+    }
 }
 @media (min-width: 576px) and (max-width: 767px){
     .SCT-TITLE {
@@ -331,6 +495,10 @@ header {
     .SCT-UL {
         grid-template-columns: auto auto auto;
         padding-bottom: 50px;
+    }
+    .STC-UL-CE {
+        grid-template-columns: auto auto;
+        grid-gap: 5%;
     }
     .SCT-LI-TITLE {
         font-size: 15px;
@@ -351,6 +519,12 @@ header {
     .SCT-BOX2-STITLE {
         font-size: 14px;
         line-height: 25px;
+    }
+    .SCT-LDIP-S {
+        height: 150px;
+    }
+    .SCT-LI-POST3 {
+        display: none;
     }
 }
 @media (min-width: 768px) and (max-width: 991px){
@@ -388,6 +562,10 @@ header {
         grid-template-columns: auto auto auto;
         padding-bottom: 60px;
     }
+    .STC-UL-CE {
+        grid-template-columns: auto auto;
+        grid-gap: 5%;
+    }
     .SCT-LI-TITLE {
         font-size: 16px;
     }
@@ -407,6 +585,18 @@ header {
     .SCT-BOX2-STITLE {
         font-size: 15px;
         line-height: 30px;
+    }
+    .SCT-LI-POST {
+        width: 30%;
+    }
+    .SCT-LI-POST1, .SCT-LI-POST2 {
+        margin-right: 5%;
+    }
+    .SCT-LI-POST3 {
+        margin-right: 0;
+    }
+    .SCT-LDIP-S {
+        height: 175px;
     }
 }
 @media (min-width: 992px) and (max-width: 1199px){
@@ -443,6 +633,16 @@ header {
     .SCT-UL {
         grid-template-columns: auto auto auto auto;
     }
+    .STC-UL-CE {
+        grid-template-columns: auto auto auto;
+        grid-gap: 2.5%;
+    }
+    .SCT-LI-CE-4 {
+        display: none;
+    }
+    .SCT-UL-POST-CE {
+        grid-template-columns: auto auto;
+    }
     .SCT-LI-TITLE {
         font-size: 17px;
     }
@@ -469,6 +669,29 @@ header {
         width: 50%;
         border-bottom-left-radius: 0px;
         border-top-right-radius: 30px;
+    }
+    .SCT-LI-POST {
+        width: 30%;
+    }
+    .SCT-LI-POST1, .SCT-LI-POST2 {
+        margin-right: 5%;
+    }
+    .SCT-LI-POST3 {
+        margin-right: 0;
+    }
+    .SCT-LDIP-S {
+        height: 200px;
+    }
+    .SCT-QS-DIV-IMG {
+        width: 100%;
+        height: 300px;
+    }
+    .SCT-QS-DIV-A {
+        padding: 20px 50px 20px 50px;
+    } 
+    .SCT-NAV-F-S {
+        font-size: 14px;
+        padding: 0;
     }
 }
 @media (min-width: 1200px) and (max-width: 1499px){
@@ -505,6 +728,16 @@ header {
     .SCT-UL {
         grid-template-columns: auto auto auto auto;
     }
+    .STC-UL-CE {
+        grid-template-columns: auto auto auto;
+        grid-gap: 2.5%;
+    }
+    .SCT-LI-CE-4 {
+        display: none;
+    }
+    .SCT-UL-POST-CE {
+        grid-template-columns: auto auto;
+    }
     .SCT-LI-TITLE {
         font-size: 18px;
     }
@@ -531,6 +764,29 @@ header {
         width: 50%;
         border-bottom-left-radius: 0px;
         border-top-right-radius: 30px;
+    }
+    .SCT-LI-POST {
+        width: 22.5%;
+    }
+    .SCT-LI-POST1 {
+        width: 47.5%;
+    }
+    .SCT-LI-POST1, .SCT-LI-POST2 {
+        margin-right: 3.75%;
+    }
+    .SCT-LDIP-S {
+        height: 250px;
+    }
+    .SCT-QS-DIV-IMG {
+        width: 100%;
+        height: 400px;
+    }
+    .SCT-QS-DIV-A {
+        padding: 20px 50px 20px 50px;
+    }
+    .SCT-NAV-F-S {
+        font-size: 15px;
+        padding: 0;
     }
 }
 @media (min-width: 1500px) and (max-width: 2000px){
@@ -568,6 +824,15 @@ header {
         grid-template-columns: auto auto auto auto auto;
         grid-gap: 5%;
     }
+    .STC-UL-CE {
+        grid-template-columns: auto auto auto;
+    }
+    .SCT-LI-CE-4 {
+        display: none;
+    }
+    .SCT-UL-POST-CE {
+        grid-template-columns: auto auto;
+    }
     .SCT-LI-TITLE {
         font-size: 19px;
     }
@@ -591,6 +856,29 @@ header {
         width:50%;
         border-bottom-left-radius: 0px;
         border-top-right-radius: 30px;
+    }
+    .SCT-LI-POST {
+        width: 22.5%;
+    }
+    .SCT-LI-POST3 {
+        width: 47.5%;
+    }
+    .SCT-LI-POST1, .SCT-LI-POST2 {
+        margin-right: 3.75%;
+    }
+    .SCT-LDIP-S {
+        height: 300px;
+    }
+    .SCT-QS-DIV-A {
+        padding: 20px 50px 20px 50px;
+    }
+    .SCT-QS-DIV-IMG {
+        width: 100%;
+        height: 500px;
+    }
+    .SCT-NAV-F-S {
+        font-size: 17px;
+        padding: 0;
     }
 }
 /*=========================================*/
