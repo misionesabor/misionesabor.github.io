@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+a {
+    text-decoration: none!important;
+}
 /*== FUENTES ==*/
 @font-face {
     font-family: Varela;
@@ -31,6 +33,10 @@
 @font-face {
     font-family: Poppins-Regular;
     src: url(../res/fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Poppins-Light;
+    src: url(../res/fonts/Poppins/Poppins-Light.ttf);
 }
 @font-face {
     font-family: Rubik-Regular;
@@ -302,7 +308,7 @@
 
 /*=========================================*/
 /*================= HEADER ================*/
-header {
+.HEADER-MAIN {
     position: absolute;
     width: 100%;
     background-color: rgb(255, 255, 255);
@@ -411,7 +417,7 @@ header {
     top: 7px;
 }
 /*=====*/
-.SCT2-HA, .SCT3-CE, .SCT3-QS {
+.SCT2-HA, .SCT3-CE, .SCT3-QS, SCT2-PRD {
     height: auto;
     width: auto;
 }

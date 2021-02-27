@@ -1,0 +1,143 @@
+
+
+/*=============$$$============*/
+.HEADER-PRD {
+    position: relative!important;
+}
+.SCT2-PRD-UL {
+    height: auto;
+    list-style: none;
+}
+.SCT2-PRD-UL::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.SCT2-PRD-LI {
+    float: left;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.SCT2-PRD-LI1 {
+    background-image: url(../images/products/intro/hierbas-prd-01.png);
+}
+.SCT2-PRD-LI2 {
+    background-image: url(../images/products/intro/condimentos-prd-01.png);
+}
+.SCT2-PRD-LI3 {
+    background-image: url(../images/products/intro/yerbamate-pdr-01.png);
+}
+.SCT2-PRD-LI4 {
+    background-image: url(../images/products/intro/semillas-prd-01.png);
+}
+.SCT2-PRD-LI5 {
+    background-image: url(../images/products/intro/granas-pdr-01.png);
+}
+.SCT2-PRD-LIDIV {
+    height: auto;
+    width: 100%;
+}
+.SC2-PRD-DIVLI-TITLE {
+    font-family: Poppins-Light;
+    color: rgb(0, 129, 201);
+    letter-spacing: 1px;
+    margin: 0;
+    text-transform: uppercase;
+    line-height: 25px;
+    font-size: 12px;
+    padding: 30px 0 30px 0;
+}
+
+
+/*=============$$$============*/
+
+
+
+@media (min-width: 100px) and (max-width: 390px) {
+    .SCT2-PRD-LI {
+        margin-top: 25px;
+    }
+    .SC2-PRD-DIVLI-TITLE {
+        font-size: 12px;
+        padding: 20px 0 20px 0;
+    }
+}
+@media (min-width: 391px) and (max-width: 575px) {
+    
+}
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .SCT2-PRD-LI {
+        width: 47.5%;
+    }
+    .SCT2-PRD-LI-S2 {
+        margin-right: 5%;
+    }
+    .SC2-PRD-DIVLI-TITLE {
+        font-size: 12px;
+        padding: 20px 0 20px 0;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .SCT2-PRD-LI {
+        width: 45%;
+    }
+    .SCT2-PRD-LI-S2 {
+        margin-right: 10%;
+    }
+    .SC2-PRD-DIVLI-TITLE {
+        font-size: 13px;
+        padding: 25px 0 25px 0;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1499px) {
+    .SCT-TITLE {
+        font-size: 55px;
+        line-height: 65px;
+    }
+    .SC2-PRD-DIVLI-TITLE {
+        font-size: 14px;
+        padding: 50px 0 50px 0;
+    }
+    .SCT2-PRD-LI {
+        width: 30%;
+    }
+    .SCT2-PRD-LI-S {
+        margin-right: 5%;
+    }
+}
+@media (min-width: 1500px) and (max-width: 2000px) {
+    .SCT2-PRD {
+        margin-top: 50px;
+    }
+    .SCT2-PRD-UL {
+        margin-top: 50px;
+    }
+    .SCT2-PRD-LI {
+        width: 30%;
+    }
+    .SCT2-PRD-LI-S {
+        margin-right: 5%;
+    }
+    .SC2-PRD-DIVLI-TITLE {
+        font-size: 18px;
+        padding: 50px 0 50px 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
