@@ -39,6 +39,10 @@ a {
     src: url(../res/fonts/Poppins/Poppins-Light.ttf);
 }
 @font-face {
+    font-family: Poppins-SemiBold;
+    src: url(../res/fonts/Poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
     font-family: Rubik-Regular;
     src: url(../res/fonts/Rubik/Rubik-Regular.ttf);
 }
