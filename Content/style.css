@@ -51,26 +51,9 @@ a {
     src: url(../res/fonts/Rubik/Rubik-Bold.ttf);
 }
 /*==================*/
-
-
-/*=============$$$============*/
-.SCT-TITLE {
-    font-family: Poppins-Bold;
-    letter-spacing: 5px;
-    color: black;
-    text-transform: uppercase;
-}
-.SCT-STITLE {
-    font-family: VarelaRound-Regular;
-    color: black;
-    letter-spacing: 1px;
-    font-size: 15px;
-    line-height: 30px;
-}
-.SCT-W-100 {
-    width: 100%!important;
-}
-/*=============$$$============*/
+/*==============================*/
+/*========  MARGENES ==========*/
+/*==============================*/
 .SCT-SUPERMARGIN {
     margin-left: 10%;
     margin-right: 10%;
@@ -87,231 +70,13 @@ a {
 .SCT-MARGIN-100 {
     margin-top: 100px;
 }
-.SCT-BOX-MARGIN {
-    height: auto!important;
-    width: 100%;
-}
-.SCT-BOX2 {
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    background-color: rgb(25, 118, 34, 0.8);
-    color: white;
-}
-.SCT-BOX2-CE {
-    background-color: rgb(230, 125, 26);
-}
-.SCT-BOX2-W {
-    padding: 25px 25px 25px 25px;
-    height: auto;
-    text-align: left;
-}
-.SCT-BOX2-TITLE {
-    font-family: Poppins-Medium;
-    letter-spacing: 1px;
-}
-.SCT-BOX2-STITLE {
-    font-family: VarelaRound-Regular;
-    margin-top: 25px;
-    letter-spacing: 1px;
-}
-.SCT-BOX2-IMG {
-    width: 100%;
-    height: auto;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-}
-/*=============$$$============*/
-.SCT-UL {
-    height: auto;
-    width: 100%;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 10%;
-    list-style: none;
-}
-.SCT-LI {
-    height: auto;
-    width: auto;
-    text-align: center;
-}
-.SCT-LI-DIV {
-    height: auto;
-    width: 100%;
-    padding: 5px;
-    background-color: rgb(246, 246, 246);
-    border-radius: 10px;
-}
-.SCT-LI-DIV-IMG {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-.SCT-LI-TITLE {
-    font-family: Poppins-Medium;
-    letter-spacing: 1px;
-    margin-top: 20px;
-    line-height: 30px;
-}
-.SCT-LI-STITLE {
-    font-family: Varela;
-    letter-spacing: 1px;
-    color: black;
-    margin-top: 10px;
-}
-/*===*/
-.SCT-UL-POST {
-    padding: 0;
-    list-style: none;
-    height: auto;
-    width: auto;
-}
-.SCT-UL-POST::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-.SCT-LI-POST {
-    text-align: left;
-    float: left;
-    height: auto;
-    border-radius: 30px;
-    width: 100%;
-    margin-right: 0;
-}
-.SCT-LI-DIV-POST {
-    width: 100%;
-    border-radius: 30px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(../images/Herbs/product-coffee.jpg);
-}
-.SCT-LDIP-S {
-    height: 100px;
-}
-/*===*/
-.STC-UL-CE {
-    grid-template-columns: auto;
-    grid-row-gap: 2%;
-}
-.SCT-UL-POST-CE {
-    display: grid;
-    grid-gap: 5%;
-    list-style: none;
-    grid-template-columns: auto;
-    width: 100%;
-    height: auto;
-}
-.SCT-LI-POST-CE {
-    width: auto;
-    height: auto;
-}
-.SCT-A-POST-CE {
-    font-family: VarelaRound-Regular;
-    color: rgb(0, 87, 188);
-    letter-spacing: 1px;
-    font-size: 15px;
-    text-align: left;
-    display: block;
-}
-.SCT-LI-POST-CE-IMG {
-    width: auto;
-    height: 300px;
-    background-image: url(../images/spices/Cooking.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-/*=============$$$============*/
-.SCT-BOXES-TITLE {
-    font-size: 35px;
-    font-family: Poppins-Medium;
-    letter-spacing: 1px;
-}
-.SCT-BOXES-TITLE2 {
-    font-family: Poppins-Regular;
-    letter-spacing: 1px;
-    font-size: 30px;
-    line-height: 50px;
-    margin-top: 50px;
-}
-.SCT-BOXES-STITLE {
-    font-family: VarelaRound-Regular;
-    margin-top: 25px;
-    letter-spacing: 1px;
-    font-size: 15px;
-    line-height: 30px;
-}
-/*=============$$$============*/
-.SCT-QS-DIV-A {
-    font-family: VarelaRound-Regular;
-    font-size: 14px;
-    letter-spacing: 1px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-    border: rgb(9, 9, 9) solid 2px;
-    text-transform: uppercase;
-    padding: 20px 30px 20px 30px;
-    margin-top: 50px!important;
-    text-decoration: none!important;
-}
-.SCT-QS-DIV-A:hover {
-    color: rgb(201, 201, 201);
-}
-.SCT-QS-DIV-IMG {
-    width: 100%;
-    height: 200px;
-    background-image: url(../images/nosotros/empresa_nosotros.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-/*=============$$$============*/
-.SCT-NAV-F-SN {
-    width: 100%;
-    height: auto;
-    text-align: center;
-}
-.SCT-NAV-F-UL {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-.SCT-NAV-F-LI {
-    padding: 0 15px 0 15px;
-}
-.fa-facebook, .fa-instagram {
-    color: rgba(33, 33, 33, 0.864);
-}
-.SCT-NAV-F-P {
-    font-family: Rubik-Regular;
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-.SCT-NAV-F {
-    height: 100px;
-    width: 100%;
-    background-color: black;
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-}
-.SCT-NAV-F-S {
-    font-family: Rubik-Regular;
-    font-size: 12px;
-    padding: 0 10px 0 10px;
-    letter-spacing: 1px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-/*=========================================*/
-/*================= HEADER ================*/
+/*==============================*/
+/*==============================*/
+/*#################################################*/
+/*#################################################*/
+/*################      HEADER     ################*/
+/*#################################################*/
+/*#################################################*/
 .HEADER-MAIN {
     position: absolute;
     width: 100%;
@@ -354,17 +119,22 @@ a {
         padding-right: 25px;
     }
 }
-/*=========================================*/
-/*=========================================*/
-
-
-
-/*=========================================*/
-/*================= MAIN ================*/
+/*#################################################*/
+/*#################################################*/
+/*################       MAIN      ################*/
+/*#################################################*/
+/*#################################################*/
+/*==============================*/
+/*====  INCIO PRESENTACION  ====*/
+/*==============================*/
 #carousel1 {
     position: relative;
     height: 100%;
     width: 100%;
+}
+.owl-slide {
+    position: relative;
+    height: 100vh;
 }
 .cover {
     margin: 0%;
@@ -375,10 +145,6 @@ a {
     top: auto;
     left: 50%;
     transform: translate(-50%);
-}
-.owl-slide {
-    position: relative;
-    height: 100vh;
 }
 .slide-title {
     width: 80%;
@@ -420,27 +186,439 @@ a {
     width: 36px!important;
     top: 7px;
 }
-/*=====*/
-.SCT2-HA, .SCT3-CE, .SCT3-QS, SCT2-PRD {
+/*==============================*/
+/*====       SECTORES       ====*/
+/*==============================*/
+.SCT2-HA, .SCT3-CE, .SCT3-QS {
     height: auto;
     width: auto;
 }
-
-
+/*==============================*/
+/*==== TITULOS Y SUBTITULOS ====*/
+/*==============================*/
+.SCT-TITLE {
+    font-family: Poppins-Bold;
+    letter-spacing: 5px;
+    color: black;
+    text-transform: uppercase;
+}
+.SCT-STITLE {
+    font-family: VarelaRound-Regular;
+    color: black;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 30px;
+}
+/*==============================*/
+/*====       UL - LI        ====*/
+/*==============================*/
+.SCT-UL {
+    height: auto;
+    list-style: none;
+}
+.SCT-UL::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.SCT-LI {
+    height: auto;
+    float: left;
+    text-align: center;
+}
+.SCT-LI-DIV {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+}
+/*=============$$$============*/
+.SCT-LI-TITLE {
+    font-family: Poppins-Medium;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    line-height: 30px;
+}
+.SCT-LI-STITLE {
+    font-family: Varela;
+    letter-spacing: 1px;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+/*=============$$$============*/
+/*==========================*/
+/*=  ULLI MATERIAS PRIMAS  =*/
+/*==========================*/
+.SCT-LI-MP {
+    width: 47.5%;
+}
+.SCT-LIMPM3 {
+    margin-right: 0;
+}
+.SCT-LIMPM2 {
+    margin-right: 5%;
+}
+.SCT-LIMPM1 {
+    margin-bottom: 50px;
+}
+.SCT-LI-DIV-MP {
+    height: 100px;
+}
+.SCT-LI-DIV-MP {
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*==========================*/
+/*=  ULLI MATERIAS PRIMAS  =*/
+/*==========================*/
+/*==================*/
+/*=  ULLI HIERBAS  =*/
+/*==================*/
+.SCT-LDH-IMG1 {
+    background-image: url(../images/hierbas-aromaticas/hierbas/Manzanilla.jpg);
+}
+.SCT-LDH-IMG2 {
+    background-image: url(../images/hierbas-aromaticas/hierbas/stevia.jpg);
+}
+.SCT-LDH-IMG3 {
+    background-image: url(../images/hierbas-aromaticas/hierbas/Romero.jpg);
+}
+.SCT-LDH-IMG4 {
+    background-image: url(../images/hierbas-aromaticas/hierbas/Eneldo.jpg);
+}
+/*===================*/
+/*=  ULLI ESPECIAS  =*/
+/*===================*/
+.SCT-LDC-IMG1 {
+    background-image: url(../images/condimentos-especias/especias/canela.jpg);
+}
+.SCT-LDC-IMG2 {
+    background-image: url(../images/condimentos-especias/especias/Pimenton.jpg);
+}
+.SCT-LDC-IMG3 {
+    background-image: url(../images/condimentos-especias/especias/Perejil.jpeg);
+}
+.SCT-LDC-IMG4 {
+    background-image: url(../images/condimentos-especias/especias/ajos.jpg);
+}
+/*==========================*/
+/*=       INFOGRAFIA       =*/
+/*==========================*/
+.SCT-LI-INF {
+    width: 100%;
+}
+.SCT-LI-DIV-INF {
+    height: 250px;
+}
+.SCT-LI-DIV-INF {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.SCT-LI-DIVS1 { /*special*/
+    background-color: rgb(25, 119, 34);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 0;
+}
+.SCT-LI-DIVS-CE {
+    background-color: rgb(184, 89, 2)!important;
+}
+.SCT-LI-DIVS2 {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 0;
+}
+.SCT-LDI-IMG {
+    background-image: url(../images/hierbas-aromaticas/hierbas-productos/info-product.jpg);
+}
+.SCT-LI-INF-TITLE {
+    font-family: Poppins-Medium;
+    letter-spacing: 1px;
+    color: white;
+    text-align: center;
+}
+.SCT-LI-INF-STITLE {
+    font-family: VarelaRound-Regular;
+    letter-spacing: 1px;
+    color: white;
+    text-align: center;
+}
+/*==========================*/
+/*=        PRODUCTOS       =*/
+/*==========================*/
+.SCT-BOXES-TITLE {
+    font-family: Poppins-Medium;
+    letter-spacing: 1px;
+    font-size: 39px;
+}
+.SCT-BOXES-STITLE {
+    font-family: VarelaRound-Regular;
+    margin-top: 25px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-size: 15px;
+}
+/*==========================*/
+/*=     ULLI PRODUCTOS     =*/
+/*==========================*/
+.SCT-LIPRDM1 {
+    margin-right: 10%;
+}
+.SCT-LI-PRD {
+    width: 45%;
+}
+.SCT-LI-DIV-PRD {
+    height: 150px;
+}
+.SCT-LI-DIV-PRD {
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*=============$$$============*/
+.SCT-LI-PRD-CE {
+    width: 45%;
+}
+.SCT-LI-DIV-PRD-CE {
+    height: 125px;
+}
+.SCT-LIPRDCEM1 {
+    margin-right: 10%;
+}
+.SCT-LI-DIV-PRD-CE {
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*==================*/
+/*=  ULLI HIERBAS  =*/
+/*==================*/
+.SCT-LDH-PRD-IMG1 {
+    background-image: url(../images/hierbas-aromaticas/hierbas-productos/product-coffee.jpg);
+}
+.SCT-LDH-PRD-IMG2 {
+    background-image: url(../images/hierbas-aromaticas/hierbas-productos/product-coffee.jpg);
+}
+.SCT-LDH-PRD-IMG3 {
+    background-image: url(../images/hierbas-aromaticas/hierbas-productos/product-coffee.jpg);
+}
+.SCT-LDH-PRD-IMG4 {
+    background-image: url(../images/hierbas-aromaticas/hierbas-productos/product-coffee.jpg);
+}
+.SCT-LDH-PRD-IMG5 {
+    background-image: url(../images/hierbas-aromaticas/hierbas-productos/product-coffee.jpg);
+}
+/*===================*/
+/*=  ULLI ESPECIAS  =*/
+/*===================*/
+.SCT-LDH-PRD-CE-IMG1 {
+    background-image: url(../images/condimentos-especias/especias-producto/product-coffee.jpg);
+}
+.SCT-LDH-PRD-CE-IMG2 {
+    background-image: url(../images/condimentos-especias/especias-producto/product-coffee.jpg);
+}
+.SCT-LDH-PRD-CE-IMG3 {
+    background-image: url(../images/condimentos-especias/especias-producto/product-coffee.jpg);
+}
+.SCT-LDH-PRD-CE-IMG4 {
+    background-image: url(../images/condimentos-especias/especias-producto/product-coffee.jpg);
+}
+.SCT-LDH-PRD-CE-IMG5 {
+    background-image: url(../images/condimentos-especias/especias-producto/product-coffee.jpg);
+}
+.SCT-LDH-PRD-CE-IMG6 {
+    background-image: url(../images/condimentos-especias/especias-producto/product-coffee.jpg);
+}
+.SCT-LDH-PRD-CE-IMG7 {
+    background-image: url(../images/condimentos-especias/especias-producto/product-coffee.jpg);
+}
+.SCT-LDH-PRD-CE-IMG8 {
+    background-image: url(../images/condimentos-especias/especias-producto/product-coffee.jpg);
+}
+/*==========================*/
+/*=      BLOG HIERBAS      =*/
+/*==========================*/
+.SCT-LI-HA {
+    width: 100%;
+    text-align: left;
+}
+.SCT-LI-HA-P {
+    padding: 10px 0 10px 0;
+    margin: 0 0 15px 0;
+}
+.SCT-LI-DIV-DATA {
+    background-color: transparent;
+}
+.SCT-LI-DIV-HA {
+    height: 200px;
+}
+.SCT-LI-DIV-HA {
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.SCT-LDHA-IMG1 {
+    background-image: url(../images/hierbas-aromaticas/hierbas-productos/product-coffee.jpg);
+}
+/*=============$$$============*/
+.SCT-LI-POST {
+    text-align: left;
+    float: left;
+    height: auto;
+    border-radius: 30px;
+    width: 100%;
+    margin-right: 0;
+}
+.SCT-LI-DIV-POST {
+    width: 100%;
+    border-radius: 30px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/hierbas-aromaticas/hierbas-productos/product-coffee.jpg);
+}
+.SCT-LDIP-S {
+    height: 100px;
+}
+/*==========================*/
+/*=     BLOG ESPECIAS      =*/
+/*==========================*/
+.SCT-BOXES-TITLE2 {
+    font-family: Poppins-Regular;
+    letter-spacing: 1px;
+    font-size: 30px;
+    line-height: 50px;
+    margin-top: 50px;
+}
+.SCT-UL-POST-CE {
+    display: grid;
+    grid-gap: 5%;
+    list-style: none;
+    grid-template-columns: auto;
+    width: 100%;
+    height: auto;
+}
+.SCT-LI-POST-CE {
+    width: auto;
+    height: auto;
+}
+.SCT-LI-POST-CE-IMG {
+    width: auto;
+    height: 300px;
+    background-image: url(../images/condimentos-especias/blog/Cooking.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.SCT-A-POST-CE {
+    font-family: VarelaRound-Regular;
+    color: rgb(0, 87, 188);
+    letter-spacing: 1px;
+    font-size: 15px;
+    text-align: left;
+}
+/*==========================*/
+/*=     QUIENES SOMOS      =*/
+/*==========================*/
+.SCT-QS-DIV-A {
+    font-family: VarelaRound-Regular;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: rgb(9, 9, 9) solid 2px;
+    text-transform: uppercase;
+    padding: 20px 30px 20px 30px;
+    margin-top: 50px!important;
+    text-decoration: none!important;
+}
+.SCT-QS-DIV-A:hover {
+    color: rgb(201, 201, 201);
+}
+.SCT-QS-DIV-IMG {
+    width: 100%;
+    height: 200px;
+    background-image: url(../images/nosotros/empresa_nosotros.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*#################################################*/
+/*#################################################*/
+/*################      FOOTER     ################*/
+/*#################################################*/
+/*#################################################*/
+/*==========================*/
+/*=         FOOTER         =*/
+/*==========================*/
+.SCT-NAV-F-SN {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.SCT-NAV-F-UL {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.SCT-NAV-F-LI {
+    padding: 0 15px 0 15px;
+}
+.fa-facebook, .fa-instagram {
+    color: rgba(33, 33, 33, 0.864);
+}
+.SCT-NAV-F-P {
+    font-family: Rubik-Regular;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.SCT-NAV-F {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.SCT-NAV-F-S {
+    font-family: Rubik-Regular;
+    font-size: 12px;
+    padding: 0 10px 0 10px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+}
 @media (min-width: 100px) and (max-width: 390px){
+    /*==============================*/
+    /*==== TITULOS Y SUBTITULOS ====*/
+    /*==============================*/
     .SCT-TITLE {
         font-size: 35px;
         line-height: 50px;
     }
-    .SCT-TITLE-CE {
-        font-size: 30px;
-    }
-    .SCT-UL {
-        padding-bottom: 50px;
-    }
-    .SCT-LI-CE-3, .SCT-LI-CE-4 {
-        display: none;
-    }
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*====       UL-LI          ====*/
+    /*==============================*/
     .SCT-LI-TITLE {
         font-size: 13px;
     }
@@ -448,34 +626,62 @@ a {
         font-size: 12px;
         line-height: 15px;
     }
-    .SCT-LI-5 {
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*====      INFOGRAFIA      ====*/
+    /*==============================*/
+    .SCT-LI-INF-TITLE {
+        font-size: 18px;
+        padding-top: 25px;
+    }
+    .SCT-LI-INF-STITLE {
+        text-align: center;
+        padding: 0 10px 0 10px;
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*====    UL-LI PRODUCTOS   ====*/
+    /*==============================*/
+    .SCT-LI-PRD3, .SCT-LI-PRD4, .SCT-LI-PRD5 {
         display: none;
     }
-    .SCT-BOX2-TITLE {
-        font-size: 25px;
+    /*=============$$$============*/
+    .SCT-LI-PRD-CE3, .SCT-LI-PRD-CE4 {
+        display: none;
     }
-    .SCT-BOX2-STITLE {
-        font-size: 13px;
-        line-height: 30px;
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*====         BLOG         ====*/
+    /*==============================*/
+    .SCT-LI-HADATA {
+        float: left;
+        width: 50%;
     }
+    /*=============$$$============*/
     .SCT-LI-POST3 {
         display: none;
     }
+    /*==============================*/
+    /*==============================*/
 }
 @media (min-width: 391px) and (max-width: 575px){
+    /*==============================*/
+    /*==== TITULOS Y SUBTITULOS ====*/
+    /*==============================*/
     .SCT-TITLE {
         font-size: 40px;
         line-height: 65px;
     }
-    .SCT-TITLE-CE {
-        font-size: 32px;
-    }
-    .SCT-UL {
-        padding-bottom: 60px;
-    }
-    .SCT-LI-CE-3, .SCT-LI-CE-4 {
-        display: none;
-    }
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*====       UL-LI          ====*/
+    /*==============================*/
     .SCT-LI-TITLE {
         font-size: 14px;
     }
@@ -483,33 +689,63 @@ a {
         font-size: 12px;
         line-height: 15px;
     }
-    .SCT-LI-5 {
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*====      INFOGRAFIA      ====*/
+    /*==============================*/
+    .SCT-LI-INF-TITLE {
+        font-size: 19px;
+        padding-top: 25px;
+    }
+    .SCT-LI-INF-STITLE {
+        text-align: center;
+        padding: 0 20px 0 20px;
+        font-size: 12px;
+        line-height: 20px;
+        margin-top: 15px;
+    }
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*====    UL-LI PRODUCTOS   ====*/
+    /*==============================*/
+    .SCT-LI-PRD3, .SCT-LI-PRD4, .SCT-LI-PRD5 {
         display: none;
     }
-    .SCT-BOX2-TITLE {
-        font-size: 27px;
+    /*=============$$$============*/
+    .SCT-LI-PRD-CE3, .SCT-LI-PRD-CE4 {
+        display: none;
     }
-    .SCT-BOX2-STITLE {
-        font-size: 14px;
-        line-height: 30px;
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*====         BLOG         ====*/
+    /*==============================*/
+    .SCT-LI-HADATA {
+        float: left;
+        width: 50%;
     }
+    /*=============$$$============*/
     .SCT-LI-POST3 {
         display: none;
     }
+    /*==============================*/
+    /*==============================*/
 }
 @media (min-width: 576px) and (max-width: 767px){
+    /*==============================*/
+    /*==== TITULOS Y SUBTITULOS ====*/
+    /*==============================*/
     .SCT-TITLE {
         font-size: 43px;
         line-height: 65px;
     }
-    .SCT-UL {
-        grid-template-columns: auto auto auto;
-        padding-bottom: 50px;
-    }
-    .STC-UL-CE {
-        grid-template-columns: auto auto;
-        grid-gap: 5%;
-    }
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*====       UL-LI          ====*/
+    /*==============================*/
     .SCT-LI-TITLE {
         font-size: 15px;
     }
@@ -517,27 +753,73 @@ a {
         font-size: 13px;
         line-height: 15px;
     }
-    .SCT-LI-4, .SCT-LI-5 {
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*====      INFOGRAFIA      ====*/
+    /*==============================*/
+    .SCT-LI-INF-TITLE {
+        font-size: 20px;
+        padding-top: 25px;
+    }
+    .SCT-LI-INF-STITLE {
+        text-align: center;
+        padding: 0 25px 0 25px;
+        font-size: 13px;
+        line-height: 25px;
+        margin-top: 15px;
+    }
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*====    UL-LI PRODUCTOS   ====*/
+    /*==============================*/
+    .SCT-BOXES-TITLE {
+        font-size: 39px;
+    }
+    .SCT-BOXES-STITLE {
+        font-size: 16px;
+        margin-top: 35px;
+    }
+    .SCT-LIPRDM1 {
+        margin-right: 10%;
+    }
+    .SCT-LI-PRD {
+        width: 45%;
+    }
+    .SCT-LI-DIV-PRD {
+        height: 175px;
+    }
+    .SCT-LI-PRD3, .SCT-LI-PRD4, .SCT-LI-PRD5 {
         display: none;
     }
-    .SCT-BOX2-W {
-        padding: 35px 35px 35px 35px;
+    /*=============$$$============*/
+    .SCT-LI-PRD-CE3, .SCT-LI-PRD-CE4 {
+        display: none;
     }
-    .SCT-BOX2-TITLE {
-        font-size: 28px;
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*====         BLOG         ====*/
+    /*==============================*/
+    .SCT-LI-HADATA {
+        float: left;
+        width: 50%;
     }
-    .SCT-BOX2-STITLE {
-        font-size: 14px;
-        line-height: 25px;
-    }
+    /*=============$$$============*/
     .SCT-LDIP-S {
         height: 150px;
     }
     .SCT-LI-POST3 {
         display: none;
     }
+    /*==============================*/
+    /*==============================*/
 }
 @media (min-width: 768px) and (max-width: 991px){
+    /*==============================*/
+    /*====  INCIO PRESENTACION  ====*/
+    /*==============================*/
     .slide-h1 {
         font-size: 50px;
         line-height: 80px;
@@ -559,6 +841,11 @@ a {
         height: 32px!important;
         width: 36px!important;
     }
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*==== TITULOS Y SUBTITULOS ====*/
+    /*==============================*/
     .SCT-TITLE {
         font-size: 45px;
         line-height: 70px;
@@ -568,14 +855,11 @@ a {
         font-size: 18px;
         line-height: 35px;
     }
-    .SCT-UL {
-        grid-template-columns: auto auto auto;
-        padding-bottom: 60px;
-    }
-    .STC-UL-CE {
-        grid-template-columns: auto auto;
-        grid-gap: 5%;
-    }
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*====       UL-LI          ====*/
+    /*==============================*/
     .SCT-LI-TITLE {
         font-size: 16px;
     }
@@ -583,19 +867,94 @@ a {
         font-size: 14px;
         line-height: 15px;
     }
-    .SCT-LI-4 {
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*====      INFOGRAFIA      ====*/
+    /*==============================*/
+    .SCT-LI-INF {
+        width: 50%;
+    }
+    .SCT-LI-DIV-INF {
+        height: 300px;
+    }
+    .SCT-LI-INF-TITLE {
+        font-size: 22.5px;
+        padding: 25px 0 0 25px;
+        text-align: left;
+    }
+    .SCT-LI-INF-STITLE {
+        font-size: 12px;
+        line-height: 22px;
+        margin-top: 15px;
+        padding: 0 25px 0 25px;
+        text-align: left;
+    }
+    .SCT-LI-DIVS1 { /*special*/
+        border-top-left-radius: 30px;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 0;
+    }
+    .SCT-LI-DIVS2 {
+        border-top-left-radius: 0;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 30px;
+    }
+    .SCT-LI-DIV-INF {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 30px;
+    }
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*====    UL-LI PRODUCTOS   ====*/
+    /*==============================*/
+    .SCT-BOXES-TITLE {
+        font-size: 40px;
+    }
+    .SCT-BOXES-STITLE {
+        font-size: 17px;
+        margin-top: 35px;
+    }
+    .SCT-LIPRDM2 {
+        margin-right: 5%;
+    }
+    .SCT-LI-PRD {
+        width: 30%;
+    }
+    .SCT-LI-DIV-PRD {
+        height: 175px;
+    }
+    .SCT-LI-PRD4, .SCT-LI-PRD5 {
         display: none;
     }
-    .SCT-BOX2-W {
-        padding: 45px 45px 45px 45px;
+    /*=============$$$============*/
+    .SCT-LI-PRD-CE {
+        width: 30%;
     }
-    .SCT-BOX2-TITLE {
-        font-size: 29px;
+    .SCT-LI-DIV-PRD-CE {
+        height: 125px;
     }
-    .SCT-BOX2-STITLE {
-        font-size: 15px;
-        line-height: 30px;
+    .SCT-LIPRDCEM2 {
+        margin-right: 5%;
     }
+    .SCT-LI-PRD-CE4 {
+        display: none;
+    }
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*====         BLOG         ====*/
+    /*==============================*/
+    .SCT-LI-HADATA {
+        float: left;
+        width: 50%;
+    }
+    /*=============$$$============*/
     .SCT-LI-POST {
         width: 30%;
     }
@@ -608,8 +967,13 @@ a {
     .SCT-LDIP-S {
         height: 175px;
     }
+    /*==============================*/
+    /*==============================*/
 }
 @media (min-width: 992px) and (max-width: 1199px){
+    /*==============================*/
+    /*====  INCIO PRESENTACION  ====*/
+    /*==============================*/
     .slide-h1 {
         font-size: 60px;
         line-height: 90px;
@@ -631,6 +995,11 @@ a {
         height: 42px!important;
         width: 46px!important;
     }
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*==== TITULOS Y SUBTITULOS ====*/
+    /*==============================*/
     .SCT-TITLE {
         font-size: 65px;
         line-height: 90px;
@@ -640,19 +1009,11 @@ a {
         font-size: 19px;
         line-height: 35px;
     }
-    .SCT-UL {
-        grid-template-columns: auto auto auto auto;
-    }
-    .STC-UL-CE {
-        grid-template-columns: auto auto auto;
-        grid-gap: 2.5%;
-    }
-    .SCT-LI-CE-4 {
-        display: none;
-    }
-    .SCT-UL-POST-CE {
-        grid-template-columns: auto auto;
-    }
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*====       UL-LI          ====*/
+    /*==============================*/
     .SCT-LI-TITLE {
         font-size: 17px;
     }
@@ -660,26 +1021,113 @@ a {
         font-size: 14px;
         line-height: 25px;
     }
-    .SCT-LI-5 {
+    /*==============================*/
+    /*==============================*/
+    /*==========================*/
+    /*=  ULLI MATERIAS PRIMAS  =*/
+    /*==========================*/
+    .SCT-LI-MP {
+        width: 23.125%;
+    }
+    .SCT-LIMPM3 {
+        margin-right: 2.5%;
+    }
+    .SCT-LI-DIV-MP {
+        height: 125px;
+    }
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*====      INFOGRAFIA      ====*/
+    /*==============================*/
+    .SCT-LI-INF {
+        width: 50%;
+    }
+    .SCT-LI-DIV-INF {
+        height: 400px;
+    }
+    .SCT-LI-INF-TITLE {
+        font-size: 25px;
+        padding: 50px 0 0 35px;
+        text-align: left;
+    }
+    .SCT-LI-INF-STITLE {
+        font-size: 15px;
+        line-height: 35px;
+        margin-top: 15px;
+        padding: 0 25px 0 35px;
+        text-align: left;
+    }
+    .SCT-LI-DIVS1 { /*special*/
+        border-top-left-radius: 30px;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 0;
+    }
+    .SCT-LI-DIVS2 {
+        border-top-left-radius: 0;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 30px;
+    }
+    .SCT-LI-DIV-INF {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 30px;
+    }
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*====    UL-LI PRODUCTOS   ====*/
+    /*==============================*/
+    .SCT-BOXES-TITLE {
+        font-size: 42.5px;
+    }
+    .SCT-BOXES-STITLE {
+        font-size: 18px;
+        margin-top: 25px;
+    }
+    .SCT-LIPRDM3 {
+        margin-right: 2.5%;
+    }
+    .SCT-LI-PRD {
+        width: 23.125%;
+    }
+    .SCT-LI-DIV-PRD {
+        height: 200px;
+    }
+    .SCT-LI-PRD5 {
         display: none;
     }
-    .SCT-BOX2-W {
-        float: left;
-        width: 50%;
-        padding: 25px 35px 0px 35px;
+    /*=============$$$============*/
+    .SCT-LI-PRD-CE {
+        width: 30%;
     }
-    .SCT-BOX2-TITLE {
-        font-size: 30px;
+    .SCT-LI-DIV-PRD-CE {
+        height: 150px;
     }
-    .SCT-BOX2-STITLE {
-        font-size: 15px;
-        line-height: 30px;
+    .SCT-LIPRDCEM2 {
+        margin-right: 5%;
     }
-    .SCT-BOX2-IMG {
-        width: 50%;
-        border-bottom-left-radius: 0px;
-        border-top-right-radius: 30px;
+    .SCT-LI-PRD-CE4 {
+        display: none;
     }
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*====         BLOG         ====*/
+    /*==============================*/
+    .SCT-LI-HA {
+        width: 45%;
+    }
+    .SCT-LI-HA-M1 {
+        margin-right: 10%;
+    }
+    .SCT-LI-DIV-HA {
+        height: 300px;
+    }
+    /*=============$$$============*/
     .SCT-LI-POST {
         width: 30%;
     }
@@ -692,6 +1140,15 @@ a {
     .SCT-LDIP-S {
         height: 200px;
     }
+    /*=============$$$============*/        
+    .SCT-UL-POST-CE {
+        grid-template-columns: auto auto;
+    }
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*====    QUIENES SOMOS     ====*/
+    /*==============================*/
     .SCT-QS-DIV-IMG {
         width: 100%;
         height: 300px;
@@ -699,12 +1156,23 @@ a {
     .SCT-QS-DIV-A {
         padding: 20px 50px 20px 50px;
     } 
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*====        FOOTER        ====*/
+    /*==============================*/
     .SCT-NAV-F-S {
         font-size: 14px;
         padding: 0;
     }
+    /*==============================*/
+    /*==============================*/
+
 }
 @media (min-width: 1200px) and (max-width: 1499px){
+    /*==============================*/
+    /*====  INCIO PRESENTACION  ====*/
+    /*==============================*/
     .slide-h1 {
         font-size: 60px;
         line-height: 90px;
@@ -726,6 +1194,11 @@ a {
         height: 42px!important;
         width: 46px!important;
     }
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*==== TITULOS Y SUBTITULOS ====*/
+    /*==============================*/
     .SCT-TITLE {
         font-size: 75px;
         line-height: 110px;
@@ -735,19 +1208,11 @@ a {
         font-size: 20px;
         line-height: 40px;
     }
-    .SCT-UL {
-        grid-template-columns: auto auto auto auto;
-    }
-    .STC-UL-CE {
-        grid-template-columns: auto auto auto;
-        grid-gap: 2.5%;
-    }
-    .SCT-LI-CE-4 {
-        display: none;
-    }
-    .SCT-UL-POST-CE {
-        grid-template-columns: auto auto;
-    }
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*====       UL-LI          ====*/
+    /*==============================*/
     .SCT-LI-TITLE {
         font-size: 18px;
     }
@@ -755,26 +1220,107 @@ a {
         font-size: 14px;
         line-height: 25px;
     }
-    .SCT-LI-5 {
-        display: none;
+    /*==============================*/
+    /*==============================*/
+    /*==========================*/
+    /*=  ULLI MATERIAS PRIMAS  =*/
+    /*==========================*/
+    .SCT-LI-MP {
+        width: 23.125%;
     }
-    .SCT-BOX2-W {
-        float: left;
+    .SCT-LIMPM3 {
+        margin-right: 2.5%;
+    }
+    .SCT-LI-DIV-MP {
+        height: 150px;
+    }
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*====      INFOGRAFIA      ====*/
+    /*==============================*/
+    .SCT-LI-INF {
         width: 50%;
-        padding: 50px 50px 0px 50px;
     }
-    .SCT-BOX2-TITLE {
-        font-size: 35px;
+    .SCT-LI-DIV-INF {
+        height: 400px;
     }
-    .SCT-BOX2-STITLE {
-        font-size: 21px;
-        line-height: 30px;
+    .SCT-LI-INF-TITLE {
+        font-size: 30px;
+        padding: 50px 0 0 35px;
+        text-align: left;
     }
-    .SCT-BOX2-IMG {
-        width: 50%;
-        border-bottom-left-radius: 0px;
+    .SCT-LI-INF-STITLE {
+        font-size: 17px;
+        line-height: 35px;
+        margin-top: 15px;
+        padding: 0 25px 0 35px;
+        text-align: left;
+    }
+    .SCT-LI-DIVS1 { /*special*/
+        border-top-left-radius: 30px;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 0;
+    }
+    .SCT-LI-DIVS2 {
+        border-top-left-radius: 0;
         border-top-right-radius: 30px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 30px;
     }
+    .SCT-LI-DIV-INF {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 30px;
+    }
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*====    UL-LI PRODUCTOS   ====*/
+    /*==============================*/
+    .SCT-BOXES-TITLE {
+        font-size: 42.5px;
+    }
+    .SCT-BOXES-STITLE {
+        font-size: 18px;
+        margin-top: 25px;
+    }
+    .SCT-LIPRDM4 {
+        margin-right: 2.5%;
+    }
+    .SCT-LI-PRD {
+        width: 18%;
+    }
+    .SCT-LI-DIV-PRD {
+        height: 250px;
+    }
+    /*=============$$$============*/
+    .SCT-LI-PRD-CE {
+        width: 23.125%;
+    }
+    .SCT-LI-DIV-PRD-CE {
+        height: 150px;
+    }
+    .SCT-LIPRDCEM3 {
+        margin-right: 2.5%;
+    }
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*====         BLOG         ====*/
+    /*==============================*/
+    .SCT-LI-HA {
+        width: 45%;
+    }
+    .SCT-LI-HA-M1 {
+        margin-right: 10%;
+    }
+    .SCT-LI-DIV-HA {
+        height: 300px;
+    }
+    /*=============$$$============*/
     .SCT-LI-POST {
         width: 22.5%;
     }
@@ -787,6 +1333,15 @@ a {
     .SCT-LDIP-S {
         height: 250px;
     }
+    /*=============$$$============*/    
+    .SCT-UL-POST-CE {
+        grid-template-columns: auto auto;
+    }
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*====    QUIENES SOMOS     ====*/
+    /*==============================*/
     .SCT-QS-DIV-IMG {
         width: 100%;
         height: 400px;
@@ -794,12 +1349,22 @@ a {
     .SCT-QS-DIV-A {
         padding: 20px 50px 20px 50px;
     }
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*====        FOOTER        ====*/
+    /*==============================*/
     .SCT-NAV-F-S {
         font-size: 15px;
         padding: 0;
     }
+    /*==============================*/
+    /*==============================*/
 }
 @media (min-width: 1500px) and (max-width: 2000px){
+    /*==============================*/
+    /*====  INCIO PRESENTACION  ====*/
+    /*==============================*/
     .slide-h1 {
         font-size: 70px;
         line-height: 100px;
@@ -821,6 +1386,11 @@ a {
         height: 42px!important;
         width: 46px!important;
     }
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*==== TITULOS Y SUBTITULOS ====*/
+    /*==============================*/
     .SCT-TITLE {
         font-size: 85px;
         line-height: 130px;
@@ -830,19 +1400,11 @@ a {
         font-size: 22px;
         line-height: 45px;
     }
-    .SCT-UL {
-        grid-template-columns: auto auto auto auto auto;
-        grid-gap: 5%;
-    }
-    .STC-UL-CE {
-        grid-template-columns: auto auto auto;
-    }
-    .SCT-LI-CE-4 {
-        display: none;
-    }
-    .SCT-UL-POST-CE {
-        grid-template-columns: auto auto;
-    }
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*====       UL-LI          ====*/
+    /*==============================*/
     .SCT-LI-TITLE {
         font-size: 19px;
     }
@@ -850,35 +1412,135 @@ a {
         font-size: 16px;
         line-height: 30px;
     }
-    .SCT-BOX2-W {
-        float: left;
-        width: 50%;
-        padding: 60px 50px 0px 50px;
+    /*==============================*/
+    /*==============================*/
+    /*==========================*/
+    /*=  ULLI MATERIAS PRIMAS  =*/
+    /*==========================*/
+    .SCT-LI-MP {
+        width: 23.125%;
     }
-    .SCT-BOX2-TITLE {
+    .SCT-LIMPM3 {
+        margin-right: 2.5%;
+    }
+    .SCT-LI-DIV-MP {
+        height: 200px;
+    }
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*====      INFOGRAFIA      ====*/
+    /*==============================*/
+    .SCT-LI-INF {
+        width: 50%;
+    }
+    .SCT-LI-DIV-INF {
+        height: 500px;
+    }
+    .SCT-LI-INF-TITLE {
         font-size: 40px;
     }
-    .SCT-BOX2-STITLE {
-        font-size: 22px;
-        line-height: 40px;
+    .SCT-LI-INF-STITLE {
+        font-size: 20px;
+        line-height: 45px;
     }
-    .SCT-BOX2-IMG {
-        width:50%;
-        border-bottom-left-radius: 0px;
+    .SCT-LI-DIVS1 { /*special*/
+        border-top-left-radius: 30px;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 0;
+    }
+    .SCT-LI-DIVS2 {
+        border-top-left-radius: 0;
         border-top-right-radius: 30px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 30px;
     }
+    .SCT-LI-DIV-INF {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 30px;
+    }
+    .SCT-LI-INF-TITLE {
+        font-size: 40px;
+        padding: 50px 0 0 35px;
+        text-align: left;
+    }
+    .SCT-LI-INF-STITLE {
+        font-size: 20px;
+        line-height: 45px;
+        margin-top: 25px;
+        padding: 0 25px 0 35px;
+        text-align: left;
+    }
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*====    UL-LI PRODUCTOS   ====*/
+    /*==============================*/
+    .SCT-BOXES-TITLE {
+        font-size: 45px;
+    }
+    .SCT-BOXES-STITLE {
+        font-size: 20px;
+        margin-top: 25px;
+    }
+    .SCT-LIPRDM4 {
+        margin-right: 2.5%;
+    }
+    .SCT-LI-PRD {
+        width: 18%;
+    }
+    .SCT-LI-DIV-PRD {
+        height: 300px;
+    }
+    /*=============$$$============*/
+    .SCT-LI-PRD-CE {
+        width: 23.125%;
+    }
+    .SCT-LI-DIV-PRD-CE {
+        height: 200px;
+    }
+    .SCT-LIPRDCEM3 {
+        margin-right: 2.5%;
+    }
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*====         BLOG         ====*/
+    /*==============================*/
+    .SCT-LI-HA {
+        width: 45%;
+    }
+    .SCT-LI-HA-M1 {
+        margin-right: 10%;
+    }
+    .SCT-LI-DIV-HA {
+        height: 300px;
+    }
+    /*=============$$$============*/
     .SCT-LI-POST {
         width: 22.5%;
-    }
-    .SCT-LI-POST3 {
-        width: 47.5%;
     }
     .SCT-LI-POST1, .SCT-LI-POST2 {
         margin-right: 3.75%;
     }
+    .SCT-LI-POST3 {
+        width: 47.5%;
+    }
     .SCT-LDIP-S {
         height: 300px;
     }
+    /*=============$$$============*/
+    .SCT-UL-POST-CE {
+        grid-template-columns: auto auto;
+    }
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*====    QUIENES SOMOS     ====*/
+    /*==============================*/
     .SCT-QS-DIV-A {
         padding: 20px 50px 20px 50px;
     }
@@ -886,10 +1548,33 @@ a {
         width: 100%;
         height: 500px;
     }
+    /*==============================*/
+    /*==============================*/
+    /*==============================*/
+    /*====        FOOTER        ====*/
+    /*==============================*/
     .SCT-NAV-F-S {
         font-size: 17px;
         padding: 0;
     }
+    /*==============================*/
+    /*==============================*/
+
+
+
+
+
 }
 /*=========================================*/
 /*=========================================*/
+
+
+
+
+
+
+
+
+
+
+

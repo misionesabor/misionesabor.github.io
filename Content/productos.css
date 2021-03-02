@@ -50,42 +50,7 @@
     font-size: 12px;
     padding: 30px 0 30px 0;
 }
-.SCT2-PRD-TITLE {
-    font-family: Poppins-SemiBold;
-    font-size: 30px;
-    line-height: 40px;
-    padding-top: 50px;
-}
-.SCT2-PRD-DISPLAY {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    list-style: none;
-}
-.SCT2-PRD-DISPLAY-LI {
-    margin-right: 5px;
-    margin-left: 5px;
-    width: auto;
-    height: auto;
-}
-.SCT2-PRD-LIA-DIV {
-    color: black;
-    font-family: Roboto;
-    font-weight: 600;
-    height: 50px;
-    width: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-}
-.SCT2-PRD-LS1 {
-    background-color: rgb(224, 224, 224);
-}
-.SCT2-PRD-LS2:hover, .SCT2-PRD-LS0:hover {
-    background-color: rgb(224, 224, 224, 0.3);
-}
+
 .STC-UL-YM {
     grid-template-columns: auto auto;
     grid-gap: 15%;
@@ -138,9 +103,6 @@
     {
         display: none;
     }
-    .SCT2-PRD-LIA-DIV {
-        font-size: 12px;
-    }
 
     .STC-UL-CE, .STC-UL-YM {
         grid-template-columns: auto auto;
@@ -176,9 +138,6 @@
     {
         display: none;
     }
-    .SCT2-PRD-LIA-DIV {
-        font-size: 13px;
-    }
 
     .STC-UL-CE {
         grid-template-columns: auto auto;
@@ -206,9 +165,6 @@
         line-height: 15px;
         margin-top: 0px;
     }
-    .SCT2-PRD-LIA-DIV {
-        font-size: 14px;
-    }
 
     .STC-UL-CE {
         grid-template-columns: auto auto auto;
@@ -231,10 +187,6 @@
     .SCT-LI-10, .SCT-LI-9, .SCT-LI-8, .SCT-LI-7 {
         display: none;
     }
-    .SCT2-PRD-LIA-DIV {
-        font-size: 15px;
-    }
-
 
     .STC-UL-CE {
         grid-template-columns: auto auto auto;
@@ -257,11 +209,6 @@
     .SCT-LI-10, .SCT-LI-9 {
         display: none;
     }
-    .SCT2-PRD-TITLE {
-        font-size: 40px;
-        line-height: 65px;
-    }
-
     .SCT-LI-CE-4 {
         display: block;
     }
@@ -287,11 +234,6 @@
     .SCT-LI-10, .SCT-LI-9 {
         display: none;
     }
-    .SCT2-PRD-TITLE {
-        font-size: 45px;
-        line-height: 70px;
-    }
-
     .SCT-LI-CE-4 {
         display: block;
     }
@@ -312,10 +254,6 @@
     .SC2-PRD-DIVLI-TITLE {
         font-size: 18px;
         padding: 50px 0 50px 0;
-    }
-    .SCT2-PRD-TITLE {
-        font-size: 50px;
-        line-height: 75px;
     }
     .SCT-LI-CE-4 {
         display: block;
