@@ -343,6 +343,9 @@ a {
 .SCT-LDI-IMG {
     background-image: url(../images/hierbas-aromaticas/hierbas-productos/info-product.jpg);
 }
+.SCT-LDICE-IMG {
+    background-image: url(../images/condimentos-especias/especias-producto/info-product.jpg);
+}
 .SCT-LI-INF-TITLE {
     font-family: Poppins-Medium;
     letter-spacing: 1px;
@@ -473,7 +476,7 @@ a {
     background-repeat: no-repeat;
 }
 .SCT-LDHA-IMG1 {
-    background-image: url(../images/hierbas-aromaticas/hierbas-productos/product-coffee.jpg);
+    background-image: url(../images/hierbas-aromaticas/otras/persona-enferma.jpg);
 }
 /*=============$$$============*/
 .SCT-LI-POST {
@@ -494,6 +497,15 @@ a {
 }
 .SCT-LDIP-S {
     height: 100px;
+}
+.SCT-LDIP-S1 {
+    background-image: url(../images/hierbas-aromaticas/blog/te-de-manzanilla.jpg);
+}
+.SCT-LDIP-S2 {
+    background-image: url(../images/hierbas-aromaticas/blog/te-en-la-noche.jpg);
+}
+.SCT-LDIP-S3 {
+    background-image: url(../images/hierbas-aromaticas/blog/pastel-de-romero.png);
 }
 /*==========================*/
 /*=     BLOG ESPECIAS      =*/
