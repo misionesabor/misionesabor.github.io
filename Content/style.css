@@ -50,6 +50,10 @@ a {
     font-family: Rubik-Bold;
     src: url(../res/fonts/Rubik/Rubik-Bold.ttf);
 }
+@font-face {
+    font-family: Rubik-Light;
+    src: url(../res/fonts/Rubik/Rubik-Light.ttf);
+}
 /*==================*/
 /*==============================*/
 /*========  MARGENES ==========*/
@@ -163,29 +167,6 @@ a {
     font-size: 15px;
     line-height: auto;
 }
-.cont-fa-go {
-    margin-top: 25px;
-    width: 46px;
-    height: 42px;
-}
-.cont-fa-gem {
-    width: 50px;
-    height: 50px;
-    border: rgba(255, 255, 255) solid 2px;
-    opacity: 0.7;
-    text-align: center;
-}
-.cont-fa-gem:hover {
-    border-color: white;
-    opacity: 1;
-}
-.fa-chevron-right {
-    color: white;
-    position: relative;
-    height: 32px!important;
-    width: 36px!important;
-    top: 7px;
-}
 /*==============================*/
 /*====       SECTORES       ====*/
 /*==============================*/
@@ -289,6 +270,99 @@ a {
 .SCT-LDH-IMG4 {
     background-image: url(../images/hierbas-aromaticas/hierbas/SHAME675x450px.webp);
 }
+.SCT-LDH-IMG5 {
+    background-image: url(../images/hierbas-aromaticas/hierbas/SHAMLV675x450px.webp);
+}
+.SCT-LDH-IMG6 {
+    background-image: url(../images/hierbas-aromaticas/hierbas/SHAG675x450px.webp);
+}
+.SCT-LDH-IMG7 {
+    background-image: url(../images/hierbas-aromaticas/hierbas/SHAMOR675x422.webp);
+}
+.SCT-LDH-IMG8 {
+    background-image: url(../images/hierbas-aromaticas/hierbas/SHAIMH675x450px.webp);
+}
+.SCT-LDH-IMG9 {
+    background-image: url(../images/hierbas-aromaticas/hierbas/SHAYP675x450px.webp);
+}
+.SCT-LDH-IMG10 {
+    background-image: url(../images/hierbas-aromaticas/hierbas/SHAYK675x450px.webp);
+}
+.SCT-LDH-IMG11 {
+    background-image: url(../images/hierbas-aromaticas/hierbas/SHACONG675x450px.webp);
+}
+.SCT-LDH-IMG12 {
+    background-image: url(../images/hierbas-aromaticas/hierbas/SHADDL675x450px.webp);
+}
+.SCT-LDH-IMG13 {
+    background-image: url(../images/hierbas-aromaticas/hierbas/SHAUDG675x450px.webp);
+}
+.SCT-LDH-IMG14 {
+    background-image: url(../images/hierbas-aromaticas/hierbas/SHAC675x450px.webp);
+}
+.SCT-LDH-IMG15 {
+    background-image: url(../images/hierbas-aromaticas/hierbas/SHAPDV675x450px.webp);
+}
+.SCT-LDH-IMG16 {
+    background-image: url(../images/hierbas-aromaticas/hierbas/SHAÑDP675x450px.webp);
+}
+.SCT-LDH-IMG17 {
+    background-image: url(../images/hierbas-aromaticas/hierbas/SHAHC675x450px.webp);
+}
+.SCT-LDH-IMG18 {
+    background-image: url(../images/hierbas-aromaticas/hierbas/SHAHDM675x450px.webp);
+}
+.SCT-LDH-IMG19 {
+    background-image: url(../images/hierbas-aromaticas/hierbas/SHAKR675x450px.webp);
+}
+.SCT-LDH-IMG20 {
+    background-image: url(../images/hierbas-aromaticas/hierbas/SHAV675x450px.webp);
+}
+.SCT-LDH-IMG21 {
+    background-image: url(../images/hierbas-aromaticas/hierbas/SHAMAR675x450px.webp);
+}
+.SCT-LDH-IMG22 {
+    background-image: url(../images/hierbas-aromaticas/hierbas/SHAPSF675x450px.webp);
+}
+.SCT-LDH-IMG23 {
+    background-image: url(../images/hierbas-aromaticas/hierbas/SHAMENT675x450px.webp);
+}
+.SCT-LDH-IMG24 {
+    background-image: url(../images/hierbas-aromaticas/hierbas/SHABOLD675x450px.webp);
+}
+.SCT-LDH-IMG25 {
+    background-image: url(../images/hierbas-aromaticas/hierbas/SHAZZP675x450px.webp);
+}
+.SCT-LDH-IMG26 {
+    background-image: url(../images/hierbas-aromaticas/hierbas/SHALLT675x450px.webp);
+}
+.SCT-LDH-IMG27 {
+    background-image: url(../images/hierbas-aromaticas/hierbas/SHARPP675x450px.webp);
+}
+.SCT-LDH-IMG28 {
+    background-image: url(../images/hierbas-aromaticas/hierbas/SHATLL675x451px.webp);
+}
+.SCT-LDH-IMG29 {
+    background-image: url(../images/hierbas-aromaticas/hierbas/SHABRT675x450px.webp);
+}
+.SCT-LDH-IMG30 {
+    background-image: url(../images/hierbas-aromaticas/hierbas/SHAMUERD675x450px.webp);
+}
+.SCT-LDH-IMG31 {
+    background-image: url(../images/hierbas-aromaticas/hierbas/SHASALV675x450px.webp);
+}
+.SCT-LDH-IMG32 {
+    background-image: url(../images/hierbas-aromaticas/hierbas/SHACUASS675x450px.webp);
+}
+.SCT-LDH-IMG33 {
+    background-image: url(../images/hierbas-aromaticas/hierbas/SHAPITANG675x450px.webp);
+}
+.SCT-LDH-IMG34 {
+    background-image: url(../images/hierbas-aromaticas/hierbas/SHAKATAI675x450px.webp);
+}
+.SCT-LDH-IMG35 {
+    background-image: url(../images/hierbas-aromaticas/hierbas/SHACOCU675x450px.webp);
+}
 /*===================*/
 /*=  ULLI ESPECIAS  =*/
 /*===================*/
@@ -303,6 +377,18 @@ a {
 }
 .SCT-LDC-IMG4 {
     background-image: url(../images/condimentos-especias/especias/SCEBA840x420px.webp);
+}
+.SCT-LDC-IMG5 {
+    background-image: url(../images/condimentos-especias/especias/SCEBO1000x700px.webp);
+}
+.SCT-LDC-IMG6 {
+    background-image: url(../images/condimentos-especias/especias/SCEBCOM1280x720px.webp);
+}
+.SCT-LDC-IMG7 {
+    background-image: url(../images/condimentos-especias/especias/SCEBPB800x533px.webp);
+}
+.SCT-LDC-IMG8 {
+    background-image: url(../images/condimentos-especias/especias/SCEBP700x700.webp);
 }
 /*==========================*/
 /*=       INFOGRAFIA       =*/
@@ -483,7 +569,7 @@ a {
     text-align: left;
     float: left;
     height: auto;
-    border-radius: 30px;
+    border-radius: 15px;
     width: 100%;
     margin-right: 0;
 }
@@ -493,10 +579,10 @@ a {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(../images/hierbas-aromaticas/hierbas-productos/product-coffee.jpg);
 }
 .SCT-LDIP-S {
     height: 100px;
+    margin-bottom: 15px;
 }
 .SCT-LDIP-S1 {
     background-image: url(../images/hierbas-aromaticas/blog/SHABM496x296px.webp);
@@ -506,7 +592,13 @@ a {
 }
 .SCT-LDIP-S3 {
     background-image: url(../images/hierbas-aromaticas/blog/SHABR1534x2301px.webp);
+}          
+.SCT-LDIP-SL1 {
+    background-image: url(../images/hierbas-aromaticas/blog/SHATEA640x427px.webp);
 }
+.SCT-LDIP-SL2 {
+    background-image: url(../images/hierbas-aromaticas/blog/SHAKOAL640x486px.webp);
+}         
 /*==========================*/
 /*=     BLOG ESPECIAS      =*/
 /*==========================*/
@@ -839,20 +931,6 @@ a {
     .slide-h2 {
         font-size: 20px;
     }
-    .cont-fa-go {
-        margin-top: 25px;
-        width: 50px;
-        height: 50px;
-    }
-    .cont-fa-gem {
-        width: 50px;
-        height: 50px;
-    }
-    .fa-chevron-right {
-        top: 7px;
-        height: 32px!important;
-        width: 36px!important;
-    }
     /*==============================*/
     /*==============================*/
     /*==============================*/
@@ -980,6 +1058,13 @@ a {
         height: 175px;
     }
     /*==============================*/
+    .SCT-LI-POST-L {
+        width: 47.5%;
+    }
+    .L-MR {
+        margin-right: 3.75%;
+    }
+    /*=============$$$============*/
     /*==============================*/
 }
 @media (min-width: 992px) and (max-width: 1199px){
@@ -992,20 +1077,6 @@ a {
     }
     .slide-h2 {
         font-size: 20px;
-    }
-    .cont-fa-go {
-        margin-top: 35px;
-        width: 70px;
-        height: 70px;
-    }
-    .cont-fa-gem {
-        width: 70px;
-        height: 70px;
-    }
-    .fa-chevron-right {
-        top: 12px;
-        height: 42px!important;
-        width: 46px!important;
     }
     /*==============================*/
     /*==============================*/
@@ -1152,7 +1223,14 @@ a {
     .SCT-LDIP-S {
         height: 200px;
     }
-    /*=============$$$============*/        
+    /*=============$$$============*/  
+    .PL-2 {
+        width: 66.25%;
+    }
+    .L-MR {
+        margin-right: 3.75%;
+    }
+    /*=============$$$============*/      
     .SCT-UL-POST-CE {
         grid-template-columns: auto auto;
     }
@@ -1191,20 +1269,6 @@ a {
     }
     .slide-h2 {
         font-size: 20px;
-    }
-    .cont-fa-go {
-        margin-top: 35px;
-        width: 70px;
-        height: 70px;
-    }
-    .cont-fa-gem {
-        width: 70px;
-        height: 70px;
-    }
-    .fa-chevron-right {
-        top: 12px;
-        height: 42px!important;
-        width: 46px!important;
     }
     /*==============================*/
     /*==============================*/
@@ -1345,7 +1409,14 @@ a {
     .SCT-LDIP-S {
         height: 250px;
     }
-    /*=============$$$============*/    
+    /*=============$$$============*/   
+    /*=============$$$============*/  
+    .SCT-LI-POST-L {
+        width: 47.5%;
+    }
+    .L-MR {
+        margin-right: 3.75%;
+    } 
     .SCT-UL-POST-CE {
         grid-template-columns: auto auto;
     }
@@ -1383,20 +1454,6 @@ a {
     }
     .slide-h2 {
         font-size: 20px;
-    }
-    .cont-fa-go {
-        margin-top: 35px;
-        width: 70px;
-        height: 70px;
-    }
-    .cont-fa-gem {
-        width: 70px;
-        height: 70px;
-    }
-    .fa-chevron-right {
-        top: 12px;
-        height: 42px!important;
-        width: 46px!important;
     }
     /*==============================*/
     /*==============================*/
@@ -1545,6 +1602,13 @@ a {
         height: 300px;
     }
     /*=============$$$============*/
+    .SCT-LI-POST-L {
+        width: 47.5%;
+    }
+    .L-MR {
+        margin-right: 3.75%;
+    }
+    /*=============$$$============*/
     .SCT-UL-POST-CE {
         grid-template-columns: auto auto;
     }
@@ -1571,10 +1635,6 @@ a {
     }
     /*==============================*/
     /*==============================*/
-
-
-
-
 
 }
 /*=========================================*/
