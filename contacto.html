@@ -232,11 +232,11 @@
         <!--==============================================================-->
         <script>
             function initMap (){
-                    let uluru = {lat: -25.344, lng: 131.036};
+                    let homeCenter = {lat: -27.391708, lng: -55.565342};
                     let map = new google.maps.Map(
-                            document.getElementById('map'), {zoom: 4, center: uluru}
+                            document.getElementById('map'), {zoom: 4, center: homeCenter}
                     );
-                    let marker = new google.maps.Marker({position: uluru, map: map});
+                    let marker = new google.maps.Marker({position: homeCenter, map: map});
             };
         </script>
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRmuTks8DBc_GkbegayEBEtx7x9fTmjWs&callback=initMap&libraries=&v=weekly" ></script>

@@ -3,14 +3,19 @@
 }
 /*=====================*/
 /*=====================*/
+
+/*=========================*/
+/*==    CN & PV TITLE    ==*/
+/*=========================*/
 .SCT-CN-TITLE {
     font-family: Poppins-Bold;
     letter-spacing: 1px;
     margin: 0;
     text-transform: uppercase;
 }
-/*=====================*/
-/*=====================*/
+/*=========================*/
+/*==    CN DATA CONSUL   ==*/
+/*=========================*/
 .SCT-LI-CN {
     width: 100%;
     text-align: left;
@@ -50,7 +55,6 @@
     background-color: rgb(69, 69, 69);
 }
 /*=====================*/
-/*=====================*/
 .SCT-CNCALL-TITLE {
     font-family: Poppins-Medium;
     letter-spacing: 1px;
@@ -59,39 +63,37 @@
     font-size: 15px;
     text-transform: uppercase;
 }
-.SCT-CN-P {
-    margin-top: 25px;
-}
 .SCT-CN-SP {
     margin-left: 2%;
 }
+/*=========================*/
+/*==     PV2 LOCATION    ==*/
+/*=========================*/
 .SCT-LI-PV {
     width: 100%;
     text-align: left;
 }
-.SCT-LI-PV-MAP {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.SCT-CN-P {
+    margin-top: 25px;
 }
-.SCT-DIVPV-MAP {
-    width: 75%;
-    height: 300px;
-    background-color: gray;
+/*=========================*/
+/*==  PV2 ICON LOCATION  ==*/
+/*=========================*/
+.fas-icon {
+    font-size: 20px;
+}
+.SCT-CNLIPV-P {
+    width: 15%;
 }
 .SCT-CNPV {
     float: left;
     margin-top: 50px;
 }
-.SCT-CNLIPV-P {
-    width: 8%;
-}
+/*=========================*/
+/*==  PV2 DATA LOCATION  ==*/
+/*=========================*/
 .SCT-CNLIPV-P2 {
-    width: 92%;
-}
-.fas-icon {
-    font-size: 20px;
+    width: 85%;
 }
 .SCT-PV-TITLE {
     font-family: Poppins-Bold;
@@ -106,26 +108,44 @@
     margin-top: 10px;
     margin-bottom: 0;
 }
-
+/*==========================*/
+/*==   PV2 MAP LOCATION   ==*/
+/*==========================*/
+.SCT-LI-PV-MAP {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+}
+.SCT-DIVPV-MAP {
+    width: 100%;
+    height: 300px;
+}
 
 
 @media (min-width: 100px) and (max-width: 390px){
-    /*=====================*/
+    /*=========================*/
+    /*==    CN DATA CONSUL   ==*/
+    /*=========================*/
     .SCT-CN-TITLE {
         font-size: 17px;
     }
     /*=====================*/
 }
 @media (min-width: 391px) and (max-width: 575px){
-    /*=====================*/
+    /*=========================*/
+    /*==    CN DATA CONSUL   ==*/
+    /*=========================*/
     .SCT-CN-TITLE {
         font-size: 18px;
     }
-    /*=====================*/  
     /*=====================*/    
 }
 @media (min-width: 576px) and (max-width: 767px){
-    /*=====================*/
+    /*=========================*/
+    /*==    CN DATA CONSUL   ==*/
+    /*=========================*/
     .SCT-CN-TITLE {
         font-size: 19px;
     }
@@ -148,7 +168,9 @@
     .SCT-CN-TITLE {
         font-size: 22px;
     }
-    /*=====================*/
+    /*=========================*/
+    /*==    CN DATA CONSUL   ==*/
+    /*=========================*/
     .SCT-LI-CN {
         width: 45%;
     }
@@ -174,10 +196,23 @@
     .SCT-CNCALL-TITLE {
         font-size: 18px;
     }
-    /*=====================*/    
+    /*=========================*/
+    /*==  PV2 ICON LOCATION  ==*/
+    /*=========================*/
+    .SCT-CNLIPV-P {
+        width: 10%;
+    }    
+    /*=========================*/
+    /*==  PV2 DATA LOCATION  ==*/
+    /*=========================*/
+    .SCT-CNLIPV-P2 {
+        width: 90%;
+    }   
 }
 @media (min-width: 992px) and (max-width: 1199px){
-    /*=====================*/
+    /*=========================*/
+    /*==    CN DATA CONSUL   ==*/
+    /*=========================*/
     .SCT-CN-TITLE {
         font-size: 20px;
     }
@@ -206,19 +241,39 @@
     .SCT-CNCALL-TITLE {
         font-size: 19px;
     }
+    /*=========================*/
+    /*==     PV2 LOCATION    ==*/
+    /*=========================*/
     .SCT-LI-PV {
         width: 50%;
     }
+    /*=========================*/
+    /*==  PV2 ICON LOCATION  ==*/
+    /*=========================*/
+    .SCT-CNLIPV-P {
+        width: 12%;
+    }    
+    /*=========================*/
+    /*==  PV2 DATA LOCATION  ==*/
+    /*=========================*/
+    .SCT-CNLIPV-P2 {
+        width: 88%;
+    }
+    /*==========================*/
+    /*==   PV2 MAP LOCATION   ==*/
+    /*==========================*/
     .SCT-LI-PV-MAP {
         width: 50%;
+        margin-top: 0;
     }
     .SCT-DIVPV-MAP {
         width: 75%;
     }
-    /*=====================*/    
 }
 @media (min-width: 1200px) and (max-width: 1499px){
-    /*=====================*/
+    /*=========================*/
+    /*==    CN DATA CONSUL   ==*/
+    /*=========================*/
     .SCT-CN-TITLE {
         font-size: 24px;
     }
@@ -246,22 +301,43 @@
     .SCT-CNCALL-TITLE {
         font-size: 20px;
     }
+    /*=========================*/
+    /*==     PV2 LOCATION    ==*/
+    /*=========================*/
     .SCT-LI-PV {
         width: 50%;
+    }   
+    /*=========================*/
+    /*==  PV2 ICON LOCATION  ==*/
+    /*=========================*/
+    .SCT-CNLIPV-P {
+        width: 7.5%;
+    }    
+    /*=========================*/
+    /*==  PV2 DATA LOCATION  ==*/
+    /*=========================*/
+    .SCT-CNLIPV-P2 {
+        width: 92.5%;
     }
+    /*==========================*/
+    /*==   PV2 MAP LOCATION   ==*/
+    /*==========================*/
     .SCT-LI-PV-MAP {
         width: 50%;
+        margin-top: 0;
     }
     .SCT-DIVPV-MAP {
         width: 80%;
     }
-    /*=====================*/    
 }
 @media (min-width: 1500px) and (max-width: 2000px){
     /*=====================*/
     .SCT-CN-TITLE {
         font-size: 26px;
     }
+    /*=========================*/
+    /*==    CN DATA CONSUL   ==*/
+    /*=========================*/
     .SCT-LI-CN {
         width: 45%;
     }
@@ -285,11 +361,30 @@
     .SCT-CNCALL-TITLE {
         font-size: 21px;
     }
+    /*=========================*/
+    /*==     PV2 LOCATION    ==*/
+    /*=========================*/
     .SCT-LI-PV {
         width: 50%;
     }
+    /*=========================*/
+    /*==  PV2 ICON LOCATION  ==*/
+    /*=========================*/
+    .SCT-CNLIPV-P {
+        width: 7.5%;
+    }    
+    /*=========================*/
+    /*==  PV2 DATA LOCATION  ==*/
+    /*=========================*/
+    .SCT-CNLIPV-P2 {
+        width: 92.5%;
+    }
+    /*==========================*/
+    /*==   PV2 MAP LOCATION   ==*/
+    /*==========================*/
     .SCT-LI-PV-MAP {
         width: 50%;
+        margin-top: 0;
     }
     .SCT-DIVPV-MAP {
         width: 85%;
