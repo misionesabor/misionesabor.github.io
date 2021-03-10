@@ -121,8 +121,22 @@
 .SCT-DIVPV-MAP {
     width: 100%;
     height: 300px;
+    border: 2px rgb(246, 246, 246) solid;
+    border-top-left-radius: 15px;
 }
-
+.SCT-PVMAP-P {
+    width: 100%;
+    background-color: rgb(246, 246, 246);
+    border-bottom-right-radius: 15px;
+}
+.btn-primary {
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+}
+.fa-chevron-down {
+    color: black;
+}
 
 @media (min-width: 100px) and (max-width: 390px){
     /*=========================*/
@@ -269,6 +283,9 @@
     .SCT-DIVPV-MAP {
         width: 75%;
     }
+    .SCT-PVMAP-P {
+        width: 75%;
+    }
 }
 @media (min-width: 1200px) and (max-width: 1499px){
     /*=========================*/
@@ -329,6 +346,9 @@
     .SCT-DIVPV-MAP {
         width: 80%;
     }
+    .SCT-PVMAP-P {
+        width: 80%;
+    }
 }
 @media (min-width: 1500px) and (max-width: 2000px){
     /*=====================*/
@@ -387,6 +407,9 @@
         margin-top: 0;
     }
     .SCT-DIVPV-MAP {
+        width: 85%;
+    }
+    .SCT-PVMAP-P {
         width: 85%;
     }
 }
