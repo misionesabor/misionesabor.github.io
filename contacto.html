@@ -141,7 +141,7 @@
                             <h2 class="SCT-CNCALL-TITLE">Llamar</h2>
                             <p class="SCT-CN-P">
                                 <i class="fas fas-icon fa-1x fa-phone-alt"></i>
-                                <span class="SCT-CN-SP"><a href="tel:+54 9 3764669142">+54 9 3764669142</a></span>
+                                <span class="SCT-CN-SP"><a href="tel:+54 9 3764339706">+54 9 3764339706</a></span>
                             </p>
                             <p class="SCT-CN-P">
                                 <i class="fas fas-icon fa-1x fa-phone-alt"></i>
@@ -149,7 +149,7 @@
                             </p>
                             <p class="SCT-CN-P">
                                 <i class="fab fas-icon fa-1x fa-whatsapp"></i>
-                                <span class="SCT-CN-SP"><a href="https://api.whatsapp.com/send?phone=+5493764980083">+54 9 3764980083</a></span>
+                                <span class="SCT-CN-SP"><a href="https://api.whatsapp.com/send?phone=+5493764669142">+54 9 3764669142</a></span>
                             </p>
                         </div>
                         <div class="SCT-MARGIN-50">
@@ -209,6 +209,21 @@
                     </li>
                 </ul>
             </section>
+            <section class="SCT-MARGIN-100"> 
+                <p>
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                      Link with href
+                    </a>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        Button with data-bs-target
+                    </button>
+                </p>
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                    </div>
+                </div>
+            </section>
         </main>
         <!--==============================================================-->
         <!--==============================================================-->
@@ -234,7 +249,7 @@
             function initMap (){
                     let homeCenter = {lat: -27.391708, lng: -55.565342};
                     let map = new google.maps.Map(
-                            document.getElementById('map'), {zoom: 4, center: homeCenter}
+                            document.getElementById('map'), {zoom: 13, center: homeCenter}
                     );
                     let marker = new google.maps.Marker({position: homeCenter, map: map});
             };
