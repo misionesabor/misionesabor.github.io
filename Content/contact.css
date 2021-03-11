@@ -135,13 +135,11 @@
     border-bottom-right-radius: 15px!important;
     border-top: 0!important;
     color: black!important;
-    text-transform: uppercase;
-    font-family: Poppins-Medium;
-    font-size: 12px!important;
     box-shadow: none!important;
-    letter-spacing: 1px;
-    text-align: left!important;
-    padding-left: 0!important;
+    padding: 0!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .btn-secondary:hover {
     color: rgb(75, 75, 75)!important;
@@ -149,10 +147,12 @@
     box-shadow: none!important;
 }
 .btn-text {
-    padding-left: 25px!important;
-    padding-top: 10px!important;
-    padding-bottom: 10px!important;
-    padding-right: 0px!important;
+    padding: 0;
+    padding-right: 25px;
+    text-transform: uppercase;
+    font-family: Poppins-Medium;
+    font-size: 12px;
+    letter-spacing: 1px;
 }
 .dropdown {
     width: 100%!important;
@@ -256,7 +256,13 @@
     /*=========================*/
     .SCT-CNLIPV-P2 {
         width: 90%;
-    }   
+    }
+    /*=========================*/
+    /*==       PV2 MAP       ==*/
+    /*=========================*/
+    .btn-text {
+        font-size: 14px;
+    }
 }
 @media (min-width: 992px) and (max-width: 1199px){
     /*=========================*/
@@ -456,4 +462,10 @@
     .dropdown {
         width: 85%!important;
     }
+    /*=========================*/
+    /*==       PV2 MAP       ==*/
+    /*=========================*/
+    .btn-text {
+        font-size: 14px;
+    }    
 }

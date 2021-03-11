@@ -207,14 +207,14 @@
                         <div id="map" class="SCT-DIVPV-MAP">
                         </div>
                         <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" 
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="btn btn-secondary" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                               <span id="btnText" class="btn-text">Establecimiento Misiones Sabor</span>
-                            </button>
+                              <i class="fas fa-1x fa-chevron-down"></i>
+                            </a>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                              <button onclick="setLocation()" class="dropdown-item">Establecimiento Misiones Sabor</button>
-                              <button onclick="setLocation2()" class="dropdown-item">Establecimiento de venta N° 1</button>
-                              <button onclick="setLocation3()" class="dropdown-item">Establecimiento de venta N° 2</button>
+                              <button onclick="getLocation(-27.391708, -55.565342, 'Establecimiento Misiones Sabor')" class="dropdown-item">Establecimiento Misiones Sabor</button>
+                              <button onclick="getLocation(-27.367469, -55.590305, 'Establecimiento de venta N° 1')" class="dropdown-item">Establecimiento de venta N° 1</button>
+                              <button onclick="getLocation(-27.478097, -55.151169, 'Establecimiento de venta N° 2')" class="dropdown-item">Establecimiento de venta N° 2</button>
                             </div>
                         </div>
                     </li>
@@ -242,45 +242,56 @@
         <!--==============================================================-->
         <!--==============================================================-->
         <script>
-            function initMap (){
-                let homeCenter = {lat: -27.391708, lng: -55.565342};
+            // function setLocation (){
+            //     document.getElementById("btnText").innerHTML = "Establecimiento Misiones Sabor";
+            //     initMap();
+            //     function initMap (){
+            //     let homeCenter = {lat: -27.391708, lng: -55.565342};
+            //     let map = new google.maps.Map(
+            //         document.getElementById('map'), {zoom: 13, center: homeCenter}
+            //     );
+            //     let marker = new google.maps.Marker({position: homeCenter, map: map});
+            //     };
+            // };
+            // function setLocation2 (){
+            //     document.getElementById("btnText").innerHTML = "Establecimiento de venta N° 1";
+            //     initMap2();
+            //     function initMap2 (){
+            //     let distone = {lat: -27.367469, lng: -55.590305};
+            //     let map = new google.maps.Map(
+            //         document.getElementById('map'), {zoom: 16, center: distone}
+            //     );
+            //     let marker = new google.maps.Marker({position: distone, map: map});
+            // };
+            // }
+            // function setLocation3 (){
+            //     document.getElementById("btnText").innerHTML = "Establecimiento de venta N° 2";
+            //     initMap3();
+            //     function initMap3 (){
+            //     let disttwo = {lat: -27.478097, lng: -55.151169};
+            //     let map = new google.maps.Map(
+            //         document.getElementById('map'), {zoom: 16, center: disttwo}
+            //     );
+            //     let marker = new google.maps.Marker({position: disttwo, map: map});
+            // };
+            // }
+            function getLocation (lat, lng, name){
+                let placeName = name;
+                let data = {lat, lng};
+                /*==========================*/
+                document.getElementById("btnText").innerHTML = placeName;
+                /*==========================*/
                 let map = new google.maps.Map(
-                    document.getElementById('map'), {zoom: 13, center: homeCenter}
+                    document.getElementById('map'), {
+                        zoom: 13, center: data
+                    }
                 );
-                let marker = new google.maps.Marker({position: homeCenter, map: map});
-            }
-            function setLocation (){
-                document.getElementById("btnText").innerHTML = "Establecimiento Misiones Sabor - Casa Central";
-                initMap();
-                function initMap (){
-                let homeCenter = {lat: -27.391708, lng: -55.565342};
-                let map = new google.maps.Map(
-                    document.getElementById('map'), {zoom: 13, center: homeCenter}
-                );
-                let marker = new google.maps.Marker({position: homeCenter, map: map});
-                };
-            };
-            function setLocation2 (){
-                document.getElementById("btnText").innerHTML = "Establecimiento de venta N° 1 - Santa Ana";
-                initMap2();
-                function initMap2 (){
-                let distone = {lat: -27.367469, lng: -55.590305};
-                let map = new google.maps.Map(
-                    document.getElementById('map'), {zoom: 16, center: distone}
-                );
-                let marker = new google.maps.Marker({position: distone, map: map});
-            };
-            }
-            function setLocation3 (){
-                document.getElementById("btnText").innerHTML = "Establecimiento de venta N° 2 - Oberá";
-                initMap3();
-                function initMap3 (){
-                let disttwo = {lat: -27.478097, lng: -55.151169};
-                let map = new google.maps.Map(
-                    document.getElementById('map'), {zoom: 16, center: disttwo}
-                );
-                let marker = new google.maps.Marker({position: disttwo, map: map});
-            };
+                let marker = new google.maps.Marker({
+                    position: data, map: map
+                });
+                /*============*/
+                /*============*/
+                console.log(data);
             }
         </script>
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRmuTks8DBc_GkbegayEBEtx7x9fTmjWs&callback=initMap&libraries=&v=weekly" ></script>
