@@ -212,9 +212,9 @@
                               <i class="fas fa-1x fa-chevron-down"></i>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                              <button onclick="initMap(-27.391708, -55.565342, 'Establecimiento Misiones Sabor')"  class="dropdown-item">Establecimiento Misiones Sabor</button>
-                              <button onclick="initMap(-27.367469, -55.590305, 'Establecimiento de venta N° 1')" class="dropdown-item">Establecimiento de venta N° 1</button>
-                              <button onclick="initMap(-27.478097, -55.151169, 'Establecimiento de venta N° 2')" class="dropdown-item">Establecimiento de venta N° 2</button>
+                              <button onclick="initMap2(-27.391708, -55.565342, 'Establecimiento Misiones Sabor')"  class="dropdown-item">Establecimiento Misiones Sabor</button>
+                              <button onclick="initMap2(-27.367469, -55.590305, 'Establecimiento de venta N° 1')" class="dropdown-item">Establecimiento de venta N° 1</button>
+                              <button onclick="initMap2(-27.478097, -55.151169, 'Establecimiento de venta N° 2')" class="dropdown-item">Establecimiento de venta N° 2</button>
                             </div>
                         </div>
                     </li>
@@ -242,9 +242,15 @@
         <!--==============================================================-->
         <!--==============================================================-->
         <script>
-            initMap(-27.391708, -55.565342, 'Establecimiento Misiones Sabor');
-                function initMap(lat, lng, name){
-                    /*==========================*/
+                function initMap(){        
+                    let uluru = {lat: -27.391708, lng: -55.565342};
+                    let map = new google.maps.Map(
+                        document.getElementById('map'), {zoom: 13, center: uluru}
+                    );
+                    let marker = new google.maps.Marker({position: uluru, map: map});
+                }            
+                /*==========================*//*==========================*//*==========================*/
+                function initMap2(lat, lng, name){
                     document.getElementById("btnText").innerHTML = name;
                     /*==========================*/                    
                     let uluru = {lat, lng};
