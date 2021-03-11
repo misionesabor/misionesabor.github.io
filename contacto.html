@@ -242,26 +242,18 @@
         <!--==============================================================-->
         <!--==============================================================-->
         <script>
-            getLocation(-27.391708, -55.565342, 'Establecimiento Misiones Sabor');
-            function getLocation (lat, lng, name){
-                let placeName = name;
-                let data = {lat, lng};
-                /*==========================*/
-                document.getElementById("btnText").innerHTML = placeName;
-                /*==========================*/
+            
+            function setLocation (){
+                document.getElementById("btnText").innerHTML = "Establecimiento Misiones Sabor";
                 initMap();
                 function initMap (){
-                    let map = new google.maps.Map(
-                        document.getElementById('map'), {
-                            zoom: 13, center: data
-                        }
-                    );
-                    let marker = new google.maps.Marker({
-                        position: data, map: map
-                    });                
-                }
-                /*============*/
-            }
+                let homeCenter = {lat: -27.391708, lng: -55.565342};
+                let map = new google.maps.Map(
+                    document.getElementById('map'), {zoom: 13, center: homeCenter}
+                );
+                let marker = new google.maps.Marker({position: homeCenter, map: map});
+                };
+            };
         </script>
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRmuTks8DBc_GkbegayEBEtx7x9fTmjWs&callback=initMap&libraries=&v=weekly" ></script>
         <script src="https://misionessabor.com/Scripts/jquery-3.5.1.min.js"></script>
