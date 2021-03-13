@@ -1,0 +1,806 @@
+.HEADER-MAIN {
+    position: relative!important;
+}
+/*=========================*/
+/*==      SCT-LI-PRD     ==*/
+/*=========================*/
+.SCT-LI-HA-PRD {
+    width: 100%;
+}
+.SCT-LI-DIV-HA-PRD {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}     
+.SCT-LDIV-PRD, .SCT-DIVLDHP {
+    background-color: rgb(244, 244, 244)!important;
+}
+/*============================*/
+/*==      SCT-LDHP-DATA     ==*/
+/*============================*/
+.SCT-LI-DATA {
+    width: 100%;
+}
+.SCT-DIVLDHP {
+    border-top-left-radius: 0px!important;
+    border-top-right-radius: 0px!important;
+    border-bottom-right-radius: 50px!important;
+    border-bottom-left-radius: 15px!important;
+    background-color: rgb(244, 244, 244);
+}
+.SCT-LDHP-DATA {
+    width: 100%;
+    height: 400px;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-right: 25px;
+}  
+/*=================*/
+/*=================*/
+.SCT-HA-PRD-TITLE {
+    text-align: left;
+    font-family: Poppins-Medium;
+    color: black;
+    letter-spacing: 1px;
+}
+/*=================*/
+/*=================*/
+.SCT-HA-PRD-P {
+    font-family: Rubik-Light;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-top: 15px;
+    color: black;
+    text-align: left;
+}
+/*=================*/
+/*=================*/
+.SCT-UL-ITEM {
+    display: grid;
+    grid: auto / auto auto auto;
+    grid-gap: 0px;
+}
+/*=================*/
+/*=================*/
+.SCT-LIHAI-TITLE {
+    font-family: Rubik-Light;
+    letter-spacing: 1px;
+    color: black;
+    text-align: left;
+    margin: 0;
+}
+/*=================*/
+/*=================*/
+.SCT-LIHAI-DIVIQ {
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.SCT-LIHAI-DIVIQ:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.SCT-LIHAI-DIVIQ-TITLE {
+    font-family: Rubik-Light;
+    letter-spacing: 1px;
+}
+.fa-1x {
+    font-size: 12px;
+}
+/*=================*/
+/*=================*/
+.SCT-LIHAI-DIVGR {
+    font-family: Rubik-Light;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-top: 15px;
+}
+#G50:hover, #KG1:hover {
+    background-color: darkgray;
+    border: 1px solid white;
+    color: white;
+}
+#G50 {
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(141, 200, 132);
+    color: black;
+}
+#KG1 {
+    background-color: black;
+    color: white;
+}
+.DIVGR-1 {
+    margin-right: 15px;
+}
+.SCT-LIHAI-DIVGR-TITLE {
+    font-family: Rubik-Light;
+    letter-spacing: 1px;
+}
+/*=================*/
+/*=================*/
+.SCT-LIHAI-DIVPRICE {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.SCT-LIHAI-PRICE-TITLE {
+    font-family: Poppins-Regular;
+    letter-spacing: 1px;
+    color: black;
+    text-align: left;
+    margin: 0;
+}
+#price {
+    border: none;
+    width: auto;
+    color: black;
+    background-color: transparent;
+}
+/*=================*/
+/*=================*/
+.SCT-HA-PRD-BUYINFO {
+    font-family: Rubik-Light;
+    letter-spacing: 1px;
+    text-align: left;
+    color: rgb(158, 158, 158);
+}
+/*=================*/
+/*=================*/
+.SCT-HA-PRD-DIVBTN {
+    text-align: left;
+}
+.SCT-HA-PRD-BTNCART {
+    height: auto;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(141, 200, 132);
+    color: white;
+    font-family: Poppins-Medium;
+    letter-spacing: 1px;
+    border: none;
+}
+.SCT-HA-PRD-BTNCART:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+
+
+@media (min-width: 100px) and (max-width: 390px){
+    .SCT-SUPERMARGIN {
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+    }
+    /*=========================*/
+    /*==   SCT-LI-PRD-IMG    ==*/
+    /*=========================*/      
+    .SCT-LI-DIV-HA-PRD {
+        height: 250px;
+    }    
+    .SCT-LDIV-PRD {
+        border-top-left-radius: 50px!important;
+        border-bottom-right-radius: 0px!important;
+        border-bottom-left-radius: 0px!important;
+    }   
+    /*============================*/
+    /*==      SCT-LDHP-DATA     ==*/
+    /*============================*/
+    .SCT-LI-DATA {
+        margin-top: 50px;
+    }    
+    .SCT-DIVLDHP { 
+        padding: 10px;
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .SCT-HA-PRD-TITLE {
+        font-size: 18px;
+    }
+    .SCT-HA-PRD-P {
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .SCT-LIHAI-TITLE {
+        font-size: 12px;
+    }
+    /*=================*/
+    /*=================*/   
+    .SCT-UL-ITEM {
+        margin-top: 25px;
+    }    
+    /*=================*/
+    /*=================*/    
+    .SCT-LIHAI-TITLE {
+        font-size: 13px;
+    }
+    /*=================*/
+    /*=================*/
+    .SCT-LIHAI-DIVIQ {
+        height: 25px;
+        width: 25px;
+    }
+    .SCT-LIHAI-DIVIQ-TITLE {
+        font-size: 11px;
+    }
+    /*=================*/
+    /*=================*/
+    .SCT-LIHAI-DIVGR {
+        height: 25px;
+        width: 25px;
+    }
+    .SCT-LIHAI-DIVGR-TITLE {
+        font-size: 11px;
+    }
+    /*=================*/
+    /*=================*/    
+    .SCT-LIHAI-DIVPRICE {
+        height: 25px;
+    }
+    .SCT-LIHAI-PRICE-TITLE {
+        font-size: 15px;
+    }
+    /*=================*/
+    /*=================*/    
+    .SCT-HA-PRD-BUYINFO {
+        font-size: 11px;
+    } 
+    /*=================*/
+    /*=================*/
+    .SCT-HA-PRD-BTNCART {
+        width: 55%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 20px;
+        font-size: 14px;
+    } 
+}
+@media (min-width: 391px) and (max-width: 575px){
+    .SCT-SUPERMARGIN {
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+    }
+    /*=========================*/
+    /*==   SCT-LI-PRD-IMG    ==*/
+    /*=========================*/        
+    .SCT-LI-DIV-HA-PRD {
+        height: 300px;
+    }
+    .SCT-LDIV-PRD {
+        border-top-left-radius: 50px!important;
+        border-bottom-right-radius: 0px!important;
+        border-bottom-left-radius: 0px!important;
+    }  
+    /*============================*/
+    /*==      SCT-LDHP-DATA     ==*/
+    /*============================*/
+    .SCT-LI-DATA {
+        margin-top: 50px;
+    }   
+    .SCT-LDHP-DATA {
+        height: auto;
+    }
+    .SCT-DIVLDHP { 
+        padding: 10px;
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .SCT-HA-PRD-TITLE {
+        font-size: 20px;
+    }
+    .SCT-HA-PRD-P {
+        font-size: 13px;
+        line-height: 25px;
+    }
+    /*=================*/
+    /*=================*/   
+    .SCT-UL-ITEM {
+        margin-top: 25px;
+    }    
+    /*=================*/
+    /*=================*/    
+    .SCT-LIHAI-TITLE {
+        font-size: 13px;
+    }
+    /*=================*/
+    /*=================*/
+    .SCT-LIHAI-DIVIQ {
+        height: 25px;
+        width: 25px;
+    }
+    .SCT-LIHAI-DIVIQ-TITLE {
+        font-size: 11px;
+    }
+    /*=================*/
+    /*=================*/
+    .SCT-LIHAI-DIVGR {
+        height: 25px;
+        width: 25px;
+    }
+    .SCT-LIHAI-DIVGR-TITLE {
+        font-size: 11px;
+    }
+    /*=================*/
+    /*=================*/    
+    .SCT-LIHAI-DIVPRICE {
+        height: 25px;
+    }
+    .SCT-LIHAI-PRICE-TITLE {
+        font-size: 15px;
+    }
+    /*=================*/
+    /*=================*/    
+    .SCT-HA-PRD-BUYINFO {
+        font-size: 12px;
+    } 
+    /*=================*/
+    /*=================*/
+    .SCT-HA-PRD-BTNCART {
+        width: 65%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 20px;
+        font-size: 15px;
+    } 
+}
+@media (min-width: 576px) and (max-width: 767px){
+    .SCT-SUPERMARGIN {
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+    }
+    /*=========================*/
+    /*==   SCT-LI-PRD-IMG    ==*/
+    /*=========================*/     
+    .SCT-LI-DIV-HA-PRD {
+        height: 350px;
+    }    
+    .SCT-LDIV-PRD {
+        border-top-left-radius: 50px!important;
+        border-bottom-right-radius: 0px!important;
+        border-bottom-left-radius: 0px!important;
+    }  
+    /*============================*/
+    /*==      SCT-LDHP-DATA     ==*/
+    /*============================*/
+    .SCT-LI-DATA {
+        margin-top: 50px;
+    }   
+    .SCT-LDHP-DATA {
+        height: 500px;
+    }
+    .SCT-HA-PRD-TITLE {
+        font-size: 25px;
+    }
+    .SCT-HA-PRD-P {
+        font-size: 17px;
+        line-height: 35px;
+    }
+    /*=================*/
+    /*=================*/   
+    .SCT-UL-ITEM {
+        margin-top: 25px;
+    }    
+    /*=================*/
+    /*=================*/    
+    .SCT-LIHAI-TITLE {
+        font-size: 15px;
+    }
+    /*=================*/
+    /*=================*/
+    .SCT-LIHAI-DIVIQ {
+        height: 40px;
+        width: 40px;
+    }
+    .SCT-LIHAI-DIVIQ-TITLE {
+        font-size: 12px;
+    }
+    /*=================*/
+    /*=================*/
+    .SCT-LIHAI-DIVGR {
+        width: 40px;
+        height: 40px;
+    }
+    .SCT-LIHAI-DIVGR-TITLE {
+        font-size: 12px;
+    }
+    /*=================*/
+    /*=================*/    
+    .SCT-LIHAI-DIVPRICE {
+        height: 40px;
+    }
+    .SCT-LIHAI-PRICE-TITLE {
+        font-size: 18spx;
+    }
+    /*=================*/
+    /*=================*/    
+    .SCT-HA-PRD-BUYINFO {
+        font-size: 12px;
+    } 
+    /*=================*/
+    /*=================*/
+    .SCT-HA-PRD-BTNCART {
+        width: 65%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 20px;
+        font-size: 15px;
+    } 
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .SCT-SUPERMARGIN {
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+    }
+    /*=========================*/
+    /*==      SCT-LI-PRD     ==*/
+    /*=========================*/    
+    .SCT-LI-HA-PRD {
+        width: 35%;
+    }
+    .SCT-LHP-M {
+        margin-right: 2.5%;
+    }
+    /*=========================*/
+    /*==   SCT-LI-PRD-IMG    ==*/
+    /*=========================*/      
+    .SCT-LI-DIV-HA-PRD {
+        height: 375px;
+    }   
+    /*============================*/
+    /*==      SCT-LDHP-DATA     ==*/
+    /*============================*/
+    .SCT-LI-DATA {
+        width: 62.5%;
+    }
+    .SCT-DIVLDHP {
+        border-top-left-radius: 50px!important;
+        border-top-right-radius: 15px!important;
+        border-bottom-right-radius: 50px!important;
+        border-bottom-left-radius: 15px!important;
+        background-color: rgb(244, 244, 244);
+    }
+    .SCT-LDHP-DATA {
+        width: 100%;
+        height: 375px;
+    }    
+    .SCT-HA-PRD-TITLE {
+        font-size: 19px;
+    }
+    .SCT-HA-PRD-P {
+        font-size: 10px;
+        line-height: 25px;
+    }
+    /*=================*/
+    /*=================*/    
+    .SCT-UL-ITEM {
+        margin-top: 15px;
+    }    
+    /*=================*/
+    /*=================*/    
+    .SCT-LIHAI-TITLE {
+        font-size: 14px;
+    }
+    /*=================*/
+    /*=================*/
+    .SCT-LIHAI-DIVIQ {
+        height: 30px;
+        width: 30px;
+    }
+    .SCT-LIHAI-DIVIQ-TITLE {
+        font-size: 10px;
+    }
+    /*=================*/
+    /*=================*/
+    .SCT-LIHAI-DIVGR {
+        width: 30px;
+        height: 30px;
+    }
+    .SCT-LIHAI-DIVGR-TITLE {
+        font-size: 10px;
+    }
+    /*=================*/
+    /*=================*/    
+    .SCT-LIHAI-DIVPRICE {
+        height: 30px;
+    }
+    .SCT-LIHAI-PRICE-TITLE {
+        font-size: 14px;
+    }
+    /*=================*/
+    /*=================*/    
+    .SCT-HA-PRD-BUYINFO {
+        font-size: 11px;
+    }  
+    /*=================*/
+    /*=================*/
+    .SCT-HA-PRD-BTNCART {
+        width: 50%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 15px;
+        font-size: 13px;
+    } 
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    /*=========================*/
+    /*==      SCT-LI-PRD     ==*/
+    /*=========================*/    
+    .SCT-LI-HA-PRD {
+        width: 35%;
+    }
+    .SCT-LHP-M {
+        margin-right: 2.5%;
+    }
+    /*=========================*/
+    /*==   SCT-LI-PRD-IMG    ==*/
+    /*=========================*/      
+    .SCT-LI-DIV-HA-PRD {
+        height: 425px;
+    }    
+    /*============================*/
+    /*==      SCT-LDHP-DATA     ==*/
+    /*============================*/
+    .SCT-LI-DATA {
+        width: 62.5%;
+    }
+    .SCT-DIVLDHP {
+        border-top-left-radius: 50px!important;
+        border-top-right-radius: 15px!important;
+        border-bottom-right-radius: 50px!important;
+        border-bottom-left-radius: 15px!important;
+        background-color: rgb(244, 244, 244);
+    }
+    .SCT-LDHP-DATA {
+        width: 100%;
+        height: 425px;
+    }  
+    .SCT-HA-PRD-TITLE {
+        font-size: 22px;
+    }
+    .SCT-HA-PRD-P {
+        font-size: 15px;
+    }
+    /*=================*/
+    /*=================*/    
+    .SCT-UL-ITEM {
+        margin-top: 25px;
+    }    
+    /*=================*/
+    /*=================*/    
+    .SCT-LIHAI-TITLE {
+        font-size: 13px;
+    }
+    /*=================*/
+    /*=================*/
+    .SCT-LIHAI-DIVIQ {
+        height: 35px;
+        width: 35px;
+    }
+    .SCT-LIHAI-DIVIQ-TITLE {
+        font-size: 12px;
+    }
+    /*=================*/
+    /*=================*/
+    .SCT-LIHAI-DIVGR {
+        width: 35px;
+        height: 35px;
+    }
+    .SCT-LIHAI-DIVGR-TITLE {
+        font-size: 12px;
+    }
+    /*=================*/
+    /*=================*/    
+    .SCT-LIHAI-DIVPRICE {
+        height: 35px;
+    }
+    .SCT-LIHAI-PRICE-TITLE {
+        font-size: 18px;
+    }
+    /*=================*/
+    /*=================*/    
+    .SCT-HA-PRD-BUYINFO {
+        font-size: 11px;
+    }   
+    /*=================*/
+    /*=================*/
+    .SCT-HA-PRD-BTNCART {
+        width: 50%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 15px;
+        font-size: 13px;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1499px){
+    /*=========================*/
+    /*==      SCT-LI-PRD     ==*/
+    /*=========================*/    
+    .SCT-LI-HA-PRD {
+        width: 30%;
+    }
+    .SCT-LHP-M {
+        margin-right: 2.5%;
+    }
+    /*=========================*/
+    /*==   SCT-LI-PRD-IMG    ==*/
+    /*=========================*/      
+    .SCT-LI-DIV-HA-PRD {
+        height: 425px;
+    }    
+    /*============================*/
+    /*==      SCT-LDHP-DATA     ==*/
+    /*============================*/
+    .SCT-LI-DATA {
+        width: 67.5%;
+    }
+    .SCT-DIVLDHP {
+        border-top-left-radius: 50px!important;
+        border-top-right-radius: 15px!important;
+        border-bottom-right-radius: 50px!important;
+        border-bottom-left-radius: 15px!important;
+        background-color: rgb(244, 244, 244);
+    }
+    .SCT-LDHP-DATA {
+        width: 100%;
+        height: 425px;
+    }    
+    .SCT-HA-PRD-TITLE {
+        font-size: 25px;
+    }
+    .SCT-HA-PRD-P {
+        font-size: 16px;
+    }
+    /*=================*/
+    /*=================*/    
+    .SCT-UL-ITEM {
+        margin-top: 35px;
+    }    
+    /*=================*/
+    /*=================*/    
+    .SCT-LIHAI-TITLE {
+        font-size: 15px;
+    }
+    /*=================*/
+    /*=================*/
+    .SCT-LIHAI-DIVIQ {
+        height: 40px;
+        width: 40px;
+    }
+    .SCT-LIHAI-DIVIQ-TITLE {
+        font-size: 13px;
+    }
+    /*=================*/
+    /*=================*/
+    .SCT-LIHAI-DIVGR {
+        width: 40px;
+        height: 40px;
+    }
+    .SCT-LIHAI-DIVGR-TITLE {
+        font-size: 13px;
+    }
+    /*=================*/
+    /*=================*/    
+    .SCT-LIHAI-DIVPRICE {
+        height: 40px;
+    }
+    .SCT-LIHAI-PRICE-TITLE {
+        font-size: 18px;
+    }
+    /*=================*/
+    /*=================*/    
+    .SCT-HA-PRD-BUYINFO {
+        font-size: 11px;
+    }    
+    /*=================*/
+    /*=================*/
+    .SCT-HA-PRD-BTNCART {
+        width: 35%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+}
+@media (min-width: 1500px) and (max-width: 2000px){
+    /*=========================*/
+    /*==      SCT-LI-PRD     ==*/
+    /*=========================*/    
+    .SCT-LI-HA-PRD {
+        width: 30%;
+    }
+    .SCT-LHP-M {
+        margin-right: 2.5%;
+    }
+    /*=========================*/
+    /*==   SCT-LI-PRD-IMG    ==*/
+    /*=========================*/      
+    .SCT-LI-DIV-HA-PRD {
+        height: 500px;
+    }
+    /*============================*/
+    /*==      SCT-LDHP-DATA     ==*/
+    /*============================*/
+    .SCT-LI-DATA {
+        width: 67.5%;
+    }
+    .SCT-DIVLDHP {
+        border-top-left-radius: 50px!important;
+        border-top-right-radius: 15px!important;
+        border-bottom-right-radius: 50px!important;
+        border-bottom-left-radius: 15px!important;
+        background-color: rgb(244, 244, 244);
+    }
+    .SCT-LDHP-DATA {
+        width: 100%;
+        height: 500px;
+    }    
+    .SCT-HA-PRD-TITLE {
+        font-size: 30px;
+    }
+    .SCT-HA-PRD-P {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    /*=================*/
+    /*=================*/    
+    .SCT-UL-ITEM {
+        margin-top: 50px;
+    }
+    /*=================*/
+    /*=================*/    
+    .SCT-LIHAI-TITLE {
+        font-size: 16px;
+    }
+    /*=================*/
+    /*=================*/
+    .SCT-LIHAI-DIVIQ {
+        height: 40px;
+        width: 40px;
+    }
+    .SCT-LIHAI-DIVIQ-TITLE {
+        font-size: 14px;
+    }
+    /*=================*/
+    /*=================*/
+    .SCT-LIHAI-DIVGR {
+        width: 40px;
+        height: 40px;
+    }
+    .SCT-LIHAI-DIVGR-TITLE {
+        font-size: 14px;
+    }
+    /*=================*/
+    /*=================*/    
+    .SCT-LIHAI-DIVPRICE {
+        height: 40px;
+    }
+    .SCT-LIHAI-PRICE-TITLE {
+        font-size: 20px;
+    }
+    /*=================*/
+    /*=================*/    
+    .SCT-HA-PRD-BUYINFO {
+        font-size: 11px;
+    }
+    /*=================*/
+    /*=================*/
+    .SCT-HA-PRD-BTNCART {
+        width: 35%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 25px;
+        font-size: 18px;
+    }
+}
+
+
