@@ -18,16 +18,22 @@ G50.addEventListener("click", function (){
         QPrice.innerHTML = realG50;
     }
 
-    G50.style.backgroundColor = "white";
-    G50.style.color = "black";
+    G50.style.backgroundColor = "rgb(141, 200, 132)";
+    G50.style.color = "white";
     G50.style.borderWidth = "2px";
     G50.style.borderStyle = "solid";
     G50.style.borderColor = "rgb(141, 200, 132)";
     /*=========*/
     var KG1 = document.getElementById("KG1");
-    KG1.style.backgroundColor = "black";
-    KG1.style.color = "white";
+    KG1.style.backgroundColor = "white";
+    KG1.style.color = "black";
     KG1.style.border = "none";
+    /*=========*/
+    var ptextPrice = document.getElementById("ptextPrice");
+    ptextPrice.style.color = "rgb(141, 200, 132)";
+    QPrice.style.color = "rgb(141, 200, 132)";
+    var BTNCART = document.getElementById("SCT-BTNCART");
+    BTNCART.style.backgroundColor = "rgb(141, 200, 132)";
 });
 /*=============================================================*/
 /*=============================================================*/
@@ -47,16 +53,22 @@ KG1.addEventListener("click", function (){
         QPrice.innerHTML = realKG1;
     }
 
-    KG1.style.backgroundColor = "white";
-    KG1.style.color = "black";
+    KG1.style.backgroundColor = "rgb(40, 123, 27)";
+    KG1.style.color = "white";
     KG1.style.borderWidth = "2px";
     KG1.style.borderStyle = "solid";
-    KG1.style.borderColor = "rgb(141, 200, 132)";
+    KG1.style.borderColor = "rgb(40, 123, 27)";
     /*=========*/
     var G50 = document.getElementById("G50");
-    G50.style.backgroundColor = "black";
-    G50.style.color = "white";
+    G50.style.backgroundColor = "white";
+    G50.style.color = "black";
     G50.style.border = "none";
+    /*=========*/
+    var ptextPrice = document.getElementById("ptextPrice");
+    ptextPrice.style.color = "rgb(40, 123, 27)";
+    QPrice.style.color = "rgb(40, 123, 27)";
+    var BTNCART = document.getElementById("SCT-BTNCART");
+    BTNCART.style.backgroundColor = "rgb(40, 123, 27)";
 });
 /*=============================================================*/
 /*=============================================================*/

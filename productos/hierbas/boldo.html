@@ -64,7 +64,7 @@
     <!--==========================================================================-->
     <link rel="stylesheet" href="https://misionessabor.com/res/fontawesome-5.13.0-web/css/all.css">
     <link rel="stylesheet" href="https://misionessabor.com/Content/bootstrap.min.css">
-    <link rel="stylesheet" href="https://misionessabor.com/Content/product.css">
+    <link rel="stylesheet" href="../../Content/product.css">
     <link rel="stylesheet" href="https://misionessabor.com/Content/style.css">
     
 </head>
@@ -164,16 +164,19 @@
                                         </div>
                                     </a>
                                 </li>
-                                <li class="SCT-LI SCT-LI-ITEM">
+                                <li class="SCT-LI SCT-LI-ITEM SCT-LI-IPR">
                                     <h2 class="SCT-LIHAI-TITLE">Precio</h2>
                                     <div class="SCT-LIHAI-DIVPRICE">
-                                        <p class="SCT-LIHAI-PRICE-TITLE">$<button id="price" value="50" disabled>50</button><span>.00</span></p>
+                                        <p id="ptextPrice" class="SCT-LIHAI-PRICE-TITLE">$<button id="price" value="50" disabled>50</button><span>.00</span></p>
                                     </div>
                                 </li>
                             </ul>
-                            <p class="SCT-HA-PRD-BUYINFO SCT-MARGIN-25">* Compra minima de 15 paquetes</p>
+                            <p class="SCT-HA-PRD-BUYINFO SCT-MARGIN-25">
+                                * 30% de descuento en envio <br> 
+                                en compra mayor a 15 paquetes
+                            </p>
                             <div class="SCT-HA-PRD-DIVBTN">
-                                <button class="SCT-HA-PRD-BTNCART">Agregar al carrito</button>
+                                <button id="SCT-BTNCART" class="SCT-HA-PRD-BTNCART">Agregar al carrito</button>
                             </div>
                         </div>
                     </div>
@@ -201,7 +204,7 @@
     </footer>
     <!--==============================================================-->
     <!--==============================================================-->
-    <script src="https://misionessabor.com/Scripts/productos.js"></script>
+    <script src="../../Scripts/productos.js"></script>
     <script src="https://misionessabor.com/Scripts/jquery-3.5.1.min.js"></script>
     <script src="https://misionessabor.com/Scripts/bootstrap.min.js"></script>
     <script src="https://misionessabor.com/Scripts/popper.min.js"></script>

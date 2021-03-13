@@ -81,7 +81,7 @@
     margin-top: 15px;
 }
 .SCT-LIHAI-DIVIQ:hover {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(158, 158, 158);;
     color: rgb(255, 255, 255);
 }
 .SCT-LIHAI-DIVIQ-TITLE {
@@ -108,15 +108,15 @@
     color: white;
 }
 #G50 {
-    background-color: white;
+    background-color: rgb(141, 200, 132);
     border-width: 2px;
     border-style: solid;
-    border-color: rgb(141, 200, 132);
-    color: black;
+    border-color: rgb(141, 200, 132);;
+    color: white;
 }
 #KG1 {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 .DIVGR-1 {
     margin-right: 15px;
@@ -139,11 +139,12 @@
     color: black;
     text-align: left;
     margin: 0;
+    color: rgb(141, 200, 132);
 }
 #price {
     border: none;
     width: auto;
-    color: black;
+    color: rgb(141, 200, 132);
     background-color: transparent;
 }
 /*=================*/
@@ -211,6 +212,9 @@
         font-size: 12px;
         line-height: 25px;
     }
+    .SCT-UL-ITEM {
+        grid: auto / auto auto;
+    }
     .SCT-LIHAI-TITLE {
         font-size: 12px;
     }
@@ -227,31 +231,35 @@
     /*=================*/
     /*=================*/
     .SCT-LIHAI-DIVIQ {
-        height: 27px;
-        width: 27px;
+        height: 40px;
+        width: 40px;
     }
     .SCT-LIHAI-DIVIQ-TITLE {
-        font-size: 11px;
+        font-size: 13px;
     }
     /*=================*/
     /*=================*/
     .SCT-LIHAI-DIVGR {
-        height: 30px;
-        width: 30px;
+        height: 40px;
+        width: 40px;
     }
     .DIVGR-1 {
         margin-right: 5px;
     }
     .SCT-LIHAI-DIVGR-TITLE {
-        font-size: 11px;
+        font-size: 13px;
     }
     /*=================*/
     /*=================*/    
     .SCT-LIHAI-DIVPRICE {
-        height: 30px;
+        height: 40px;
+        margin-top: 10px;
     }
     .SCT-LIHAI-PRICE-TITLE {
-        font-size: 15px;
+        font-size: 17px;
+    }
+    .SCT-LI-IPR {
+        margin-top: 25px;
     }
     /*=================*/
     /*=================*/    
@@ -293,6 +301,9 @@
     .SCT-LDHP-DATA {
         height: auto;
     }
+    .SCT-UL-ITEM {
+        grid: auto / auto auto;
+    }
     .SCT-DIVLDHP { 
         padding: 10px;
         height: auto;
@@ -318,28 +329,32 @@
     /*=================*/
     /*=================*/
     .SCT-LIHAI-DIVIQ {
-        height: 25px;
-        width: 25px;
+        height: 40px;
+        width: 40px;
     }
     .SCT-LIHAI-DIVIQ-TITLE {
-        font-size: 11px;
+        font-size: 13px;
     }
     /*=================*/
     /*=================*/
     .SCT-LIHAI-DIVGR {
-        height: 25px;
-        width: 25px;
+        height: 40px;
+        width: 40px;
     }
     .SCT-LIHAI-DIVGR-TITLE {
-        font-size: 11px;
+        font-size: 13px;
     }
     /*=================*/
     /*=================*/    
     .SCT-LIHAI-DIVPRICE {
-        height: 25px;
+        height: 40px;
+        margin-top: 5px;
     }
     .SCT-LIHAI-PRICE-TITLE {
-        font-size: 15px;
+        font-size: 18px;
+    }
+    .SCT-LI-IPR {
+        margin-top: 25px;
     }
     /*=================*/
     /*=================*/    
