@@ -197,7 +197,7 @@
     /*==      SCT-LDHP-DATA     ==*/
     /*============================*/
     .SCT-LI-DATA {
-        margin-top: 50px;
+        margin-top: 0px!important;
     }    
     .SCT-DIVLDHP { 
         padding: 10px;
@@ -227,8 +227,8 @@
     /*=================*/
     /*=================*/
     .SCT-LIHAI-DIVIQ {
-        height: 25px;
-        width: 25px;
+        height: 27px;
+        width: 27px;
     }
     .SCT-LIHAI-DIVIQ-TITLE {
         font-size: 11px;
@@ -236,8 +236,11 @@
     /*=================*/
     /*=================*/
     .SCT-LIHAI-DIVGR {
-        height: 25px;
-        width: 25px;
+        height: 30px;
+        width: 30px;
+    }
+    .DIVGR-1 {
+        margin-right: 5px;
     }
     .SCT-LIHAI-DIVGR-TITLE {
         font-size: 11px;
@@ -245,7 +248,7 @@
     /*=================*/
     /*=================*/    
     .SCT-LIHAI-DIVPRICE {
-        height: 25px;
+        height: 30px;
     }
     .SCT-LIHAI-PRICE-TITLE {
         font-size: 15px;
@@ -258,7 +261,7 @@
     /*=================*/
     /*=================*/
     .SCT-HA-PRD-BTNCART {
-        width: 55%;
+        width: 100%;
         padding-top: 15px;
         padding-bottom: 15px;
         margin-top: 20px;
