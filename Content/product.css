@@ -136,7 +136,6 @@
 .SCT-LIHAI-PRICE-TITLE {
     font-family: Poppins-Regular;
     letter-spacing: 1px;
-    color: black;
     text-align: left;
     margin: 0;
     color: rgb(141, 200, 132);
@@ -174,9 +173,181 @@
     background-color: rgb(255, 255, 255);
     color: black;
 }
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+/*=================*//*=================*//*=================*/
+/*=================*//*=================*//*=================*/
+/*=================*//*=================*//*=================*/
+/*=================*//*=================*//*=================*/
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+/*======================*/
+/*==  SC SUPER TITLE  ==*/
+/*======================*/
+.SCT-SC-TITLE {
+    font-family: Poppins-Bold;
+    letter-spacing: 1px;
+    text-align: center;
+}
+/*===================*/
+/*==  SC SUPER LI  ==*/
+/*===================*/
 
+/*======================*/
+/*==   SC SUPER DIV   ==*/
+/*======================*/
+.SCT-SC-DIV {
+    width: 100%;
+    height: auto;
+    background-color: rgb(248, 248, 248);
+    border-radius: 15px;
+}
+/*=========================*/
+/*== SC2 DIV PRD LI IMG  ==*/
+/*=========================*/
+.SCT-SCDPRD-IMG {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    background-color: rgb(229, 229, 229);
+}
+/*=====================*/
+/*== SC PRD LI TITLE ==*/
+/*=====================*/
+.SCT-SC-PRD-TITLE {
+    font-family: Poppins-Medium;
+    letter-spacing: 1px;
+    margin: 0;
+    text-align: left;
+}
+/*==================*/
+/*== ITEMS LI DIV ==*/
+/*==================*/   
+.SCT-SCLIIQ, .SCT-SCLIGR, .SCT-SCLIPR {
+    width: 100%;
+}
+/*$$$$$$$$$$$$$$$$$$$$*//*$$$$$$$$$$$$$$$$$$$$*/
+/*$$$$$$$$$$$$$$$$$$$$*//*$$$$$$$$$$$$$$$$$$$$*/
+/*$$$$$$$$$$$$$$$$$$$$*//*$$$$$$$$$$$$$$$$$$$$*/
+/*$$$$$$$$$$$$$$$$$$$$*//*$$$$$$$$$$$$$$$$$$$$*/
+/*================*/
+/*== SCT LISC 2 ==*/
+/*================*/
 
-
+/*======================*/
+/*==  SC DIV SUPER CO ==*/
+/*======================*/
+.SCT-SC-DIV-CO {
+    width: 100%;
+    height: auto;
+}
+.SCT-SC-DIV-CO::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/*======================*/
+/*== SC DIV SUPER CO2 ==*/
+/*======================*/
+.SCT-SC-DIV-CO2 {
+    display: flex;
+    align-items: center;
+}
+/*===================*/
+/*==  SC DIV LINE  ==*/
+/*===================*/    
+.SCT-SCDIV-LINE {
+    background-color: rgb(231, 231, 231);
+    float: left;
+}
+/*=====================*/
+/*==  SC DIV DATA   ==*/
+/*====================*/
+.SCT-SC-DIV-DATA {
+    height: auto;
+    width: 100%;
+}
+/*========================*/
+/*== SC SUBT DIV SUPER2 ==*/
+/*========================*/
+.SCT-SC-SUBT-DIV-SUPER2 {
+    width: 100%;
+    height: auto;
+}
+.SCT-SC-SUBT-DIV-SUPER2::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/*==========================*/
+/*==  SC SUBT DIV TITLE   ==*/
+/*==========================*/
+.SCT-SC-SUBT-DIV-TITLE {
+    width: 50%;
+    float: left;
+}
+.SCT-SC-SUBT-TITLE {
+    font-family: Poppins-Regular;
+    letter-spacing: 1px;
+    margin: 0;
+    text-align: right;
+    text-transform: uppercase;
+    padding-right: 25px;
+}
+/*===============================*/
+/*==  SC SUBT DIV TITLE PRICE  ==*/
+/*===============================*/
+.SCT-SC-SUBT-DIV-PRICE {
+    width: 50%;
+    float: left;
+}
+.SCT-SC-SUBT-PRICE-TITLE2 {
+    font-family: Poppins-Regular;
+    letter-spacing: 1px;
+    text-align: left;
+    margin: 0;
+    color: rgb(141, 200, 132);
+    padding-left: 25px;
+}
+#price2 {
+    border: none;
+    width: auto;
+    color: rgb(141, 200, 132);
+    background-color: transparent;
+}
+/*================================*/
+/*== SC SUBT SUPER DIV & TITLE  ==*/
+/*================================*/
+.SCT-SC-DIV-DATA2 {
+    height: auto;
+    width: 100%;
+    margin-top: 15px;
+}
+.SCT-SC-SUBT-STITLE {
+    font-family: Rubik-Light;
+    letter-spacing: 1px;
+    color: rgb(153, 153, 153);
+    text-align: center;
+    margin: 0;
+    width: 100%;
+}
+/*=====================*/
+/*==  SC CO DIV BTN  ==*/
+/*=====================*/
+.SCT-SC-CO-DIV-BTN {
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+    justify-content: center;
+}
+.SCT-SC-CO-BTN {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    font-family: Poppins-Medium;
+    color: white;
+    background-color: rgb(141, 200, 132);
+}
 
 @media (min-width: 100px) and (max-width: 390px){
     .SCT-SUPERMARGIN {
@@ -275,6 +446,165 @@
         margin-top: 20px;
         font-size: 14px;
     } 
+    /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+    /*=================*//*=================*//*=================*/
+    /*=================*//*=================*//*=================*/
+    /*=================*//*=================*//*=================*/
+    /*=================*//*=================*//*=================*/
+    /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+    /*====================*/
+    /*==   SUPER TITLE  ==*/
+    /*====================*/       
+    .SCT-SC-TITLE {
+        font-size: 25px;
+    }   
+    /*====================*/
+    /*==     SUPER LI   ==*/
+    /*====================*/      
+    .SCT-LI-SC {
+        float: none;
+    }
+    /*================*/
+    /*== SCT LISC 1 ==*/
+    /*================*/
+    .SCT-LISC-1 {
+        margin-bottom: 25px;
+        width: 100%;
+    }
+    /*================*/
+    /*== SCT LISC 2 ==*/
+    /*================*/
+    .SCT-LISC-2 {
+        width: 100%;
+    }
+    /*======================*/
+    /*==   SC SUPER DIV   ==*/
+    /*======================*/
+    .SCT-SC-DIV {
+        padding: 10px 10px 10px 10px;
+    }
+    /*================*/
+    /*== SCT LI SC2 ==*/
+    /*================*/ 
+    .SCT-LI-SC2 {
+        width: 100%;
+        margin-bottom: 35px;
+    }      
+    /*=========================*/
+    /*== SC2 DIV PRD LI IMG  ==*/
+    /*=========================*/      
+    .SCT-SCDPRD-IMG {
+        height: 300px;
+    }
+    /*==================*/
+    /*== SCT LI SC2 B ==*/
+    /*==================*/
+    .SCT-LI-SC2-B {
+        padding-left: 5px;
+    }
+    /*=====================*/
+    /*== SC PRD LI TITLE ==*/
+    /*=====================*/      
+    .SCT-SC-PRD-TITLE {
+        font-size: 20px;
+    }
+    /*==================*/
+    /*== ITEMS LI DIV ==*/
+    /*==================*/     
+    .SCT-SCLIIQ, .SCT-SCLIGR {
+        padding-top: 19px;
+        width: 50%;
+    }
+    .SCT-SCLIPR {
+        padding-top: 19px;
+        width: 100%;
+    }
+    /*===============================*/
+    /*== ITEMS LI H2 SPAN P TITLE ==*/
+    /*==============================*/  
+    .SCT-LIHAI-DIVIQ-TITLE, .SCT-LIHAI-DIVGR-TITLE, 
+    .SCT-LIHAI-TITLE {
+        font-size: 15px;
+    }
+    /*===================*/
+    /*==  ITEM QUANTY  ==*/
+    /*===================*/       
+    .SCT-LIHAI-DIVIQ {
+        width: 40px;
+        height: 40px;
+    }
+    /*===================*/
+    /*==  ITEM WEIGHT  ==*/
+    /*===================*/    
+    .SCT-LIHAI-DIVGR {
+        width: 40px;
+        height: 40px;
+    }
+    /*==================*/
+    /*==  ITEM PRICE  ==*/
+    /*==================*/
+    .SCT-LIHAI-DIVPRICE {
+        height: 40px;
+    }
+    .SCT-LIHAI-PRICE-TITLE {
+        font-size: 20px;
+    }
+/*$$$$$$$$$$$$$$$$$$$$*//*$$$$$$$$$$$$$$$$$$$$*/
+/*$$$$$$$$$$$$$$$$$$$$*//*$$$$$$$$$$$$$$$$$$$$*/
+/*$$$$$$$$$$$$$$$$$$$$*//*$$$$$$$$$$$$$$$$$$$$*/
+/*$$$$$$$$$$$$$$$$$$$$*//*$$$$$$$$$$$$$$$$$$$$*/
+    /*======================*/
+    /*==  SC DIV SUPER CO ==*/
+    /*======================*/
+    .SCT-SC-DIV-CO {
+        padding: 10px 5px 10px 10px;
+    }
+    .SCT-SC-DIV-CO2 {
+        display: block;
+    }
+    /*===================*/
+    /*==  SC DIV LINE  ==*/
+    /*===================*/    
+    .SCT-SCDIV-LINE {
+        height: 2px;
+        width: 100%;
+        float: none;
+        margin-bottom: 35px;
+    }
+    /*==========================*/
+    /*==  SC SUBT DIV TITLE   ==*/
+    /*==========================*/
+    .SCT-SC-SUBT-TITLE {
+        font-size: 22.5px;
+    }
+    /*===============================*/
+    /*==  SC SUBT DIV TITLE PRICE  ==*/
+    /*===============================*/
+    .SCT-SC-SUBT-PRICE-TITLE2 {
+        font-size: 22.5px;
+    }
+    /*================================*/
+    /*== SC SUBT SUPER DIV & TITLE  ==*/
+    /*================================*/
+    .SCT-SC-SUBT-STITLE {
+        font-size: 13px;
+        padding: 0 5px 0px 5px;
+    }
+    /*=====================*/
+    /*==  SC CO DIV BTN  ==*/
+    /*=====================*/
+    .SCT-SC-CO-DIV-BTN {
+        margin-top: 50px;
+    }
+    .SCT-SC-CO-BTN {
+        width: 100%;
+        height: 60px;
+        font-size: 20px;
+    }
+    .fa-chevron-right {
+        padding-left: 15px;
+        font-size: 19px;
+    }    
 }
 @media (min-width: 391px) and (max-width: 575px){
     .SCT-SUPERMARGIN {
@@ -370,6 +700,165 @@
         margin-top: 20px;
         font-size: 15px;
     } 
+    /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+    /*=================*//*=================*//*=================*/
+    /*=================*//*=================*//*=================*/
+    /*=================*//*=================*//*=================*/
+    /*=================*//*=================*//*=================*/
+    /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+    /*====================*/
+    /*==   SUPER TITLE  ==*/
+    /*====================*/       
+    .SCT-SC-TITLE {
+        font-size: 30px;
+    }   
+    /*====================*/
+    /*==     SUPER LI   ==*/
+    /*====================*/      
+    .SCT-LI-SC {
+        float: none;
+    }
+    /*================*/
+    /*== SCT LISC 1 ==*/
+    /*================*/
+    .SCT-LISC-1 {
+        margin-bottom: 25px;
+        width: 100%;
+    }
+    /*================*/
+    /*== SCT LISC 2 ==*/
+    /*================*/
+    .SCT-LISC-2 {
+        width: 100%;
+    }
+    /*======================*/
+    /*==   SC SUPER DIV   ==*/
+    /*======================*/
+    .SCT-SC-DIV {
+        padding: 10px 10px 10px 10px;
+    }
+    /*================*/
+    /*== SCT LI SC2 ==*/
+    /*================*/ 
+    .SCT-LI-SC2 {
+        width: 100%;
+        margin-bottom: 25px;
+    }      
+    /*=========================*/
+    /*== SC2 DIV PRD LI IMG  ==*/
+    /*=========================*/      
+    .SCT-SCDPRD-IMG {
+        height: 300px;
+    }
+    /*==================*/
+    /*== SCT LI SC2 B ==*/
+    /*==================*/
+    .SCT-LI-SC2-B {
+        padding-left: 10px;
+    }
+    /*=====================*/
+    /*== SC PRD LI TITLE ==*/
+    /*=====================*/      
+    .SCT-SC-PRD-TITLE {
+        font-size: 25px;
+    }
+    /*==================*/
+    /*== ITEMS LI DIV ==*/
+    /*==================*/     
+    .SCT-SCLIIQ, .SCT-SCLIGR {
+        padding-top: 18px;
+        width: 50%;
+    }
+    .SCT-SCLIPR {
+        padding-top: 18px;
+        width: 100%;
+    }
+    /*===============================*/
+    /*== ITEMS LI H2 SPAN P TITLE ==*/
+    /*==============================*/  
+    .SCT-LIHAI-DIVIQ-TITLE, .SCT-LIHAI-DIVGR-TITLE, 
+    .SCT-LIHAI-TITLE {
+        font-size: 16px;
+    }
+    /*===================*/
+    /*==  ITEM QUANTY  ==*/
+    /*===================*/       
+    .SCT-LIHAI-DIVIQ {
+        width: 40px;
+        height: 40px;
+    }
+    /*===================*/
+    /*==  ITEM WEIGHT  ==*/
+    /*===================*/    
+    .SCT-LIHAI-DIVGR {
+        width: 40px;
+        height: 40px;
+    }
+    /*==================*/
+    /*==  ITEM PRICE  ==*/
+    /*==================*/
+    .SCT-LIHAI-DIVPRICE {
+        height: 40px;
+    }
+    .SCT-LIHAI-PRICE-TITLE {
+        font-size: 20px;
+    }
+/*$$$$$$$$$$$$$$$$$$$$*//*$$$$$$$$$$$$$$$$$$$$*/
+/*$$$$$$$$$$$$$$$$$$$$*//*$$$$$$$$$$$$$$$$$$$$*/
+/*$$$$$$$$$$$$$$$$$$$$*//*$$$$$$$$$$$$$$$$$$$$*/
+/*$$$$$$$$$$$$$$$$$$$$*//*$$$$$$$$$$$$$$$$$$$$*/
+    /*======================*/
+    /*==  SC DIV SUPER CO ==*/
+    /*======================*/
+    .SCT-SC-DIV-CO {
+        padding: 10px 5px 10px 10px;
+    }
+    .SCT-SC-DIV-CO2 {
+        display: block;
+    }
+    /*===================*/
+    /*==  SC DIV LINE  ==*/
+    /*===================*/    
+    .SCT-SCDIV-LINE {
+        height: 3px;
+        width: 100%;
+        float: none;
+        margin-bottom: 50px;
+    }
+    /*==========================*/
+    /*==  SC SUBT DIV TITLE   ==*/
+    /*==========================*/
+    .SCT-SC-SUBT-TITLE {
+        font-size: 25px;
+    }
+    /*===============================*/
+    /*==  SC SUBT DIV TITLE PRICE  ==*/
+    /*===============================*/
+    .SCT-SC-SUBT-PRICE-TITLE2 {
+        font-size: 25px;
+    }
+    /*================================*/
+    /*== SC SUBT SUPER DIV & TITLE  ==*/
+    /*================================*/
+    .SCT-SC-SUBT-STITLE {
+        font-size: 14px;
+        padding: 0 15px 0px 15px;
+    }
+    /*=====================*/
+    /*==  SC CO DIV BTN  ==*/
+    /*=====================*/
+    .SCT-SC-CO-DIV-BTN {
+        margin-top: 50px;
+    }
+    .SCT-SC-CO-BTN {
+        width: 100%;
+        height: 60px;
+        font-size: 20px;
+    }
+    .fa-chevron-right {
+        padding-left: 15px;
+        font-size: 19px;
+    }
 }
 @media (min-width: 576px) and (max-width: 767px){
     .SCT-SUPERMARGIN {
@@ -453,6 +942,159 @@
         margin-top: 20px;
         font-size: 15px;
     } 
+    /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+    /*=================*//*=================*//*=================*/
+    /*=================*//*=================*//*=================*/
+    /*=================*//*=================*//*=================*/
+    /*=================*//*=================*//*=================*/
+    /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+    /*====================*/
+    /*==   SUPER TITLE  ==*/
+    /*====================*/       
+    .SCT-SC-TITLE {
+        font-size: 35px;
+    }   
+    /*====================*/
+    /*==     SUPER LI   ==*/
+    /*====================*/      
+    .SCT-LI-SC {
+        float: none;
+    }
+    /*================*/
+    /*== SCT LISC 1 ==*/
+    /*================*/
+    .SCT-LISC-1 {
+        margin-bottom: 25px;
+        width: 100%;
+    }
+    /*================*/
+    /*== SCT LISC 2 ==*/
+    /*================*/
+    .SCT-LISC-2 {
+        width: 100%;
+    }
+    /*======================*/
+    /*==   SC SUPER DIV   ==*/
+    /*======================*/
+    .SCT-SC-DIV {
+        padding: 15px 10px 15px 15px;
+    }
+    /*================*/
+    /*== SCT LI SC2 ==*/
+    /*================*/ 
+    .SCT-LI-SC2 {
+        width: 50%;
+    }      
+    /*=========================*/
+    /*== SC2 DIV PRD LI IMG  ==*/
+    /*=========================*/      
+    .SCT-SCDPRD-IMG {
+        height: 300px;
+    }
+    /*==================*/
+    /*== SCT LI SC2 B ==*/
+    /*==================*/
+    .SCT-LI-SC2-B {
+        padding-left: 30px;
+    }
+    /*=====================*/
+    /*== SC PRD LI TITLE ==*/
+    /*=====================*/      
+    .SCT-SC-PRD-TITLE {
+        font-size: 20px;
+    }
+    /*==================*/
+    /*== ITEMS LI DIV ==*/
+    /*==================*/     
+    .SCT-SCLIIQ, .SCT-SCLIGR, .SCT-SCLIPR {
+        padding-top: 18px;
+    }
+    /*===============================*/
+    /*== ITEMS LI H2 SPAN P TITLE ==*/
+    /*==============================*/  
+    .SCT-LIHAI-DIVIQ-TITLE, .SCT-LIHAI-DIVGR-TITLE, 
+    .SCT-LIHAI-TITLE {
+        font-size: 15px;
+    }
+    /*===================*/
+    /*==  ITEM QUANTY  ==*/
+    /*===================*/       
+    .SCT-LIHAI-DIVIQ {
+        width: 40px;
+        height: 40px;
+    }
+    /*===================*/
+    /*==  ITEM WEIGHT  ==*/
+    /*===================*/    
+    .SCT-LIHAI-DIVGR {
+        width: 40px;
+        height: 40px;
+    }
+    /*==================*/
+    /*==  ITEM PRICE  ==*/
+    /*==================*/
+    .SCT-LIHAI-DIVPRICE {
+        height: 40px;
+    }
+    .SCT-LIHAI-PRICE-TITLE {
+        font-size: 20px;
+    }
+/*$$$$$$$$$$$$$$$$$$$$*//*$$$$$$$$$$$$$$$$$$$$*/
+/*$$$$$$$$$$$$$$$$$$$$*//*$$$$$$$$$$$$$$$$$$$$*/
+/*$$$$$$$$$$$$$$$$$$$$*//*$$$$$$$$$$$$$$$$$$$$*/
+/*$$$$$$$$$$$$$$$$$$$$*//*$$$$$$$$$$$$$$$$$$$$*/
+    /*======================*/
+    /*==  SC DIV SUPER CO ==*/
+    /*======================*/
+    .SCT-SC-DIV-CO {
+        padding: 15px 5px 15px 15px;
+    }
+    .SCT-SC-DIV-CO2 {
+        display: block;
+    }
+    /*===================*/
+    /*==  SC DIV LINE  ==*/
+    /*===================*/    
+    .SCT-SCDIV-LINE {
+        height: 3px;
+        width: 100%;
+        float: none;
+        margin-bottom: 50px;
+    }
+    /*==========================*/
+    /*==  SC SUBT DIV TITLE   ==*/
+    /*==========================*/
+    .SCT-SC-SUBT-TITLE {
+        font-size: 25px;
+    }
+    /*===============================*/
+    /*==  SC SUBT DIV TITLE PRICE  ==*/
+    /*===============================*/
+    .SCT-SC-SUBT-PRICE-TITLE2 {
+        font-size: 25px;
+    }
+    /*================================*/
+    /*== SC SUBT SUPER DIV & TITLE  ==*/
+    /*================================*/
+    .SCT-SC-SUBT-STITLE {
+        font-size: 15px;
+        padding: 0;
+    }
+    /*=====================*/
+    /*==  SC CO DIV BTN  ==*/
+    /*=====================*/
+    .SCT-SC-CO-DIV-BTN {
+        margin-top: 50px;
+    }
+    .SCT-SC-CO-BTN {
+        width: 80%;
+        height: 60px;
+        font-size: 20px;
+    }
+    .fa-chevron-right {
+        padding-left: 15px;
+        font-size: 19px;
+    }
 }
 @media (min-width: 768px) and (max-width: 991px){
     .SCT-SUPERMARGIN {
@@ -548,6 +1190,155 @@
         margin-top: 15px;
         font-size: 13px;
     } 
+    /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+    /*=================*//*=================*//*=================*/
+    /*=================*//*=================*//*=================*/
+    /*=================*//*=================*//*=================*/
+    /*=================*//*=================*//*=================*/
+    /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+    /*====================*/
+    /*==   SUPER TITLE  ==*/
+    /*====================*/       
+    .SCT-SC-TITLE {
+        font-size: 40px;
+    }   
+    /*====================*/
+    /*==     SUPER LI   ==*/
+    /*====================*/      
+    .SCT-LI-SC {
+        float: left;
+    }
+    /*================*/
+    /*== SCT LISC 1 ==*/
+    /*================*/
+    .SCT-LISC-1 {
+        margin-right: 5%;
+        width: 55%;
+    }
+    /*================*/
+    /*== SCT LISC 2 ==*/
+    /*================*/
+    .SCT-LISC-2 {
+        width: 40%;
+    }
+    /*======================*/
+    /*==   SC SUPER DIV   ==*/
+    /*======================*/
+    .SCT-SC-DIV {
+        padding: 10px 5px 10px 10px;
+        margin-bottom: 50px;
+    }
+    /*================*/
+    /*== SCT LI SC2 ==*/
+    /*================*/ 
+    .SCT-LI-SC2 {
+        width: 50%;
+    }      
+    /*=========================*/
+    /*== SC2 DIV PRD LI IMG  ==*/
+    /*=========================*/      
+    .SCT-SCDPRD-IMG {
+        height: 275px;
+    }
+    /*==================*/
+    /*== SCT LI SC2 B ==*/
+    /*==================*/
+    .SCT-LI-SC2-B {
+        padding-left: 20px;
+    }
+    /*=====================*/
+    /*== SC PRD LI TITLE ==*/
+    /*=====================*/      
+    .SCT-SC-PRD-TITLE {
+        font-size: 18px;
+    }
+    /*==================*/
+    /*== ITEMS LI DIV ==*/
+    /*==================*/     
+    .SCT-SCLIIQ, .SCT-SCLIGR, .SCT-SCLIPR {
+        padding-top: 15px;
+    }
+    /*===============================*/
+    /*== ITEMS LI H2 SPAN P TITLE ==*/
+    /*==============================*/  
+    .SCT-LIHAI-DIVIQ-TITLE, .SCT-LIHAI-DIVGR-TITLE, 
+    .SCT-LIHAI-TITLE {
+        font-size: 13px;
+    }
+    /*===================*/
+    /*==  ITEM QUANTY  ==*/
+    /*===================*/       
+    .SCT-LIHAI-DIVIQ {
+        width: 35px;
+        height: 35px;
+    }
+    /*===================*/
+    /*==  ITEM WEIGHT  ==*/
+    /*===================*/    
+    .SCT-LIHAI-DIVGR {
+        width: 35px;
+        height: 35px;
+    }
+    /*==================*/
+    /*==  ITEM PRICE  ==*/
+    /*==================*/
+    .SCT-LIHAI-DIVPRICE {
+        height: 35px;
+    }
+    .SCT-LIHAI-PRICE-TITLE {
+        font-size: 17px;
+    }
+/*$$$$$$$$$$$$$$$$$$$$*//*$$$$$$$$$$$$$$$$$$$$*/
+/*$$$$$$$$$$$$$$$$$$$$*//*$$$$$$$$$$$$$$$$$$$$*/
+/*$$$$$$$$$$$$$$$$$$$$*//*$$$$$$$$$$$$$$$$$$$$*/
+/*$$$$$$$$$$$$$$$$$$$$*//*$$$$$$$$$$$$$$$$$$$$*/
+    /*======================*/
+    /*==  SC DIV SUPER CO ==*/
+    /*======================*/
+    .SCT-SC-DIV-CO {
+        padding: 10px 5px 10px 10px;
+    }
+    /*===================*/
+    /*==  SC DIV LINE  ==*/
+    /*===================*/    
+    .SCT-SCDIV-LINE {
+        height: 275px;
+        width: 2px;
+    }
+    /*==========================*/
+    /*==  SC SUBT DIV TITLE   ==*/
+    /*==========================*/
+    .SCT-SC-SUBT-TITLE {
+        font-size: 18px;
+    }
+    /*===============================*/
+    /*==  SC SUBT DIV TITLE PRICE  ==*/
+    /*===============================*/
+    .SCT-SC-SUBT-PRICE-TITLE2 {
+        font-size: 18px;
+    }
+    /*================================*/
+    /*== SC SUBT SUPER DIV & TITLE  ==*/
+    /*================================*/
+    .SCT-SC-SUBT-STITLE {
+        font-size: 12px;
+        padding: 0 1px 0 1px;
+    }
+    /*=====================*/
+    /*==  SC CO DIV BTN  ==*/
+    /*=====================*/
+    .SCT-SC-CO-DIV-BTN {
+        margin-top: 25px;
+    }
+    .SCT-SC-CO-BTN {
+        width: 80%;
+        height: 50px;
+        font-size: 15px;
+    }
+    .fa-chevron-right {
+        padding-left: 5px;
+        font-size: 15px;
+    }
 }
 @media (min-width: 992px) and (max-width: 1199px){
     /*=========================*/
@@ -637,6 +1428,152 @@
         padding-bottom: 15px;
         margin-top: 15px;
         font-size: 13px;
+    }
+    /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+    /*=================*//*=================*//*=================*/
+    /*=================*//*=================*//*=================*/
+    /*=================*//*=================*//*=================*/
+    /*=================*//*=================*//*=================*/
+    /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+    /*====================*/
+    /*==   SUPER TITLE  ==*/
+    /*====================*/       
+    .SCT-SC-TITLE {
+        font-size: 45px;
+    }   
+    /*====================*/
+    /*==     SUPER LI   ==*/
+    /*====================*/      
+    .SCT-LI-SC {
+        float: left;
+    }
+    /*================*/
+    /*== SCT LISC 1 ==*/
+    /*================*/
+    .SCT-LISC-1 {
+        margin-right: 5%;
+        width: 55%;
+    }
+    /*================*/
+    /*== SCT LISC 2 ==*/
+    /*================*/
+    .SCT-LISC-2 {
+        width: 40%;
+    }
+    /*======================*/
+    /*==   SC SUPER DIV   ==*/
+    /*======================*/
+    .SCT-SC-DIV {
+        padding: 10px 5px 10px 10px;
+        margin-bottom: 50px;
+    }
+    /*================*/
+    /*== SCT LI SC2 ==*/
+    /*================*/ 
+    .SCT-LI-SC2 {
+        width: 50%;
+    }      
+    /*=========================*/
+    /*== SC2 DIV PRD LI IMG  ==*/
+    /*=========================*/      
+    .SCT-SCDPRD-IMG {
+        height: 300px;
+    }
+    /*==================*/
+    /*== SCT LI SC2 B ==*/
+    /*==================*/
+    .SCT-LI-SC2-B {
+        padding-left: 25px;
+    }
+    /*=====================*/
+    /*== SC PRD LI TITLE ==*/
+    /*=====================*/      
+    .SCT-SC-PRD-TITLE {
+        font-size: 20px;
+    }
+    /*==================*/
+    /*== ITEMS LI DIV ==*/
+    /*==================*/     
+    .SCT-SCLIIQ, .SCT-SCLIGR, .SCT-SCLIPR {
+        padding-top: 20px;
+    }
+    /*===============================*/
+    /*== ITEMS LI H2 SPAN P TITLE ==*/
+    /*==============================*/  
+    .SCT-LIHAI-DIVIQ-TITLE, .SCT-LIHAI-DIVGR-TITLE, 
+    .SCT-LIHAI-TITLE {
+        font-size: 13px;
+    }
+    /*===================*/
+    /*==  ITEM QUANTY  ==*/
+    /*===================*/       
+    .SCT-LIHAI-DIVIQ {
+        width: 35px;
+        height: 35px;
+    }
+    /*===================*/
+    /*==  ITEM WEIGHT  ==*/
+    /*===================*/    
+    .SCT-LIHAI-DIVGR {
+        width: 35px;
+        height: 35px;
+    }
+    /*==================*/
+    /*==  ITEM PRICE  ==*/
+    /*==================*/
+    .SCT-LIHAI-DIVPRICE {
+        height: 35px;
+    }
+    .SCT-LIHAI-PRICE-TITLE {
+        font-size: 17px;
+    }
+/*$$$$$$$$$$$$$$$$$$$$*//*$$$$$$$$$$$$$$$$$$$$*/
+/*$$$$$$$$$$$$$$$$$$$$*//*$$$$$$$$$$$$$$$$$$$$*/
+/*$$$$$$$$$$$$$$$$$$$$*//*$$$$$$$$$$$$$$$$$$$$*/
+/*$$$$$$$$$$$$$$$$$$$$*//*$$$$$$$$$$$$$$$$$$$$*/
+    /*======================*/
+    /*==  SC DIV SUPER CO ==*/
+    /*======================*/
+    .SCT-SC-DIV-CO {
+        padding: 10px 5px 10px 10px;
+    }
+    /*===================*/
+    /*==  SC DIV LINE  ==*/
+    /*===================*/    
+    .SCT-SCDIV-LINE {
+        height: 300px;
+        width: 3px;
+    }
+    /*==========================*/
+    /*==  SC SUBT DIV TITLE   ==*/
+    /*==========================*/
+    .SCT-SC-SUBT-TITLE {
+        font-size: 20px;
+    }
+    /*===============================*/
+    /*==  SC SUBT DIV TITLE PRICE  ==*/
+    /*===============================*/
+    .SCT-SC-SUBT-PRICE-TITLE2 {
+        font-size: 20px;
+    }
+    /*================================*/
+    /*== SC SUBT SUPER DIV & TITLE  ==*/
+    /*================================*/
+    .SCT-SC-SUBT-STITLE {
+        font-size: 12px;
+        padding: 0 5px 0 5px;
+    }
+    /*=====================*/
+    /*==  SC CO DIV BTN  ==*/
+    /*=====================*/
+    .SCT-SC-CO-BTN {
+        width: 80%;
+        height: 50px;
+        font-size: 15px;
+    }
+    .fa-chevron-right {
+        padding-left: 5px;
+        font-size: 15px;
     }
 }
 @media (min-width: 1200px) and (max-width: 1499px){
@@ -728,6 +1665,149 @@
         margin-top: 20px;
         font-size: 15px;
     }
+    /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+    /*=================*//*=================*//*=================*/
+    /*=================*//*=================*//*=================*/
+    /*=================*//*=================*//*=================*/
+    /*=================*//*=================*//*=================*/
+    /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+    /*====================*/
+    /*==   SUPER TITLE  ==*/
+    /*====================*/       
+    .SCT-SC-TITLE {
+        font-size: 50px;
+    }   
+    /*====================*/
+    /*==     SUPER LI   ==*/
+    /*====================*/      
+    .SCT-LI-SC {
+        width: 47.5%;
+        float: left;
+    }
+    /*================*/
+    /*== SCT LISC 1 ==*/
+    /*================*/
+    .SCT-LISC-1 {
+        margin-right: 5%;
+    }
+    /*================*/
+    /*== SCT LISC 2 ==*/
+    /*================*/
+
+    /*======================*/
+    /*==   SC SUPER DIV   ==*/
+    /*======================*/
+    .SCT-SC-DIV {
+        padding: 15px 5px 15px 15px;
+        margin-bottom: 50px;
+    }
+    /*================*/
+    /*== SCT LI SC2 ==*/
+    /*================*/ 
+    .SCT-LI-SC2 {
+        width: 50%;
+    }      
+    /*=========================*/
+    /*== SC2 DIV PRD LI IMG  ==*/
+    /*=========================*/      
+    .SCT-SCDPRD-IMG {
+        height: 325px;
+    }
+    /*==================*/
+    /*== SCT LI SC2 B ==*/
+    /*==================*/
+    .SCT-LI-SC2-B {
+        padding-left: 30px;
+    }
+    /*=====================*/
+    /*== SC PRD LI TITLE ==*/
+    /*=====================*/      
+    .SCT-SC-PRD-TITLE {
+        font-size: 25px;
+    }
+    /*==================*/
+    /*== ITEMS LI DIV ==*/
+    /*==================*/     
+    .SCT-SCLIIQ, .SCT-SCLIGR, .SCT-SCLIPR {
+        padding-top: 25px;
+    }
+    /*===============================*/
+    /*== ITEMS LI H2 SPAN P TITLE ==*/
+    /*==============================*/  
+    .SCT-LIHAI-DIVIQ-TITLE, .SCT-LIHAI-DIVGR-TITLE, 
+    .SCT-LIHAI-TITLE {
+        font-size: 13px;
+    }
+    /*===================*/
+    /*==  ITEM QUANTY  ==*/
+    /*===================*/       
+    .SCT-LIHAI-DIVIQ {
+        width: 40px;
+        height: 40px;
+    }
+    /*===================*/
+    /*==  ITEM WEIGHT  ==*/
+    /*===================*/    
+    .SCT-LIHAI-DIVGR {
+        width: 40px;
+        height: 40px;
+    }
+    /*==================*/
+    /*==  ITEM PRICE  ==*/
+    /*==================*/
+    .SCT-LIHAI-DIVPRICE {
+        height: 40px;
+    }
+    .SCT-LIHAI-PRICE-TITLE {
+        font-size: 18px;
+    }
+/*$$$$$$$$$$$$$$$$$$$$*//*$$$$$$$$$$$$$$$$$$$$*/
+/*$$$$$$$$$$$$$$$$$$$$*//*$$$$$$$$$$$$$$$$$$$$*/
+/*$$$$$$$$$$$$$$$$$$$$*//*$$$$$$$$$$$$$$$$$$$$*/
+/*$$$$$$$$$$$$$$$$$$$$*//*$$$$$$$$$$$$$$$$$$$$*/
+    /*======================*/
+    /*==  SC DIV SUPER CO ==*/
+    /*======================*/
+    .SCT-SC-DIV-CO {
+        padding: 15px 5px 15px 15px;
+    }
+    /*===================*/
+    /*==  SC DIV LINE  ==*/
+    /*===================*/    
+    .SCT-SCDIV-LINE {
+        height: 325px;
+        width: 3px;
+    }
+    /*==========================*/
+    /*==  SC SUBT DIV TITLE   ==*/
+    /*==========================*/
+    .SCT-SC-SUBT-TITLE {
+        font-size: 25px;
+    }
+    /*===============================*/
+    /*==  SC SUBT DIV TITLE PRICE  ==*/
+    /*===============================*/
+    .SCT-SC-SUBT-PRICE-TITLE2 {
+        font-size: 25px;
+    }
+    /*================================*/
+    /*== SC SUBT SUPER DIV & TITLE  ==*/
+    /*================================*/
+    .SCT-SC-SUBT-STITLE {
+        font-size: 14px;
+    }
+    /*=====================*/
+    /*==  SC CO DIV BTN  ==*/
+    /*=====================*/
+    .SCT-SC-CO-BTN {
+        width: 80%;
+        height: 50px;
+        font-size: 18px;
+    }
+    .fa-chevron-right {
+        padding-left: 5px;
+        font-size: 17px;
+    }
 }
 @media (min-width: 1500px) and (max-width: 2000px){
     /*=========================*/
@@ -818,6 +1898,153 @@
         padding-bottom: 15px;
         margin-top: 25px;
         font-size: 18px;
+    }
+    /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+    /*=================*//*=================*//*=================*/
+    /*=================*//*=================*//*=================*/
+    /*=================*//*=================*//*=================*/
+    /*=================*//*=================*//*=================*/
+    /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+    /*====================*/
+    /*==   SUPER TITLE  ==*/
+    /*====================*/       
+    .SCT-SC-TITLE {
+        font-size: 60px;
+    }   
+    /*====================*/
+    /*==     SUPER LI   ==*/
+    /*====================*/      
+    .SCT-LI-SC {
+        width: 47.5%;
+        float: left;
+    }
+    /*================*/
+    /*== SCT LISC 1 ==*/
+    /*================*/
+    .SCT-LISC-1 {
+        margin-right: 5%;
+    }
+    /*================*/
+    /*== SCT LISC 2 ==*/
+    /*================*/
+
+    /*======================*/
+    /*==   SC SUPER DIV   ==*/
+    /*======================*/
+    .SCT-SC-DIV {
+        padding: 25px 10px 25px 25px;
+        margin-bottom: 50px;
+    }
+    /*================*/
+    /*== SCT LI SC2 ==*/
+    /*================*/ 
+    .SCT-LI-SC2 {
+        width: 50%;
+    }      
+    /*=========================*/
+    /*== SC2 DIV PRD LI IMG  ==*/
+    /*=========================*/      
+    .SCT-SCDPRD-IMG {
+        height: 400px;
+    }
+    /*==================*/
+    /*== SCT LI SC2 B ==*/
+    /*==================*/
+    .SCT-LI-SC2-B {
+        padding-left: 50px;
+    }
+    /*=====================*/
+    /*== SC PRD LI TITLE ==*/
+    /*=====================*/      
+    .SCT-SC-PRD-TITLE {
+        font-size: 30px;
+    }
+    /*==================*/
+    /*== ITEMS LI DIV ==*/
+    /*==================*/     
+    .SCT-SCLIIQ, .SCT-SCLIGR, .SCT-SCLIPR {
+        padding-top: 30px;
+    }
+    /*===============================*/
+    /*== ITEMS LI H2 SPAN P TITLE ==*/
+    /*==============================*/  
+    .SCT-LIHAI-DIVIQ-TITLE, .SCT-LIHAI-DIVGR-TITLE, 
+    .SCT-LIHAI-TITLE {
+        font-size: 15px;
+    }
+    /*===================*/
+    /*==  ITEM QUANTY  ==*/
+    /*===================*/       
+    .SCT-LIHAI-DIVIQ {
+        width: 50px;
+        height: 50px;
+    }
+    /*===================*/
+    /*==  ITEM WEIGHT  ==*/
+    /*===================*/    
+    .SCT-LIHAI-DIVGR {
+        width: 50px;
+        height: 50px;
+    }
+    /*==================*/
+    /*==  ITEM PRICE  ==*/
+    /*==================*/
+    .SCT-LIHAI-DIVPRICE {
+        height: 50px;
+    }
+    .SCT-LIHAI-PRICE-TITLE {
+        font-size: 20px;
+    }
+/*$$$$$$$$$$$$$$$$$$$$*//*$$$$$$$$$$$$$$$$$$$$*/
+/*$$$$$$$$$$$$$$$$$$$$*//*$$$$$$$$$$$$$$$$$$$$*/
+/*$$$$$$$$$$$$$$$$$$$$*//*$$$$$$$$$$$$$$$$$$$$*/
+/*$$$$$$$$$$$$$$$$$$$$*//*$$$$$$$$$$$$$$$$$$$$*/
+    /*======================*/
+    /*==  SC DIV SUPER CO ==*/
+    /*======================*/
+    .SCT-SC-DIV-CO {
+        padding: 25px 10px 25px 25px;
+    }
+    /*===================*/
+    /*==  SC DIV LINE  ==*/
+    /*===================*/    
+    .SCT-SCDIV-LINE {
+        height: 400px;
+        width: 3px;
+    }
+    /*==========================*/
+    /*==  SC SUBT DIV TITLE   ==*/
+    /*==========================*/
+    .SCT-SC-SUBT-DIV-TITLE {
+        width: 50%;
+        float: left;
+    }
+    .SCT-SC-SUBT-TITLE {
+        font-size: 30px;
+    }
+    /*===============================*/
+    /*==  SC SUBT DIV TITLE PRICE  ==*/
+    /*===============================*/
+    .SCT-SC-SUBT-PRICE-TITLE2 {
+        font-size: 30px;
+    }
+    /*================================*/
+    /*== SC SUBT SUPER DIV & TITLE  ==*/
+    /*================================*/
+    .SCT-SC-SUBT-STITLE {
+        font-size: 19px;
+    }
+    /*=====================*/
+    /*==  SC CO DIV BTN  ==*/
+    /*=====================*/
+    .SCT-SC-CO-BTN {
+        width: 65%;
+        height: 50px;
+        font-size: 20px;
+    }
+    .fa-chevron-right {
+        padding-left: 5px;
+        font-size: 19px;
     }
 }
 

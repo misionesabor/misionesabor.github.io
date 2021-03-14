@@ -11,6 +11,7 @@ G50.addEventListener("click", function (){
     /*==================*/
     var QPrice = document.getElementById("price");
     document.getElementById("price").value = "50";
+    var QPrice2 = document.getElementById("price2");
     /*==================*/
     if(NumberValue > 0){
         var G50value = 50;
@@ -31,9 +32,12 @@ G50.addEventListener("click", function (){
     /*=========*/
     var ptextPrice = document.getElementById("ptextPrice");
     ptextPrice.style.color = "rgb(141, 200, 132)";
+    var ptextPrice2 = document.getElementById("ptextPrice2");
+    ptextPrice2.style.color = "rgb(141, 200, 132)";
     QPrice.style.color = "rgb(141, 200, 132)";
-    var BTNCART = document.getElementById("SCT-BTNCART");
-    BTNCART.style.backgroundColor = "rgb(141, 200, 132)";
+    QPrice2.style.color = "rgb(141, 200, 132)";
+    var BTNCO = document.getElementById("BTNCO");
+    BTNCO.style.backgroundColor = "rgb(141, 200, 132)";
 });
 /*=============================================================*/
 /*=============================================================*/
@@ -45,6 +49,7 @@ KG1.addEventListener("click", function (){
     /*==================*/
     var QPrice = document.getElementById("price");
     document.getElementById("price").value = "950";
+    var QPrice2 = document.getElementById("price2");
     /*==================*/
     if(NumberValue > 0){
         var QPrice = document.getElementById("price");
@@ -66,9 +71,12 @@ KG1.addEventListener("click", function (){
     /*=========*/
     var ptextPrice = document.getElementById("ptextPrice");
     ptextPrice.style.color = "rgb(40, 123, 27)";
+    var ptextPrice2 = document.getElementById("ptextPrice2");
+    ptextPrice2.style.color = "rgb(40, 123, 27)";
     QPrice.style.color = "rgb(40, 123, 27)";
-    var BTNCART = document.getElementById("SCT-BTNCART");
-    BTNCART.style.backgroundColor = "rgb(40, 123, 27)";
+    QPrice2.style.color = "rgb(40, 123, 27)";
+    var BTNCO = document.getElementById("BTNCO");
+    BTNCO.style.backgroundColor = "rgb(40, 123, 27)";
 });
 /*=============================================================*/
 /*=============================================================*/
